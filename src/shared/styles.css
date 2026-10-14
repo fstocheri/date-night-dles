@@ -78,16 +78,17 @@ a { color: var(--accent); }
 }
 .bonus h2 { margin: 0 0 4px; font-size: 1.1rem; }
 .bonus p { margin: 0 0 12px; }
-.seasons {
+.choices {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 6px;
 }
-.season {
+.choice {
   position: relative;
   min-width: 44px;
-  height: 44px;
+  min-height: 44px;
+  padding: 0 12px;
   font: inherit;
   font-weight: 700;
   color: var(--text);
@@ -96,11 +97,11 @@ a { color: var(--accent); }
   border-radius: 10px;
   cursor: pointer;
 }
-.season:hover:not(:disabled) { border-color: var(--accent); }
-.season:disabled { cursor: default; }
-.season--hit { background: var(--hit); border-color: var(--hit); }
-.season--miss { background: var(--miss); opacity: 0.8; }
-.season__arrow { margin-left: 2px; font-size: 0.8rem; }
+.choice:hover:not(:disabled) { border-color: var(--accent); }
+.choice:disabled { cursor: default; }
+.choice--hit { background: var(--hit); border-color: var(--hit); }
+.choice--miss { background: var(--miss); opacity: 0.8; }
+.choice__arrow { margin-left: 2px; font-size: 0.8rem; }
 
 /* The "TV": still image inside a bezel. */
 .screen {
@@ -201,6 +202,73 @@ a { color: var(--accent); }
   border: 1px solid var(--border);
 }
 .button:hover { filter: brightness(1.08); }
+a.button { display: inline-block; text-decoration: none; }
+
+.topnav { margin-bottom: 8px; font-size: 0.875rem; }
+.topnav a { color: var(--muted); text-decoration: none; }
+.topnav a:hover { color: var(--text); }
+
+.result__actions { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+
+/* ---------- landing ---------- */
+
+.lineup-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.lineup-head h2 { margin: 0; font-size: 1.15rem; }
+.lineup-head span { font-size: 0.875rem; }
+
+.progress {
+  height: 6px;
+  margin: 10px 0 16px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.progress span { display: block; height: 100%; background: var(--hit); transition: width 300ms ease; }
+
+.cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  color: inherit;
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 150ms ease, transform 150ms ease;
+}
+.card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.card--won, .card--lost { opacity: 0.75; }
+.card__emoji { font-size: 2rem; }
+.card__body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.card__category { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+.card__title { font-size: 1.1rem; }
+.card__streak { font-size: 0.8rem; }
+
+.pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.pill--new { background: var(--accent); color: #111; }
+.pill--playing { background: var(--near); color: #111; }
+.pill--won { background: var(--hit); }
+.pill--lost { background: var(--miss); }
+
+@media (max-width: 480px) {
+  .card { grid-template-columns: auto 1fr; }
+  .card .pill { grid-column: 1 / -1; justify-self: start; }
+}
 
 .guesses { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .guess {

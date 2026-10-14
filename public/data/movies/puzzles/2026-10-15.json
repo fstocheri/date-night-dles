@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "number": 2,
+  "difficulty": "Medium",
+  "answerHash": "868636e6570b7c62",
+  "bonusHash": "fafff4af928452e0",
+  "still": "/3Skg7e94WFreLgQAR0PAYSk0Zv1.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Family, Adventure"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“An immortal legend as you've only imagined.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1999 · Walt Disney Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "▇▇▇ was a small orphan who was raised by an ape named ▇▇▇ since he was a child. He believed that this was his family, but on an expedition ▇▇▇ is rescued by ▇▇▇. He then finds out that he's human. Now ▇▇▇ must make the decision as to which family he should belong to..."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Chris Buck, Kevin Lima"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Tony Goldwyn"
+    }
+  ]
+}

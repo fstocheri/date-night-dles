@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "number": 1,
+  "difficulty": "Medium",
+  "answerHash": "9657f9e765eef8e8",
+  "bonusHash": "85947ce2bc1a1637",
+  "still": "/o11rDwFa7nZMVI57Mm3C44YwmmF.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Animation, Family"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“An unforgettable journey she probably won't remember.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2016 · Pixar"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "▇▇▇ is reunited with her friends ▇▇▇ and ▇▇▇ in the search for answers about her past. What can she remember? Who are her parents? And where did she learn to speak Whale?"
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Andrew Stanton"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Ellen DeGeneres"
+    }
+  ]
+}

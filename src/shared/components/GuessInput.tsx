@@ -1,39 +1,40 @@
 import { useMemo, useState } from 'react';
-import type { Show } from '../lib/types';
+import type { Entry } from '../types';
 
 const normalize = (s: string) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
-interface Props {
-  shows: Show[];
+interface Props<E extends Entry> {
+  entries: E[];
   exclude: Set<number>;
-  onGuess: (show: Show) => void;
+  placeholder: string;
+  onGuess: (entry: E) => void;
   onSkip: () => void;
 }
 
-export function GuessInput({ shows, exclude, onGuess, onSkip }: Props) {
+export function GuessInput<E extends Entry>({ entries, exclude, placeholder, onGuess, onSkip }: Props<E>) {
   const [query, setQuery] = useState('');
   const [active, setActive] = useState(0);
 
   const matches = useMemo(() => {
     const q = normalize(query);
     if (q.length < 2) return [];
-    return shows
-      .filter((s) => !exclude.has(s.id))
-      .map((s) => {
-        const names = [normalize(s.name), s.original ? normalize(s.original) : ''];
+    return entries
+      .filter((e) => !exclude.has(e.id))
+      .map((e) => {
+        const names = [normalize(e.name), e.original ? normalize(e.original) : ''];
         const starts = names.some((n) => n.startsWith(q));
         const contains = starts || names.some((n) => n.includes(q));
-        return { s, starts, contains };
+        return { e, starts, contains };
       })
       .filter((m) => m.contains)
-      .sort((a, b) => Number(b.starts) - Number(a.starts) || a.s.rank - b.s.rank)
+      .sort((a, b) => Number(b.starts) - Number(a.starts) || a.e.rank - b.e.rank)
       .slice(0, 8)
-      .map((m) => m.s);
-  }, [query, shows, exclude]);
+      .map((m) => m.e);
+  }, [query, entries, exclude]);
 
-  const choose = (show: Show) => {
-    onGuess(show);
+  const choose = (entry: E) => {
+    onGuess(entry);
     setQuery('');
     setActive(0);
   };
@@ -60,8 +61,8 @@ export function GuessInput({ shows, exclude, onGuess, onSkip }: Props) {
         <input
           type="text"
           value={query}
-          placeholder="Type a TV show…"
-          aria-label="Guess a TV show"
+          placeholder={placeholder}
+          aria-label={placeholder}
           autoComplete="off"
           onChange={(e) => {
             setQuery(e.target.value);
@@ -75,20 +76,20 @@ export function GuessInput({ shows, exclude, onGuess, onSkip }: Props) {
       </div>
       {matches.length > 0 && (
         <ul className="suggestions" role="listbox">
-          {matches.map((s, i) => (
+          {matches.map((e, i) => (
             <li
-              key={s.id}
+              key={e.id}
               role="option"
               aria-selected={i === active}
               className={i === active ? 'active' : undefined}
               onMouseEnter={() => setActive(i)}
-              onMouseDown={(e) => {
-                e.preventDefault();
-                choose(s);
+              onMouseDown={(ev) => {
+                ev.preventDefault();
+                choose(e);
               }}
             >
-              <span>{s.name}</span>
-              <span className="muted">{s.year}</span>
+              <span>{e.name}</span>
+              <span className="muted">{e.year}</span>
             </li>
           ))}
         </ul>

@@ -2,39 +2,39 @@
   "date": "2026-10-15",
   "number": 2,
   "difficulty": "Medium",
-  "answerHash": "ddd401b440822fbd",
-  "seasonHash": "ca04821f00503f50",
-  "still": "/8htU1QMf2GD4rFiLxjs47BdSI9f.jpg",
+  "answerHash": "fef5931454257c1c",
+  "bonusHash": "563039da1fa73188",
+  "still": "/n33Ef5QLzzsFSWe6vnzmjPYwyqn.jpg",
   "clues": [
     {
       "type": "genres",
       "label": "Genre",
-      "value": "Drama, Mystery, Sci-Fi & Fantasy"
+      "value": "Sci-Fi & Fantasy, Mystery, Drama"
     },
     {
       "type": "episode",
       "label": "Episode",
-      "value": "Episode 6: “Feral”"
+      "value": "Episode 25: “People are Alike All Over”"
     },
     {
       "type": "aired",
       "label": "Premiered",
-      "value": "2021 on Hulu"
+      "value": "1959 on CBS"
     },
     {
       "type": "synopsis",
       "label": "Episode synopsis",
-      "value": "A family goes on a camping trip unaware of what is lurking in the woods."
+      "value": "After a space exploration crash-lands on Mars, the lone surviving astronaut is surprised to find that Martians are human-looking and friendly."
     },
     {
       "type": "character",
       "label": "Character",
-      "value": "Maya"
+      "value": "Waiter"
     },
     {
       "type": "actor",
       "label": "Starring",
-      "value": "Sierra McCormick"
+      "value": "Rod Serling"
     }
   ]
 }

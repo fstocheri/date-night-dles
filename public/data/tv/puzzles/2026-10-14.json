@@ -2,39 +2,39 @@
   "date": "2026-10-14",
   "number": 1,
   "difficulty": "Medium",
-  "answerHash": "6d4d093593730d6b",
-  "seasonHash": "e51bb6b64c3b7a4a",
-  "still": "/rLQofMXq2hSankbCbMdFo5LcnYi.jpg",
+  "answerHash": "27a28a10855dca5f",
+  "bonusHash": null,
+  "still": "/hkLVUpJ8HWSAowCxazGDcUOpxLS.jpg",
   "clues": [
     {
       "type": "genres",
       "label": "Genre",
-      "value": "Comedy, Drama"
+      "value": "Sci-Fi & Fantasy, Drama"
     },
     {
       "type": "episode",
       "label": "Episode",
-      "value": "Episode 5: “I am afraid to own a Body”"
+      "value": "Episode 5: “In Space, No One...”"
     },
     {
       "type": "aired",
       "label": "Premiered",
-      "value": "2019 on Apple TV"
+      "value": "2025 on FX"
     },
     {
       "type": "synopsis",
       "label": "Episode synopsis",
-      "value": "▇▇▇ confronts tough issues at a meeting of the local Shakespeare Club."
+      "value": "An outer-space vessel in peril leads to a dangerous reckoning."
     },
     {
       "type": "character",
       "label": "Character",
-      "value": "Edward Dickinson"
+      "value": "Joe DiMaggio Hermit"
     },
     {
       "type": "actor",
       "label": "Starring",
-      "value": "Hailee Steinfeld"
+      "value": "Sydney Chandler"
     }
   ]
 }

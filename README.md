@@ -1,45 +1,65 @@
-# 📺 Channel Surf
+# 🍿 Date Night Dles
 
-A daily TV-show guessing game. Each day you get a blurred still from one episode of a mystery show and six guesses to name the show. The still gets sharper and a new clue unlocks with every miss.
+A hand-picked collection of daily guessing games ("dles"), built to play together. The landing page shows tonight's lineup and which games you've already played today.
 
-- **Guess feedback:** each wrong guess is compared to the answer on premiere year, network, genres, seasons, status, country, creator, and whether it shares a cast member. Green = match, yellow = close/partial, arrows point toward the answer.
-- **Weekday difficulty:** answers come from the 1,000 most-voted English-language shows on TMDB. Monday draws from the top ~150; each day digs deeper, and Sunday (Expert) draws from ranks 700–1000.
-- **Bonus round:** after the main round, guess which season the episode is from (3 tries, higher/lower hints).
-- **Hard mode:** text clues stay hidden; you get only the still and the feedback tiles. Locks in once you make your first guess, and adds `*` to your share result.
+**Play:** https://ftocheri.github.io/date-night-dles/
 
-**Play:** https://ftocheri.github.io/channel-surf/
+## The games
+
+| Game | Path | You guess… | Bonus round |
+|---|---|---|---|
+| 📺 **Channel Surf** | `/tv/` | the TV show, from one episode | which season the episode is from |
+| 🎬 **Final Cut** | `/movies/` | the movie, from a single frame | its worldwide box-office bracket |
+
+All games share one engine:
+
+- **Six guesses.** A blurred still sharpens with each miss, and a new text clue unlocks.
+- **Guess feedback.** Each wrong guess is compared to the answer: 8 tiles per game (year, genres, cast overlap, and game-specific ones like network or director). Green = match, yellow = close/partial, arrows point toward the answer.
+- **Weekday difficulty.** Answers come from the 1,000 most-voted English-language titles on TMDB. Monday draws from the top ~150; each day digs deeper, and Sunday (Expert) draws from ranks 700–1000.
+- **Hard mode.** Text clues stay hidden. Locks in at your first guess; adds `*` to your share result.
+- **Stats and streaks** per game, stored in the browser.
 
 ## How it works
 
-The site is fully static (Vite + React + TypeScript on GitHub Pages). The browser never calls TMDB.
+The site is fully static (Vite + React + TypeScript, multi-page, on GitHub Pages). The browser never calls TMDB.
 
 ```
 GitHub Action (daily 00:05 UTC, on push, or manual)
-  └─ scripts/generate.mjs  ── TMDB API (key from repo secret)
-       ├─ public/data/shows.json           catalog (~3,000 shows) for autocomplete + feedback, refreshed weekly
-       ├─ public/data/puzzles/<date>.json  today's and tomorrow's puzzle (UTC); answer stored only as a hash
-       └─ data/history.json                answer history, so a show doesn't repeat within a year
+  └─ scripts/generate.mjs ── TMDB API (key from repo secret)
+       for each game in scripts/games/:
+       ├─ public/data/<game>/catalog.json          ~3,000 titles for autocomplete + feedback, refreshed weekly
+       ├─ public/data/<game>/puzzles/<date>.json   today's + tomorrow's puzzle (UTC); answers stored as hashes
+       └─ data/<game>-history.json                 past answers, so nothing repeats within a year
   └─ commits that data, builds, and deploys to Pages
 ```
 
 Puzzles are only generated one day ahead, because anything in `public/` is publicly readable.
+
+```
+scripts/lib/common.mjs     TMDB client, redaction, difficulty, the daily loop
+scripts/games/<id>.mjs     per-game catalog + puzzle builder
+src/shared/                game engine, components, storage, styles
+src/games/<id>/config.ts   per-game feedback tiles + bonus round
+src/games/registry.ts      the collection shown on the landing page
+src/landing/               landing page
+```
+
+### Adding a game
+
+1. `scripts/games/<id>.mjs` exporting `id`, `buildCatalog()`, `buildPuzzle(date, entry)`; register it in `scripts/generate.mjs`.
+2. `src/games/<id>/config.ts` + `main.tsx`, and `<id>/index.html`.
+3. Add the page to `vite.config.ts` inputs and the game to `src/games/registry.ts`.
 
 ## Local development
 
 ```bash
 npm install
 cp .env.example .env      # then paste your TMDB key into .env
-npm run generate          # writes the catalog + today's/tomorrow's puzzle
-npm run dev               # http://localhost:5173/channel-surf/
+npm run generate          # all games (or: npm run generate -- movies)
+npm run dev               # http://localhost:5173/date-night-dles/
 ```
 
 Get a TMDB key at https://www.themoviedb.org/settings/api. Either the v3 API key or the v4 read access token works.
-
-## Deployment setup (one time)
-
-1. Add the key as a repo secret: `gh secret set TMDB_API_KEY`
-2. Settings → Pages → Source: **GitHub Actions**
-3. Run the workflow: `gh workflow run daily.yml`
 
 ## Attribution
 

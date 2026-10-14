@@ -1,31 +1,32 @@
 import { useState } from 'react';
-import type { Stats } from '../lib/storage';
-import type { Guess, Puzzle, Show } from '../lib/types';
+import type { Stats } from '../storage';
+import type { Entry, Guess, Puzzle } from '../types';
 
 interface Props {
+  title: string;
+  emoji: string;
   puzzle: Puzzle;
-  answer: Show;
+  answer: Entry;
   guesses: Guess[];
   won: boolean;
   hard: boolean;
-  /** Bonus round guesses, or null when there was no bonus round (single-season show). */
-  seasonGuesses: number[] | null;
-  season: number | null;
+  /** Bonus round line for the share text, or null when there was no bonus round. */
+  bonus: { label: string; guesses: number[]; answer: number } | null;
   stats: Stats;
   maxGuesses: number;
 }
 
-export function Result({ puzzle, answer, guesses, won, hard, seasonGuesses, season, stats, maxGuesses }: Props) {
+export function Result({ title, emoji, puzzle, answer, guesses, won, hard, bonus, stats, maxGuesses }: Props) {
   const [copied, setCopied] = useState(false);
 
   const squares: string[] = guesses.map((g) => (g === answer.id ? '🟩' : g === null ? '⬛' : '🟥'));
   while (squares.length < maxGuesses) squares.push('⬜');
   const lines = [
-    `Channel Surf #${puzzle.number} 📺 ${won ? guesses.length : 'X'}/${maxGuesses}${hard ? '*' : ''} · ${puzzle.difficulty}`,
+    `${title} #${puzzle.number} ${emoji} ${won ? guesses.length : 'X'}/${maxGuesses}${hard ? '*' : ''} · ${puzzle.difficulty}`,
     squares.join(''),
   ];
-  if (seasonGuesses) lines.push(`Season: ${seasonGuesses.map((n) => (n === season ? '🟩' : '🟥')).join('')}`);
-  lines.push(`${location.origin}${import.meta.env.BASE_URL}`);
+  if (bonus) lines.push(`${bonus.label}: ${bonus.guesses.map((g) => (g === bonus.answer ? '🟩' : '🟥')).join('')}`);
+  lines.push(location.href.split(/[?#]/)[0]);
 
   const share = async () => {
     try {
@@ -43,11 +44,16 @@ export function Result({ puzzle, answer, guesses, won, hard, seasonGuesses, seas
     <section className="result">
       <h2>{won ? 'You got it!' : 'Signal lost.'}</h2>
       <p className="result__answer">
-        The show was <strong>{answer.name}</strong> ({answer.year})
+        It was <strong>{answer.name}</strong> ({answer.year})
       </p>
-      <button type="button" className="button" onClick={share}>
-        {copied ? 'Copied!' : 'Share result'}
-      </button>
+      <div className="result__actions">
+        <button type="button" className="button" onClick={share}>
+          {copied ? 'Copied!' : 'Share result'}
+        </button>
+        <a className="button button--ghost" href={import.meta.env.BASE_URL}>
+          Next game →
+        </a>
+      </div>
 
       <div className="stats">
         <div><strong>{stats.played}</strong><span>Played</span></div>

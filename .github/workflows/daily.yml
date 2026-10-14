@@ -1,4 +1,4 @@
-name: Daily puzzle & deploy
+name: Daily puzzles & deploy
 
 on:
   schedule:

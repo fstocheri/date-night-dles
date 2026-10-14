@@ -1,6 +1,6 @@
 import type { Guess } from './types';
 
-// localStorage can throw or be empty (private mode, blocked storage); the game must still work.
+// localStorage can throw or be empty (private mode, blocked storage); the games must still work.
 
 function read<T>(key: string, fallback: T): T {
   try {
@@ -22,15 +22,19 @@ function write(key: string, value: unknown) {
 export interface GameRecord {
   guesses: Guess[];
   hard: boolean; // fixed once the first guess is made
-  seasonGuesses: number[];
+  bonusGuesses: number[]; // option indexes
+  /** Set when the main round ends, so the landing page can show results without the answer. */
+  outcome?: 'won' | 'lost';
 }
 
-export const loadGame = (date: string) =>
-  read<GameRecord>(`cs:v2:game:${date}`, { guesses: [], hard: loadHardPref(), seasonGuesses: [] });
-export const saveGame = (date: string, game: GameRecord) => write(`cs:v2:game:${date}`, game);
+const gameKey = (gameId: string, date: string) => `dnd:${gameId}:game:${date}`;
 
-export const loadHardPref = () => read<boolean>('cs:hard', false);
-export const saveHardPref = (hard: boolean) => write('cs:hard', hard);
+export const loadGame = (gameId: string, date: string) =>
+  read<GameRecord>(gameKey(gameId, date), { guesses: [], hard: loadHardPref(), bonusGuesses: [] });
+export const saveGame = (gameId: string, date: string, game: GameRecord) => write(gameKey(gameId, date), game);
+
+export const loadHardPref = () => read<boolean>('dnd:hard', false);
+export const saveHardPref = (hard: boolean) => write('dnd:hard', hard);
 
 export interface Stats {
   played: number;
@@ -44,10 +48,10 @@ export interface Stats {
 
 const EMPTY_STATS: Stats = { played: 0, won: 0, streak: 0, maxStreak: 0, lastPlayed: 0, lastWon: 0, distribution: [0, 0, 0, 0, 0, 0] };
 
-export const loadStats = () => read<Stats>('cs:stats', EMPTY_STATS);
+export const loadStats = (gameId: string) => read<Stats>(`dnd:${gameId}:stats`, EMPTY_STATS);
 
-export function recordResult(puzzleNumber: number, won: boolean, guessCount: number): Stats {
-  const s = loadStats();
+export function recordResult(gameId: string, puzzleNumber: number, won: boolean, guessCount: number): Stats {
+  const s = loadStats(gameId);
   if (s.lastPlayed === puzzleNumber) return s;
 
   const streak = won ? (s.lastWon === puzzleNumber - 1 ? s.streak + 1 : 1) : 0;
@@ -63,6 +67,6 @@ export function recordResult(puzzleNumber: number, won: boolean, guessCount: num
     lastWon: won ? puzzleNumber : s.lastWon,
     distribution,
   };
-  write('cs:stats', next);
+  write(`dnd:${gameId}:stats`, next);
   return next;
 }

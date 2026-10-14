@@ -1,12 +1,12 @@
-import { compare } from '../lib/compare';
-import type { Show } from '../lib/types';
+import type { Cell, Entry } from '../types';
 
-interface Props {
-  guess: Show | null; // null = skipped
-  answer: Show;
+interface Props<E extends Entry> {
+  guess: E | null; // null = skipped
+  answer: E;
+  compare: (guess: E, answer: E) => Cell[];
 }
 
-export function GuessRow({ guess, answer }: Props) {
+export function GuessRow<E extends Entry>({ guess, answer, compare }: Props<E>) {
   if (!guess) {
     return (
       <li className="guess guess--skip">
@@ -20,7 +20,7 @@ export function GuessRow({ guess, answer }: Props) {
     <li className={`guess ${correct ? 'guess--correct' : ''}`}>
       <div className="guess__name">
         {correct ? '✓ ' : '✗ '}
-        {guess.name}
+        {guess.name} <span className="muted">({guess.year})</span>
       </div>
       {!correct && (
         <div className="guess__cells">
