@@ -43,10 +43,64 @@ a { color: var(--accent); }
 
 .puzzle-meta {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   font-size: 0.875rem;
   margin-bottom: 8px;
 }
+.puzzle-meta > :last-child { margin-left: auto; }
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #111;
+}
+.badge--easy { background: #5fc98a; }
+.badge--medium { background: var(--accent); }
+.badge--hard { background: #ef8a4c; }
+.badge--expert { background: var(--danger); color: #fff; }
+
+.toggle { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--muted); }
+.toggle input { accent-color: var(--accent); }
+.toggle--locked { cursor: not-allowed; opacity: 0.6; }
+
+.bonus {
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.bonus h2 { margin: 0 0 4px; font-size: 1.1rem; }
+.bonus p { margin: 0 0 12px; }
+.seasons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.season {
+  position: relative;
+  min-width: 44px;
+  height: 44px;
+  font: inherit;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.season:hover:not(:disabled) { border-color: var(--accent); }
+.season:disabled { cursor: default; }
+.season--hit { background: var(--hit); border-color: var(--hit); }
+.season--miss { background: var(--miss); opacity: 0.8; }
+.season__arrow { margin-left: 2px; font-size: 0.8rem; }
 
 /* The "TV": still image inside a bezel. */
 .screen {
@@ -178,6 +232,9 @@ a { color: var(--accent); }
 }
 .cell__label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.8; }
 .cell__value { font-weight: 600; overflow-wrap: anywhere; }
+@media (max-width: 480px) {
+  .puzzle-meta { flex-wrap: wrap; }
+}
 .cell--hit { background: var(--hit); }
 .cell--near { background: var(--near); color: #111; }
 .cell--miss { background: var(--miss); }

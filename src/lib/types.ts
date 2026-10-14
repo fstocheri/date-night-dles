@@ -6,6 +6,11 @@ export interface Show {
   network: string | null;
   genres: string[];
   seasons: number;
+  status: 'Running' | 'Ended';
+  country: string | null; // ISO 3166-1 code
+  creators: string[];
+  cast: number[]; // TMDB person ids of the main cast
+  lang: string;
   rank: number;
 }
 
@@ -25,7 +30,9 @@ export interface Clue {
 export interface Puzzle {
   date: string;
   number: number;
+  difficulty: 'Easy' | 'Medium' | 'Hard' | 'Expert';
   answerHash: string;
+  seasonHash: string;
   still: string;
   clues: Clue[];
 }

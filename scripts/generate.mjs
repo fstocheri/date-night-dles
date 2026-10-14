@@ -19,14 +19,26 @@ const CATALOG_FILE = path.join(PUBLIC_DATA, 'shows.json');
 const HISTORY_FILE = path.join(ROOT, 'data', 'history.json');
 
 const EPOCH = '2026-10-14'; // puzzle #1
-const CATALOG_PAGES = 50; // 20 shows per page
+const CATALOG_PAGES = 150; // 20 shows per page
 const CATALOG_MAX_AGE_DAYS = 7;
-// Answers come from the most-voted shows in these languages so they stay guessable;
-// every catalog show can still be guessed.
-const ANSWER_POOL_SIZE = 250;
+const CATALOG_CAST_SIZE = 10; // cast ids per show, for "shares a cast member" feedback
+// Answers come from the most-voted shows in these languages; every catalog show can still be guessed.
 const ANSWER_LANGUAGES = new Set(['en']);
 const NO_REPEAT_DAYS = 365;
 const EXCLUDED_GENRES = new Set([10763, 10764, 10766, 10767]); // News, Reality, Soap, Talk
+const RUNNING_STATUSES = new Set(['Returning Series', 'In Production', 'Planned', 'Pilot']);
+
+// Difficulty ramps through the week (UTC weekday, 0 = Sunday). `from`/`to` index into the
+// answer pool ordered by vote count, so Monday is a household name and Sunday a deep cut.
+const DIFFICULTY = [
+  { label: 'Expert', from: 700, to: 1000 },
+  { label: 'Easy', from: 0, to: 150 },
+  { label: 'Easy', from: 0, to: 250 },
+  { label: 'Medium', from: 150, to: 450 },
+  { label: 'Medium', from: 250, to: 600 },
+  { label: 'Hard', from: 400, to: 800 },
+  { label: 'Hard', from: 500, to: 1000 },
+];
 
 const KEY = process.env.TMDB_API_KEY?.trim();
 if (!KEY) {
@@ -98,10 +110,12 @@ function seededShuffle(items, seed) {
     .map((x) => x.item);
 }
 
-// Must match answerHash() in src/lib/data.ts.
-export function answerHash(date, id) {
-  return crypto.createHash('sha256').update(`${date}:${id}`).digest('hex').slice(0, 16);
-}
+// Must match hashOf() in src/lib/data.ts. Answers are stored hashed so they aren't
+// readable at a glance in the network tab.
+const hashOf = (value) => crypto.createHash('sha256').update(value).digest('hex').slice(0, 16);
+
+const topCast = (show) =>
+  [...(show.aggregate_credits?.cast ?? [])].sort((a, b) => b.total_episode_count - a.total_episode_count);
 
 // ---------- catalog ----------
 
@@ -122,8 +136,9 @@ async function loadCatalog() {
     if (page >= res.total_pages) break;
   }
 
-  const details = await mapLimit([...ranked.keys()], 8, (id) =>
-    tmdb(`/tv/${id}`).catch((err) => {
+  console.log(`Fetching details for ${ranked.size} shows…`);
+  const details = await mapLimit([...ranked.keys()], 10, (id) =>
+    tmdb(`/tv/${id}`, { append_to_response: 'aggregate_credits' }).catch((err) => {
       console.warn(`  skipped ${id}: ${err.message}`);
       return null;
     }),
@@ -139,6 +154,10 @@ async function loadCatalog() {
       network: d.networks?.[0]?.name ?? null,
       genres: d.genres.map((g) => g.name),
       seasons: d.number_of_seasons,
+      status: RUNNING_STATUSES.has(d.status) ? 'Running' : 'Ended',
+      country: d.origin_country?.[0] ?? null,
+      creators: (d.created_by ?? []).map((c) => c.name),
+      cast: topCast(d).slice(0, CATALOG_CAST_SIZE).map((c) => c.id),
       lang: d.original_language,
       rank: ranked.get(d.id),
     }))
@@ -186,7 +205,7 @@ function makeRedactor(show, cast) {
 
 // ---------- puzzles ----------
 
-async function buildPuzzle(date, entry) {
+async function buildPuzzle(date, entry, difficulty) {
   const show = await tmdb(`/tv/${entry.id}`, { append_to_response: 'aggregate_credits' });
   const seasons = show.seasons.filter((s) => s.season_number > 0 && s.episode_count > 0);
 
@@ -201,7 +220,7 @@ async function buildPuzzle(date, entry) {
   }
   if (!episode) return null;
 
-  const cast = [...(show.aggregate_credits?.cast ?? [])].sort((a, b) => b.total_episode_count - a.total_episode_count);
+  const cast = topCast(show);
   const redact = makeRedactor(show, cast);
   const lead = cast[0];
   const character = (cast[1] ?? cast[0])?.roles?.[0]?.character?.replace(/\s*\(voice\)/i, '').trim();
@@ -209,11 +228,14 @@ async function buildPuzzle(date, entry) {
   return {
     date,
     number: daysBetween(EPOCH, date) + 1,
-    answerHash: answerHash(date, entry.id),
+    difficulty,
+    answerHash: hashOf(`${date}:${entry.id}`),
+    // The season is the bonus round's answer, so it's hashed too and left out of the clues.
+    seasonHash: hashOf(`${date}:season:${episode.season_number}`),
     still: episode.still_path,
     clues: [
       { type: 'genres', label: 'Genre', value: entry.genres.join(', ') || 'Unknown' },
-      { type: 'episode', label: 'Episode', value: `Season ${episode.season_number}, Episode ${episode.episode_number}: “${redact(episode.name)}”` },
+      { type: 'episode', label: 'Episode', value: `Episode ${episode.episode_number}: “${redact(episode.name)}”` },
       { type: 'aired', label: 'Premiered', value: entry.network ? `${entry.year} on ${entry.network}` : String(entry.year) },
       { type: 'synopsis', label: 'Episode synopsis', value: redact(episode.overview || show.overview || 'No synopsis available.') },
       { type: 'character', label: 'Character', value: character || 'Unknown' },
@@ -228,14 +250,14 @@ async function generateFor(date, catalog, history) {
       .filter(([d]) => d !== date && Math.abs(daysBetween(d, date)) < NO_REPEAT_DAYS)
       .map(([, id]) => id),
   );
-  const pool = catalog.shows
-    .filter((s) => ANSWER_LANGUAGES.has(s.lang))
-    .slice(0, ANSWER_POOL_SIZE)
-    .filter((s) => !recent.has(s.id));
+  const tier = DIFFICULTY[new Date(date).getUTCDay()];
+  const answerable = catalog.shows.filter((s) => ANSWER_LANGUAGES.has(s.lang));
+  let pool = answerable.slice(tier.from, tier.to).filter((s) => !recent.has(s.id));
+  if (!pool.length) pool = answerable.filter((s) => !recent.has(s.id)); // tier exhausted
 
   for (let attempt = 0; attempt < 10; attempt++) {
     const entry = pool[seededIndex(`channel-surf:${date}:${attempt}`, pool.length)];
-    const puzzle = await buildPuzzle(date, entry).catch((err) => {
+    const puzzle = await buildPuzzle(date, entry, tier.label).catch((err) => {
       console.warn(`  ${entry.name}: ${err.message}`);
       return null;
     });

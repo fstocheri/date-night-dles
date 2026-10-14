@@ -7,20 +7,29 @@ interface Props {
   answer: Show;
   guesses: Guess[];
   won: boolean;
+  hard: boolean;
+  /** Bonus round guesses, or null when there was no bonus round (single-season show). */
+  seasonGuesses: number[] | null;
+  season: number | null;
   stats: Stats;
   maxGuesses: number;
 }
 
-export function Result({ puzzle, answer, guesses, won, stats, maxGuesses }: Props) {
+export function Result({ puzzle, answer, guesses, won, hard, seasonGuesses, season, stats, maxGuesses }: Props) {
   const [copied, setCopied] = useState(false);
 
   const squares: string[] = guesses.map((g) => (g === answer.id ? '🟩' : g === null ? '⬛' : '🟥'));
   while (squares.length < maxGuesses) squares.push('⬜');
-  const shareText = `Channel Surf #${puzzle.number} 📺 ${won ? guesses.length : 'X'}/${maxGuesses}\n${squares.join('')}\n${location.origin}${import.meta.env.BASE_URL}`;
+  const lines = [
+    `Channel Surf #${puzzle.number} 📺 ${won ? guesses.length : 'X'}/${maxGuesses}${hard ? '*' : ''} · ${puzzle.difficulty}`,
+    squares.join(''),
+  ];
+  if (seasonGuesses) lines.push(`Season: ${seasonGuesses.map((n) => (n === season ? '🟩' : '🟥')).join('')}`);
+  lines.push(`${location.origin}${import.meta.env.BASE_URL}`);
 
   const share = async () => {
     try {
-      await navigator.clipboard.writeText(shareText);
+      await navigator.clipboard.writeText(lines.join('\n'));
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {

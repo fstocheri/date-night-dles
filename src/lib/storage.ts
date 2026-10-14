@@ -19,8 +19,18 @@ function write(key: string, value: unknown) {
   }
 }
 
-export const loadGuesses = (date: string) => read<Guess[]>(`cs:game:${date}`, []);
-export const saveGuesses = (date: string, guesses: Guess[]) => write(`cs:game:${date}`, guesses);
+export interface GameRecord {
+  guesses: Guess[];
+  hard: boolean; // fixed once the first guess is made
+  seasonGuesses: number[];
+}
+
+export const loadGame = (date: string) =>
+  read<GameRecord>(`cs:v2:game:${date}`, { guesses: [], hard: loadHardPref(), seasonGuesses: [] });
+export const saveGame = (date: string, game: GameRecord) => write(`cs:v2:game:${date}`, game);
+
+export const loadHardPref = () => read<boolean>('cs:hard', false);
+export const saveHardPref = (hard: boolean) => write('cs:hard', hard);
 
 export interface Stats {
   played: number;

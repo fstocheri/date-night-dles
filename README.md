@@ -1,6 +1,11 @@
 # 📺 Channel Surf
 
-A daily TV-show guessing game. Each day you get a blurred still from one episode of a mystery show and six guesses to name the show. The still gets sharper and a new clue unlocks with every miss. Each wrong guess is also compared to the answer on premiere year, network, genres, and season count.
+A daily TV-show guessing game. Each day you get a blurred still from one episode of a mystery show and six guesses to name the show. The still gets sharper and a new clue unlocks with every miss.
+
+- **Guess feedback:** each wrong guess is compared to the answer on premiere year, network, genres, seasons, status, country, creator, and whether it shares a cast member. Green = match, yellow = close/partial, arrows point toward the answer.
+- **Weekday difficulty:** answers come from the 1,000 most-voted English-language shows on TMDB. Monday draws from the top ~150; each day digs deeper, and Sunday (Expert) draws from ranks 700–1000.
+- **Bonus round:** after the main round, guess which season the episode is from (3 tries, higher/lower hints).
+- **Hard mode:** text clues stay hidden; you get only the still and the feedback tiles. Locks in once you make your first guess, and adds `*` to your share result.
 
 **Play:** https://ftocheri.github.io/channel-surf/
 
@@ -11,7 +16,7 @@ The site is fully static (Vite + React + TypeScript on GitHub Pages). The browse
 ```
 GitHub Action (daily 00:05 UTC, on push, or manual)
   └─ scripts/generate.mjs  ── TMDB API (key from repo secret)
-       ├─ public/data/shows.json           catalog (~900 shows) for autocomplete + feedback, refreshed weekly
+       ├─ public/data/shows.json           catalog (~3,000 shows) for autocomplete + feedback, refreshed weekly
        ├─ public/data/puzzles/<date>.json  today's and tomorrow's puzzle (UTC); answer stored only as a hash
        └─ data/history.json                answer history, so a show doesn't repeat within a year
   └─ commits that data, builds, and deploys to Pages

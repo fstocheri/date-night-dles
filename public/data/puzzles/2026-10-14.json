@@ -1,38 +1,40 @@
 {
   "date": "2026-10-14",
   "number": 1,
-  "answerHash": "0ce7ae16d468a18f",
-  "still": "/jfeaESI2sLbIDhwiH7p3vtWtKtJ.jpg",
+  "difficulty": "Medium",
+  "answerHash": "6d4d093593730d6b",
+  "seasonHash": "e51bb6b64c3b7a4a",
+  "still": "/rLQofMXq2hSankbCbMdFo5LcnYi.jpg",
   "clues": [
     {
       "type": "genres",
       "label": "Genre",
-      "value": "Animation, Family, Sci-Fi & Fantasy, Comedy, Kids"
+      "value": "Comedy, Drama"
     },
     {
       "type": "episode",
       "label": "Episode",
-      "value": "Season 4, Episode 25: “Perfect”"
+      "value": "Episode 5: “I am afraid to own a Body”"
     },
     {
       "type": "aired",
       "label": "Premiered",
-      "value": "1999 on Cartoon Network"
+      "value": "2019 on Apple TV"
     },
     {
       "type": "synopsis",
       "label": "Episode synopsis",
-      "value": "Fed up with ▇▇▇'s incompetence, ▇▇▇ seeks a professional ▇▇▇ trainer."
+      "value": "▇▇▇ confronts tough issues at a meeting of the local Shakespeare Club."
     },
     {
       "type": "character",
       "label": "Character",
-      "value": "Muriel Bagge"
+      "value": "Edward Dickinson"
     },
     {
       "type": "actor",
       "label": "Starring",
-      "value": "Marty Grabstein"
+      "value": "Hailee Steinfeld"
     }
   ]
 }
