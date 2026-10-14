@@ -9,6 +9,7 @@ export interface Movie extends Entry {
   studio: string | null;
   country: string | null; // ISO 3166-1 code
   franchise: string | null;
+  cast: number[]; // TMDB person ids of the main cast
 }
 
 // Must line up with BOX_OFFICE_BOUNDS in scripts/games/movies.mjs.

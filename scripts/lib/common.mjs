@@ -12,8 +12,9 @@ const CATALOG_MAX_AGE_DAYS = 7;
 const NO_REPEAT_DAYS = 365;
 export const ANSWER_LANGUAGES = new Set(['en']);
 
-// Difficulty ramps through the week (UTC weekday, 0 = Sunday). `from`/`to` index into the
-// answer pool ordered by vote count, so Monday is a household name and Sunday a deep cut.
+// Difficulty ramps through the week (UTC weekday, 0 = Sunday). `from`/`to` index into a
+// 1,000-entry answer pool ordered by popularity, so Monday is a household name and Sunday a
+// deep cut. Smaller pools scale the ranges proportionally.
 const DIFFICULTY = [
   { label: 'Expert', from: 700, to: 1000 },
   { label: 'Easy', from: 0, to: 150 },
@@ -27,15 +28,12 @@ const DIFFICULTY = [
 // ---------- TMDB ----------
 
 const KEY = process.env.TMDB_API_KEY?.trim();
-if (!KEY) {
-  console.error('TMDB_API_KEY is not set. Copy .env.example to .env and add your key.');
-  process.exit(1);
-}
-const useBearer = KEY.startsWith('eyJ'); // v4 read access tokens are JWTs
+const useBearer = KEY?.startsWith('eyJ'); // v4 read access tokens are JWTs
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export async function tmdb(endpoint, params = {}) {
+  if (!KEY) throw new Error('TMDB_API_KEY is not set. Copy .env.example to .env and add your key.');
   const url = new URL(`https://api.themoviedb.org/3${endpoint}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, String(v));
   const headers = { accept: 'application/json' };
@@ -174,7 +172,8 @@ export function makeRedactor(titles, cast) {
  * Runs one game's generator. A game provides:
  *   id                                   folder name under public/data
  *   buildCatalog()                       -> entries sorted by rank, each with { id, name, lang, rank, ... }
- *   buildPuzzle(date, entry)             -> { still, clues, bonus: index | null } or null to try another entry
+ *   buildPuzzle(date, entry)             -> { still?, media?, clues, bonus: index | null } or null to try another entry
+ *   answerable(entries)?                 -> entries eligible as answers (default: by ANSWER_LANGUAGES)
  */
 export async function runGame(game) {
   const dir = path.join(ROOT, 'public', 'data', game.id);
@@ -192,7 +191,8 @@ export async function runGame(game) {
   }
 
   const history = await readJson(historyFile, {});
-  const answerable = catalog.entries.filter((e) => ANSWER_LANGUAGES.has(e.lang));
+  const answerable = game.answerable ? await game.answerable(catalog.entries) : catalog.entries.filter((e) => ANSWER_LANGUAGES.has(e.lang));
+  const scale = Math.min(answerable.length, 1000) / 1000;
 
   // Today and tomorrow (UTC) cover every player's local date; never further ahead,
   // since everything in public/ is visible to anyone.
@@ -206,7 +206,7 @@ export async function runGame(game) {
         .map(([, id]) => id),
     );
     const tier = DIFFICULTY[new Date(date).getUTCDay()];
-    let pool = answerable.slice(tier.from, tier.to).filter((e) => !recent.has(e.id));
+    let pool = answerable.slice(Math.round(tier.from * scale), Math.round(tier.to * scale)).filter((e) => !recent.has(e.id));
     if (!pool.length) pool = answerable.filter((e) => !recent.has(e.id)); // tier exhausted
 
     let made = null;
@@ -228,7 +228,9 @@ export async function runGame(game) {
       answerHash: hashOf(`${date}:${entry.id}`),
       // The bonus answer is an option index; hashed for the same reason as the answer.
       bonusHash: built.bonus === null ? null : hashOf(`${date}:bonus:${built.bonus}`),
-      still: built.still,
+      ...(built.still ? { still: built.still } : {}),
+      // Game-specific playable media (e.g. a Deezer track id the browser resolves at play time).
+      ...(built.media ? { media: built.media } : {}),
       clues: built.clues,
     });
     history[date] = entry.id;

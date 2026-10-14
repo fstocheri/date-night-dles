@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "number": 1,
+  "difficulty": "Medium",
+  "answerHash": "dec60923af63df72",
+  "bonusHash": null,
+  "media": "3416737961",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2025"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Homesick”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "S•• F•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Sam Fender"
+    }
+  ]
+}

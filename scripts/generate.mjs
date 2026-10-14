@@ -9,8 +9,11 @@
 import { runGame } from './lib/common.mjs';
 import * as tv from './games/tv.mjs';
 import * as movies from './games/movies.mjs';
+import * as songs from './games/songs.mjs';
+import * as artists from './games/artists.mjs';
 
-const GAMES = [tv, movies];
+// songs before artists: the artist catalog is built from the song catalog.
+const GAMES = [tv, movies, songs, artists];
 
 const only = process.argv.slice(2);
 const selected = only.length ? GAMES.filter((g) => only.includes(g.id)) : GAMES;

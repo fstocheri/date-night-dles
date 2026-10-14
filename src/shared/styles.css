@@ -363,3 +363,54 @@ a.button { display: inline-block; text-decoration: none; }
 .tile--lost .tile__badge { background: var(--miss); }
 
 .tile__streak { position: absolute; top: 10px; left: 10px; font-size: 0.75rem; }
+
+/* Square photos (artists) don't need the full width. */
+.screen--square { max-width: 360px; margin-left: auto; margin-right: auto; }
+.screen--square img { aspect-ratio: 1; }
+
+.link-button { padding: 0; font: inherit; color: var(--accent); background: none; border: 0; text-decoration: underline; cursor: pointer; }
+
+/* ---------- audio player (Needle Drop) ---------- */
+
+.player {
+  margin: 0 0 16px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+.player--status { text-align: center; color: var(--muted); }
+.player__cover {
+  display: block;
+  width: min(220px, 60%);
+  aspect-ratio: 1;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.45);
+}
+.player__controls { display: flex; align-items: center; gap: 14px; }
+.player__play {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  font-size: 1.3rem;
+  color: #111;
+  background: var(--accent);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.player__play:hover { filter: brightness(1.08); }
+.player__track { flex: 1; min-width: 0; }
+.player__bar {
+  position: relative;
+  height: 14px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.player__unlocked, .player__progress { position: absolute; inset: 0 auto 0 0; transition: width 200ms ease; }
+.player__unlocked { background: color-mix(in srgb, var(--accent) 30%, transparent); }
+.player__progress { background: var(--accent); transition: none; }
+.player__tick { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--bg); }
+.player__meta { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: 0.78rem; }

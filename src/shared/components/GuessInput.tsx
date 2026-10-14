@@ -2,17 +2,18 @@ import { useMemo, useState } from 'react';
 import type { Entry } from '../types';
 
 const normalize = (s: string) =>
-  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
 interface Props<E extends Entry> {
   entries: E[];
   exclude: Set<number>;
   placeholder: string;
+  subtitle: (entry: E) => string;
   onGuess: (entry: E) => void;
   onSkip: () => void;
 }
 
-export function GuessInput<E extends Entry>({ entries, exclude, placeholder, onGuess, onSkip }: Props<E>) {
+export function GuessInput<E extends Entry>({ entries, exclude, placeholder, subtitle, onGuess, onSkip }: Props<E>) {
   const [query, setQuery] = useState('');
   const [active, setActive] = useState(0);
 
@@ -89,7 +90,7 @@ export function GuessInput<E extends Entry>({ entries, exclude, placeholder, onG
               }}
             >
               <span>{e.name}</span>
-              <span className="muted">{e.year}</span>
+              <span className="muted">{subtitle(e)}</span>
             </li>
           ))}
         </ul>

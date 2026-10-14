@@ -9,6 +9,7 @@ export interface Show extends Entry {
   status: 'Running' | 'Ended';
   country: string | null; // ISO 3166-1 code
   creators: string[];
+  cast: number[]; // TMDB person ids of the main cast
 }
 
 export const tvConfig: GameConfig<Show> = {

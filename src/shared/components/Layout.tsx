@@ -32,6 +32,14 @@ export function Layout({ title, emoji, tagline, back, children }: Props) {
           <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">
             TMDB
           </a>
+          ; music from{' '}
+          <a href="https://www.deezer.com/" target="_blank" rel="noreferrer">
+            Deezer
+          </a>{' '}
+          and{' '}
+          <a href="https://musicbrainz.org/" target="_blank" rel="noreferrer">
+            MusicBrainz
+          </a>
           . This product uses the TMDB API but is not endorsed or certified by TMDB.
         </p>
       </footer>

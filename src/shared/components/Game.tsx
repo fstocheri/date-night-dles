@@ -38,6 +38,7 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
   const [game, setGame] = useState<GameRecord>(() => loadGame(config.id, puzzle.date));
   const [stats, setStats] = useState<Stats>(() => loadStats(config.id));
   const { guesses, hard, bonusGuesses } = game;
+  const subtitle = config.subtitle ?? ((e: E) => String(e.year));
 
   const won = guesses.includes(answer.id);
   const done = won || guesses.length >= MAX_GUESSES;
@@ -88,9 +89,19 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
         </span>
       </div>
 
-      <figure className="screen">
-        <img src={stillUrl(puzzle.still)} alt="A still from today's mystery title" style={{ filter: blur ? `blur(${blur}px)` : undefined }} />
-      </figure>
+      {config.Media ? (
+        <config.Media puzzle={puzzle} answer={answer} wrong={wrong} done={done} />
+      ) : (
+        puzzle.still && (
+          <figure className={`screen ${config.imageShape === 'square' ? 'screen--square' : ''}`}>
+            <img
+              src={(config.imageUrl ?? stillUrl)(puzzle.still)}
+              alt="Today's mystery image"
+              style={{ filter: blur ? `blur(${blur}px)` : undefined }}
+            />
+          </figure>
+        )
+      )}
 
       <ol className="clues">
         {puzzle.clues.map((clue, i) => (
@@ -108,6 +119,7 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
           entries={entries}
           exclude={guessedIds}
           placeholder={config.placeholder}
+          subtitle={subtitle}
           onGuess={(e) => addGuess(e.id)}
           onSkip={() => addGuess(null)}
         />
@@ -126,6 +138,7 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
       {done && bonusDone && (
         <Result
           title={config.title}
+          answerDetail={subtitle(answer)}
           emoji={config.emoji}
           puzzle={puzzle}
           answer={answer}
@@ -141,7 +154,13 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
       {guesses.length > 0 && (
         <ol className="guesses">
           {[...guesses].reverse().map((g, i) => (
-            <GuessRow key={guesses.length - i} guess={g === null ? null : byId.get(g) ?? null} answer={answer} compare={config.compare} />
+            <GuessRow
+              key={guesses.length - i}
+              guess={g === null ? null : byId.get(g) ?? null}
+              answer={answer}
+              compare={config.compare}
+              subtitle={subtitle}
+            />
           ))}
         </ol>
       )}

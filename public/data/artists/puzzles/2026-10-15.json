@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "number": 2,
+  "difficulty": "Medium",
+  "answerHash": "5c862d9e4495108e",
+  "bonusHash": "bc8491268822473f",
+  "still": "https://cdn-images.dzcdn.net/images/artist/b6996bc45e793d05f9fffce17b97ad2c/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Country"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2015"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“From A Room: Volume 1”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Tennessee Whiskey”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "C•••• S••••••••"
+    }
+  ]
+}

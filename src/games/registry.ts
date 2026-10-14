@@ -6,12 +6,14 @@ export interface GameInfo {
   title: string;
   emoji: string;
   tagline: string;
-  category: 'TV' | 'Movies';
+  category: 'TV' | 'Movies' | 'Music';
 }
 
 export const GAMES: GameInfo[] = [
   { id: 'tv', title: 'Channel Surf', emoji: '📺', tagline: 'Name the TV show from a single episode.', category: 'TV' },
   { id: 'movies', title: 'Final Cut', emoji: '🎬', tagline: 'Name the movie from a single frame.', category: 'Movies' },
+  { id: 'songs', title: 'Needle Drop', emoji: '🎧', tagline: 'Name the song from a clip that grows with every miss.', category: 'Music' },
+  { id: 'artists', title: 'Headliner', emoji: '🎤', tagline: 'Name the artist from a blurred photo and clues.', category: 'Music' },
 ];
 
 export const gameInfo = (id: string) => GAMES.find((g) => g.id === id)!;

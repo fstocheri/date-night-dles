@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "number": 2,
+  "difficulty": "Medium",
+  "answerHash": "182a578782ebefa6",
+  "bonusHash": null,
+  "media": "6587648",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1995"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Operation Stackola”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Broke Hos”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "L••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Luniz"
+    }
+  ]
+}

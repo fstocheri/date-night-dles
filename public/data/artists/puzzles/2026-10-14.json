@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "number": 1,
+  "difficulty": "Medium",
+  "answerHash": "c72f2ccc36370ea1",
+  "bonusHash": "506daf5535ed104c",
+  "still": "https://cdn-images.dzcdn.net/images/artist/fb8c759775108d9b1fa0dcd2e39aa48e/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Electro"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2013"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Body Music”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“You Know You Like It”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "A••••••••••"
+    }
+  ]
+}

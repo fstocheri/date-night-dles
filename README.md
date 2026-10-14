@@ -2,7 +2,7 @@
 
 A hand-picked collection of daily guessing games ("dles"), built to play together. The landing page shows tonight's lineup and which games you've already played today.
 
-**Play:** https://ftocheri.github.io/date-night-dles/
+**Play:** https://fstocheri.github.io/date-night-dles/
 
 ## The games
 
@@ -10,12 +10,14 @@ A hand-picked collection of daily guessing games ("dles"), built to play togethe
 |---|---|---|---|
 | 📺 **Channel Surf** | `/tv/` | the TV show, from one episode | which season the episode is from |
 | 🎬 **Final Cut** | `/movies/` | the movie, from a single frame | its worldwide box-office bracket |
+| 🎧 **Needle Drop** | `/songs/` | the song, from a clip that grows 1s → 16s | — |
+| 🎤 **Headliner** | `/artists/` | the artist, from a blurred photo and clues | their Deezer fan count bracket |
 
 All games share one engine:
 
-- **Six guesses.** A blurred still sharpens with each miss, and a new text clue unlocks.
+- **Six guesses.** A blurred image sharpens (or the audio clip gets longer) with each miss, and a new text clue unlocks.
 - **Guess feedback.** Each wrong guess is compared to the answer: 8 tiles per game (year, genres, cast overlap, and game-specific ones like network or director). Green = match, yellow = close/partial, arrows point toward the answer.
-- **Weekday difficulty.** Answers come from the 1,000 most-voted English-language titles on TMDB. Monday draws from the top ~150; each day digs deeper, and Sunday (Expert) draws from ranks 700–1000.
+- **Weekday difficulty.** Answers come from the 1,000 most popular titles (TMDB votes, Deezer rank/fans). Monday draws from the top ~150; each day digs deeper, and Sunday (Expert) draws from ranks 700–1000.
 - **Hard mode.** Text clues stay hidden. Locks in at your first guess; adds `*` to your share result.
 - **Stats and streaks** per game, stored in the browser.
 
@@ -25,7 +27,7 @@ The site is fully static (Vite + React + TypeScript, multi-page, on GitHub Pages
 
 ```
 GitHub Action (daily 00:05 UTC, on push, or manual)
-  └─ scripts/generate.mjs ── TMDB API (key from repo secret)
+  └─ scripts/generate.mjs ── TMDB API (key from repo secret), Deezer + MusicBrainz (no key)
        for each game in scripts/games/:
        ├─ public/data/<game>/catalog.json          ~3,000 titles for autocomplete + feedback, refreshed weekly
        ├─ public/data/<game>/puzzles/<date>.json   today's + tomorrow's puzzle (UTC); answers stored as hashes
@@ -61,6 +63,12 @@ npm run dev               # http://localhost:5173/date-night-dles/
 
 Get a TMDB key at https://www.themoviedb.org/settings/api. Either the v3 API key or the v4 read access token works.
 
+## Music data
+
+- **Songs** come from Deezer's editorial playlists (decades, genres, charts), ranked by Deezer popularity. Puzzles store only a Deezer track id: preview links expire, so the browser fetches a fresh 30-second preview via JSONP when you play.
+- **Artist facts** (country, solo/group, active/ended, debut album year) come from MusicBrainz, which allows 1 request per second. Lookups are cached in `data/musicbrainz-cache.json` and committed, so only new artists are looked up on later runs.
+- Using Deezer previews in a game is a licensing gray area. That's fine for a private project; revisit before making this public.
+
 ## Attribution
 
-Data and images are from [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB. TMDB's free API is for non-commercial use; adding ads or payments needs a commercial license.
+Movie and TV data and images are from [TMDB](https://www.themoviedb.org/); music data, artwork, and previews from [Deezer](https://www.deezer.com/); artist facts from [MusicBrainz](https://musicbrainz.org/). This product uses the TMDB API but is not endorsed or certified by TMDB. TMDB's free API is for non-commercial use; adding ads or payments needs a commercial license.

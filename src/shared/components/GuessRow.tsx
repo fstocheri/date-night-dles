@@ -4,9 +4,10 @@ interface Props<E extends Entry> {
   guess: E | null; // null = skipped
   answer: E;
   compare: (guess: E, answer: E) => Cell[];
+  subtitle: (entry: E) => string;
 }
 
-export function GuessRow<E extends Entry>({ guess, answer, compare }: Props<E>) {
+export function GuessRow<E extends Entry>({ guess, answer, compare, subtitle }: Props<E>) {
   if (!guess) {
     return (
       <li className="guess guess--skip">
@@ -20,7 +21,7 @@ export function GuessRow<E extends Entry>({ guess, answer, compare }: Props<E>) 
     <li className={`guess ${correct ? 'guess--correct' : ''}`}>
       <div className="guess__name">
         {correct ? '✓ ' : '✗ '}
-        {guess.name} <span className="muted">({guess.year})</span>
+        {guess.name} <span className="muted">({subtitle(guess)})</span>
       </div>
       {!correct && (
         <div className="guess__cells">
