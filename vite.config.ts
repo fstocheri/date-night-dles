@@ -15,6 +15,7 @@ export default defineConfig({
         movies: resolve(import.meta.dirname, 'movies/index.html'),
         songs: resolve(import.meta.dirname, 'songs/index.html'),
         artists: resolve(import.meta.dirname, 'artists/index.html'),
+        rock: resolve(import.meta.dirname, 'rock/index.html'),
       },
     },
   },

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "number": 1,
+  "difficulty": "Medium",
+  "answerHash": "e2a851d66b2890b6",
+  "bonusHash": null,
+  "media": "84340025",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1990"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Foreplay / Long Time”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "B•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Boston"
+    }
+  ]
+}

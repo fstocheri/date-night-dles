@@ -156,38 +156,85 @@ export async function originalYears(songs) {
 
 // ---------- the song catalog ----------
 
-// Searches for Deezer editorial playlists; only playlists made by Deezer's own editors are used.
-const PLAYLIST_QUERIES = [
-  '60s hits', '70s hits', '80s hits', '90s hits', '2000s hits', '2010s hits', '2020s hits',
-  'top usa', 'top uk', 'pop essentials', 'rock classics', 'classic rock', '80s rock', '90s rock',
-  'hip hop classics', '90s hip hop', '2000s hip hop', 'r&b classics', '90s r&b', 'soul classics', 'motown',
-  'country hits', 'country classics', 'dance classics', 'disco', 'indie classics', 'alternative classics',
-  'pop punk', 'emo', 'one hit wonders', 'party hits', 'karaoke hits', 'road trip', 'love songs', 'throwback',
-];
+// Each song game draws from searches for Deezer editorial playlists (only playlists made by
+// Deezer's own editors are used), keeping the most popular songs.
+const SONG_SOURCES = {
+  songs: {
+    queries: [
+      '60s hits', '70s hits', '80s hits', '90s hits', '2000s hits', '2010s hits', '2020s hits',
+      'top usa', 'top uk', 'pop essentials', 'rock classics', 'classic rock', '80s rock', '90s rock',
+      'hip hop classics', '90s hip hop', '2000s hip hop', 'r&b classics', '90s r&b', 'soul classics', 'motown',
+      'country hits', 'country classics', 'dance classics', 'disco', 'indie classics', 'alternative classics',
+      'pop punk', 'emo', 'one hit wonders', 'party hits', 'karaoke hits', 'road trip', 'love songs', 'throwback',
+    ],
+    maxSongs: 3000,
+  },
+  rock: {
+    queries: [
+      'emo', 'emo classics', 'emo anthems', '2000s emo', 'emo revival', 'pop punk', 'pop punk classics',
+      'post hardcore', 'screamo', 'warped tour', 'punk rock', 'skate punk', 'alternative rock', 'alternative classics',
+      '90s alternative', '2000s alternative', 'modern rock', 'indie rock', 'indie classics', 'grunge',
+      'rock classics', 'classic rock', '80s rock', '90s rock', '2000s rock', 'rock anthems', 'hard rock',
+      'nu metal', 'arena rock',
+    ],
+    // Hand-picked scene bands: each one's top tracks are added regardless of genre tag, since
+    // editorial playlists under-represent emo and pop punk (and tag a lot of it Pop or Metal).
+    seedArtists: [
+      'My Chemical Romance', 'Fall Out Boy', 'Paramore', 'Panic! At The Disco', 'Taking Back Sunday', 'Brand New',
+      'The Used', 'Dashboard Confessional', 'Jimmy Eat World', 'Yellowcard', 'Senses Fail', 'Hawthorne Heights',
+      'Thursday', 'The Red Jumpsuit Apparatus', 'Mayday Parade', 'All Time Low', 'blink-182', 'Sum 41',
+      'Good Charlotte', 'Simple Plan', 'New Found Glory', 'The All-American Rejects', 'Boys Like Girls',
+      'We The Kings', 'Cute Is What We Aim For', 'Motion City Soundtrack', 'Saves The Day', 'The Starting Line',
+      "Jack's Mannequin", 'Something Corporate', 'Story of the Year', 'Silverstein', 'Underoath', 'Alesana',
+      'Escape the Fate', 'Pierce The Veil', 'Sleeping With Sirens', 'A Day To Remember', 'Bring Me The Horizon',
+      'Neck Deep', 'The Story So Far', 'State Champs', 'The Wonder Years', 'Four Year Strong', 'Hellogoodbye',
+      'Cartel', "Plain White T's", 'Avril Lavigne', 'Green Day', 'The Offspring', 'Weezer', 'Linkin Park',
+      'Thirty Seconds To Mars', 'Three Days Grace', 'Breaking Benjamin', 'Papa Roach', 'Evanescence', 'Hoobastank',
+      'Chevelle', 'Deftones', 'System Of A Down', 'Rise Against', 'Billy Talent', 'AFI', 'Coheed and Cambria',
+      'Say Anything', 'Bayside', 'Anberlin', 'Relient K', 'Switchfoot', 'Thrice', 'The Academy Is...',
+      'Twenty One Pilots', 'PVRIS', 'Waterparks', 'Modern Baseball', 'The Front Bottoms', 'Joyce Manor',
+      'American Football', 'Mineral', 'Sunny Day Real Estate', 'The Get Up Kids', 'Death Cab for Cutie',
+      'The Killers', 'Hey Monday', 'The Maine', 'Real Friends',
+      'Knuckle Puck', 'Movements', 'Hot Mulligan', 'Microwave', 'Spitalfield', 'Midtown',
+    ],
+    maxSongs: 2500,
+    // Playlist tracks outside rock get dropped (seed artists are exempt). Pop and Metal are out
+    // because broad "2000s" and "metal" playlists drag in Britney and brand-new deep cuts.
+    excludeGenres: new Set(['Pop', 'Metal', 'Rap/Hip Hop', 'R&B', 'Dance', 'Electro', 'Country', 'Latin Music', 'Reggae', 'Jazz', 'Classical', 'Soul & Funk', 'Kids', 'Films/Games']),
+    // Skip "new releases"-style playlists: fresh songs nobody knows yet.
+    skipPlaylistWords: ['new', 'fresh', 'releases', 'friday'],
+    // Even so, "rock now" playlists are full of this year's unknowns; seed artists are exempt.
+    skipRecentYears: 2,
+  },
+};
 const PLAYLISTS_PER_QUERY = 3;
-const MAX_SONGS = 3000;
 
-const SONGS_FILE = path.join(ROOT, 'public', 'data', 'songs', 'catalog.json');
+const songCatalogs = new Map();
 
-let songsPromise = null;
-
-/** Popular songs from Deezer editorial playlists, most popular first. Built once per run. */
-export function songCatalog() {
-  songsPromise ??= (async () => {
-    // Reuse a catalog the songs game just built in this run (or recently).
-    const existing = await readJson(SONGS_FILE, null);
-    if (existing && Date.now() - Date.parse(existing.generatedAt) < 60 * 60 * 1000) return existing.entries;
-    return buildSongs();
-  })();
-  return songsPromise;
+/** Popular songs for one song game, most popular first. Built once per run. */
+export function songCatalog(gameId = 'songs') {
+  if (!songCatalogs.has(gameId)) {
+    songCatalogs.set(
+      gameId,
+      (async () => {
+        // Reuse a catalog this game built in this run (or within the hour).
+        const file = path.join(ROOT, 'public', 'data', gameId, 'catalog.json');
+        const existing = await readJson(file, null);
+        if (existing && Date.now() - Date.parse(existing.generatedAt) < 60 * 60 * 1000) return existing.entries;
+        return buildSongs(SONG_SOURCES[gameId]);
+      })(),
+    );
+  }
+  return songCatalogs.get(gameId);
 }
 
-async function buildSongs() {
+async function buildSongs({ queries, maxSongs, excludeGenres = new Set(), seedArtists = [], skipPlaylistWords = [], skipRecentYears = 0 }) {
   const playlists = new Map();
-  for (const q of PLAYLIST_QUERIES) {
+  for (const q of queries) {
     const res = await deezer('/search/playlist', { q, limit: 25 });
     res.data
       .filter((p) => /deezer/i.test(p.user?.name ?? ''))
+      .filter((p) => !p.title.toLowerCase().split(/[^a-z]+/).some((w) => skipPlaylistWords.includes(w)))
       .slice(0, PLAYLISTS_PER_QUERY)
       .forEach((p) => playlists.set(p.id, p.title));
   }
@@ -204,7 +251,28 @@ async function buildSongs() {
       tracks.set(t.id, t);
     }
   }
-  const top = [...tracks.values()].sort((a, b) => b.rank - a.rank).slice(0, MAX_SONGS);
+  const seeded = new Set();
+  if (seedArtists.length) {
+    console.log(`  adding top tracks from ${new Set(seedArtists).size} hand-picked artists…`);
+    for (const name of new Set(seedArtists)) {
+      try {
+        const found = await deezer('/search/artist', { q: name, limit: 5 });
+        const artist = found.data.find((a) => normalize(a.name) === normalize(name)) ?? found.data[0];
+        if (!artist) continue;
+        const res = await deezer(`/artist/${artist.id}/top`, { limit: 10 });
+        for (const t of res.data) {
+          const key = `${normalize(t.title_short)}|${t.artist.id}`;
+          seeded.add(t.id);
+          if (!t.readable || !t.preview || seen.has(key)) continue;
+          seen.add(key);
+          tracks.set(t.id, t);
+        }
+      } catch (err) {
+        console.warn(`  ${name}: ${err.message}`);
+      }
+    }
+  }
+  const top = [...tracks.values()].sort((a, b) => b.rank - a.rank).slice(0, maxSongs);
   console.log(`  ${tracks.size} unique songs; fetching ${new Set(top.map((t) => t.album.id)).size} albums…`);
 
   // Albums give the release year and genre.
@@ -221,14 +289,15 @@ async function buildSongs() {
     .map((t) => {
       const album = albums.get(t.album.id);
       const year = Number((album?.release_date ?? '').slice(0, 4));
-      if (!year) return null;
+      const genre = album?.genres?.data?.[0]?.name ?? 'Unknown';
+      if (!year || (excludeGenres.has(genre) && !seeded.has(t.id))) return null;
       return {
         id: t.id,
         name: t.title_short,
         artist: t.artist.name,
         artistId: t.artist.id,
         year,
-        genre: album.genres?.data?.[0]?.name ?? 'Unknown',
+        genre,
         duration: t.duration,
         album: album.title,
         compilation: album.record_type === 'compile',
@@ -238,11 +307,15 @@ async function buildSongs() {
     .filter(Boolean);
 
   const original = await originalYears(songs);
-  return songs.map((s, rank) => {
-    const year = original[s.id];
-    // With a MusicBrainz date the year is trustworthy even for songs on compilations.
-    return year && year <= s.year ? { ...s, year, compilation: false, rank } : { ...s, rank };
-  });
+  const cutoff = skipRecentYears ? new Date().getFullYear() - skipRecentYears : Infinity;
+  return songs
+    .map((s) => {
+      const year = original[s.id];
+      // With a MusicBrainz date the year is trustworthy even for songs on compilations.
+      return year && year <= s.year ? { ...s, year, compilation: false } : s;
+    })
+    .filter((s) => s.year <= cutoff || seeded.has(s.id))
+    .map((s, rank) => ({ ...s, rank }));
 }
 
 /** "Body Music (Deluxe)" -> "Body Music": drop edition tags from album titles shown as clues. */

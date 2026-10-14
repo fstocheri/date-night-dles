@@ -11,6 +11,7 @@ A hand-picked collection of daily guessing games ("dles"), built to play togethe
 | 📺 **Channel Surf** | `/tv/` | the TV show, from one episode | which season the episode is from |
 | 🎬 **Final Cut** | `/movies/` | the movie, from a single frame | its worldwide box-office bracket |
 | 🎧 **Needle Drop** | `/songs/` | the song, from a clip that grows 1s → 16s | — |
+| 🤘 **Mosh Pit** | `/rock/` | Needle Drop, but only emo, pop punk, alternative, and rock | — |
 | 🎤 **Headliner** | `/artists/` | the artist, from a blurred photo and clues | their Deezer fan count bracket |
 
 All games share one engine:
@@ -65,6 +66,7 @@ Get a TMDB key at https://www.themoviedb.org/settings/api. Either the v3 API key
 
 ## Music data
 
+- **Mosh Pit** uses its own catalog: rock/alt/emo editorial playlists plus a hand-picked list of ~90 scene bands' top tracks (`SONG_SOURCES.rock` in `scripts/lib/music.mjs`; add bands there). Non-rock genres and the last two years of playlist songs are dropped.
 - **Songs** come from Deezer's editorial playlists (decades, genres, charts), ranked by Deezer popularity. Puzzles store only a Deezer track id: preview links expire, so the browser fetches a fresh 30-second preview via JSONP when you play.
 - **Artist facts** (country, solo/group, active/ended, debut album year) come from MusicBrainz, which allows 1 request per second. Lookups are cached in `data/musicbrainz-cache.json` and committed, so only new artists are looked up on later runs.
 - Using Deezer previews in a game is a licensing gray area. That's fine for a private project; revisit before making this public.

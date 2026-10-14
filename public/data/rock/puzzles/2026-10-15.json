@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "number": 2,
+  "difficulty": "Medium",
+  "answerHash": "4de8b5861eadeff9",
+  "bonusHash": null,
+  "media": "65768905",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2013"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Wakin On A Pretty Daze”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Pretty Pimpin”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "K••• V•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Kurt Vile"
+    }
+  ]
+}

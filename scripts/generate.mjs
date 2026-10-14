@@ -11,9 +11,10 @@ import * as tv from './games/tv.mjs';
 import * as movies from './games/movies.mjs';
 import * as songs from './games/songs.mjs';
 import * as artists from './games/artists.mjs';
+import * as rock from './games/rock.mjs';
 
 // songs before artists: the artist catalog is built from the song catalog.
-const GAMES = [tv, movies, songs, artists];
+const GAMES = [tv, movies, songs, artists, rock];
 
 const only = process.argv.slice(2);
 const selected = only.length ? GAMES.filter((g) => only.includes(g.id)) : GAMES;
