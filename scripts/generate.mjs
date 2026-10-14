@@ -21,7 +21,10 @@ const HISTORY_FILE = path.join(ROOT, 'data', 'history.json');
 const EPOCH = '2026-10-14'; // puzzle #1
 const CATALOG_PAGES = 50; // 20 shows per page
 const CATALOG_MAX_AGE_DAYS = 7;
-const ANSWER_POOL_SIZE = 400; // answers come from the most-voted shows so they stay guessable
+// Answers come from the most-voted shows in these languages so they stay guessable;
+// every catalog show can still be guessed.
+const ANSWER_POOL_SIZE = 250;
+const ANSWER_LANGUAGES = new Set(['en']);
 const NO_REPEAT_DAYS = 365;
 const EXCLUDED_GENRES = new Set([10763, 10764, 10766, 10767]); // News, Reality, Soap, Talk
 
@@ -136,6 +139,7 @@ async function loadCatalog() {
       network: d.networks?.[0]?.name ?? null,
       genres: d.genres.map((g) => g.name),
       seasons: d.number_of_seasons,
+      lang: d.original_language,
       rank: ranked.get(d.id),
     }))
     .sort((a, b) => a.rank - b.rank);
@@ -224,7 +228,10 @@ async function generateFor(date, catalog, history) {
       .filter(([d]) => d !== date && Math.abs(daysBetween(d, date)) < NO_REPEAT_DAYS)
       .map(([, id]) => id),
   );
-  const pool = catalog.shows.slice(0, ANSWER_POOL_SIZE).filter((s) => !recent.has(s.id));
+  const pool = catalog.shows
+    .filter((s) => ANSWER_LANGUAGES.has(s.lang))
+    .slice(0, ANSWER_POOL_SIZE)
+    .filter((s) => !recent.has(s.id));
 
   for (let attempt = 0; attempt < 10; attempt++) {
     const entry = pool[seededIndex(`channel-surf:${date}:${attempt}`, pool.length)];

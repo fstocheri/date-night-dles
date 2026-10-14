@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-14",
+  "number": 1,
+  "answerHash": "0ce7ae16d468a18f",
+  "still": "/jfeaESI2sLbIDhwiH7p3vtWtKtJ.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Family, Sci-Fi & Fantasy, Comedy, Kids"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Season 4, Episode 25: “Perfect”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "1999 on Cartoon Network"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Fed up with ▇▇▇'s incompetence, ▇▇▇ seeks a professional ▇▇▇ trainer."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Muriel Bagge"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Marty Grabstein"
+    }
+  ]
+}

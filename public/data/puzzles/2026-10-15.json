@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-15",
+  "number": 2,
+  "answerHash": "c5a2defd766bb1aa",
+  "still": "/10yazSY4hMWfH8M48D7rhHVDvsA.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Sci-Fi & Fantasy, Drama, Action & Adventure"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Season 1, Episode 5: “Bottled Appetites”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2019 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Heedless of warnings, ▇▇▇ looks for a cure to restore what she's lost. ▇▇▇ inadvertently puts ▇▇▇ in peril. The search for ▇▇▇ intensifies."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Princess Cirilla 'Ciri' of Cintra"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Anya Chalotra"
+    }
+  ]
+}
