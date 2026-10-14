@@ -20,16 +20,17 @@ function statusOf(game: GameInfo): Status {
   return { kind: 'new' };
 }
 
-function StatusPill({ status }: { status: Status }) {
+/** Corner badge icon + short label for a tile. */
+function describe(status: Status): { icon: string; label: string } {
   switch (status.kind) {
     case 'new':
-      return <span className="pill pill--new">Not played yet</span>;
+      return { icon: '', label: 'Not played' };
     case 'playing':
-      return <span className="pill pill--playing">In progress · {status.guesses}/6</span>;
+      return { icon: '…', label: `In progress · ${status.guesses}/6` };
     case 'won':
-      return <span className="pill pill--won">✓ Solved in {status.guesses}/6{status.hard ? '*' : ''}</span>;
+      return { icon: '✓', label: `Solved ${status.guesses}/6${status.hard ? '*' : ''}` };
     case 'lost':
-      return <span className="pill pill--lost">✗ Missed it</span>;
+      return { icon: '✗', label: 'Missed it' };
   }
 }
 
@@ -62,22 +63,29 @@ function Landing() {
         <span style={{ width: `${(finished / GAMES.length) * 100}%` }} />
       </div>
 
-      <ul className="cards">
+      <ul className="tiles">
         {GAMES.map((game, i) => {
-          const stats = loadStats(game.id);
+          const status = statuses[i];
+          const { icon, label } = describe(status);
+          const streak = loadStats(game.id).streak;
           return (
             <li key={game.id}>
-              <a className={`card card--${statuses[i].kind}`} href={`${import.meta.env.BASE_URL}${game.id}/`}>
-                <span className="card__emoji" aria-hidden="true">
+              <a
+                className={`tile tile--${status.kind}`}
+                href={`${import.meta.env.BASE_URL}${game.id}/`}
+                title={game.tagline}
+                aria-label={`${game.title}: ${game.tagline} ${label}.`}
+              >
+                <span className="tile__badge" aria-hidden="true">
+                  {icon}
+                </span>
+                {streak > 1 && <span className="tile__streak">🔥{streak}</span>}
+                <span className="tile__icon" aria-hidden="true">
                   {game.emoji}
                 </span>
-                <span className="card__body">
-                  <span className="card__category">{game.category}</span>
-                  <strong className="card__title">{game.title}</strong>
-                  <span className="muted">{game.tagline}</span>
-                  {stats.streak > 1 && <span className="card__streak">🔥 {stats.streak}-day streak</span>}
-                </span>
-                <StatusPill status={statuses[i]} />
+                <strong className="tile__title">{game.title}</strong>
+                <span className="tile__category">{game.category}</span>
+                <span className="tile__status">{label}</span>
               </a>
             </li>
           );
