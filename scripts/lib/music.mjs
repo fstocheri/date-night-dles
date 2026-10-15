@@ -116,6 +116,37 @@ export async function artistFacts(artists) {
   return cache;
 }
 
+// Lucene query strings: drop quotes and backslashes from titles.
+const cleanQuery = (s) => s.replace(/"/g, '').split(String.fromCharCode(92)).join('');
+
+/** Earliest first-release year among a song's recordings by its artist, or null. */
+async function earliestYear(song) {
+  const base = `recording:"${cleanQuery(song.name)}" AND artist:"${cleanQuery(song.artist)}"`;
+  const artist = normalize(song.artist);
+  const title = normalize(song.name);
+  const yearsIn = (res, exactOnly) => {
+    const byArtist = res.recordings.filter((r) => normalize((r['artist-credit'] ?? []).map((c) => c.name).join(' ')).includes(artist));
+    // Prefer exact title matches (drops remixes and "(Live at …)" versions); fall back to close ones.
+    const exact = byArtist.filter((r) => normalize(r.title) === title);
+    return (exact.length || exactOnly ? exact : byArtist.filter((r) => r.score >= 85))
+      .map((r) => Number((r['first-release-date'] ?? '').slice(0, 4)))
+      .filter((y) => y > 1900);
+  };
+
+  const first = await musicbrainz('/recording/', { query: base, limit: 100 });
+  const years = yearsIn(first, false);
+  let year = years.length ? Math.min(...years) : null;
+
+  // Popular songs have hundreds of versions and search returns 100 in no useful order, so the
+  // original can be missing. Ask for anything released earlier until nothing earlier exists.
+  for (let i = 0; year && first.count > first.recordings.length && i < 3; i++) {
+    const earlier = yearsIn(await musicbrainz('/recording/', { query: `${base} AND firstreleasedate:[1900 TO ${year - 1}]`, limit: 100 }), true);
+    if (!earlier.length) break;
+    year = Math.min(...earlier);
+  }
+  return year;
+}
+
 /**
  * Original release year per song. Deezer dates songs by the album version it hosts, which is
  * often a remaster or reissue (Sweet Child O' Mine → 2018); MusicBrainz tracks each recording's
@@ -127,25 +158,10 @@ export async function originalYears(songs) {
   const missing = songs.filter((s) => !(s.id in cache));
   if (missing.length) console.log(`  dating ${missing.length} songs on MusicBrainz (~${Math.ceil((missing.length * 1.1) / 60)} min)…`);
 
-  const clean = (s) => s.replace(/["\\]/g, '');
   let done = 0;
   for (const song of missing) {
     try {
-      const res = await musicbrainz('/recording/', {
-        query: `recording:"${clean(song.name)}" AND artist:"${clean(song.artist)}"`,
-        limit: 100, // popular songs have dozens of versions; the original is often past the top 15
-      });
-      const artist = normalize(song.artist);
-      const title = normalize(song.name);
-      const byArtist = res.recordings.filter((r) =>
-        normalize((r['artist-credit'] ?? []).map((c) => c.name).join(' ')).includes(artist),
-      );
-      // Prefer exact title matches (drops remixes and "(Live at …)" versions); fall back to close ones.
-      const exact = byArtist.filter((r) => normalize(r.title) === title);
-      const years = (exact.length ? exact : byArtist.filter((r) => r.score >= 85))
-        .map((r) => Number((r['first-release-date'] ?? '').slice(0, 4)))
-        .filter((y) => y > 1900);
-      cache[song.id] = years.length ? Math.min(...years) : null;
+      cache[song.id] = await earliestYear(song);
     } catch (err) {
       console.warn(`  ${song.name}: ${err.message}`);
       continue; // retried next run
