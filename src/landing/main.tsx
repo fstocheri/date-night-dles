@@ -4,6 +4,7 @@ import { GAMES, type GameInfo } from '../games/registry';
 import { Layout } from '../shared/components/Layout';
 import { localDate } from '../shared/data';
 import { loadGame, loadStats } from '../shared/storage';
+import { CustomLinks } from './CustomLinks';
 import '../shared/styles.css';
 
 type Status =
@@ -91,6 +92,8 @@ function Landing() {
           );
         })}
       </ul>
+
+      <CustomLinks />
     </Layout>
   );
 }

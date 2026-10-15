@@ -414,3 +414,100 @@ a.button { display: inline-block; text-decoration: none; }
 .player__progress { background: var(--accent); transition: none; }
 .player__tick { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--bg); }
 .player__meta { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: 0.78rem; }
+
+/* ---------- custom links (landing) ---------- */
+
+.custom-links { margin-top: 32px; }
+.custom-links .lineup-head { margin-bottom: 12px; }
+
+.tile-wrap { position: relative; }
+.tile--link { border-style: solid; }
+.tile--link .tile__status { overflow: hidden; max-width: 100%; text-overflow: ellipsis; white-space: nowrap; }
+.tile__icon .favicon { display: block; width: 1em; height: 1em; border-radius: 10px; }
+
+.tile__edit {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 150ms ease, color 150ms ease;
+}
+.tile__edit:hover, .tile__edit:focus-visible { opacity: 1; color: var(--text); }
+
+.tile--add {
+  width: 100%;
+  font: inherit;
+  color: var(--muted);
+  background: transparent;
+  border: 2px dashed var(--border);
+  cursor: pointer;
+}
+.tile--add .tile__icon { font-size: 2.5rem; font-weight: 300; }
+.tile--add:hover, .tile--add:focus-visible { color: var(--text); border-color: var(--accent); }
+
+/* ---------- dialog ---------- */
+
+.dialog {
+  width: min(440px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgb(0 0 0 / 0.6);
+}
+.dialog::backdrop { background: rgb(0 0 0 / 0.6); backdrop-filter: blur(2px); }
+.dialog__form { display: grid; gap: 14px; padding: 20px; }
+.dialog__form h2 { margin: 0; font-size: 1.2rem; }
+.dialog__error { margin: 0; color: var(--danger); font-size: 0.875rem; }
+.dialog__actions { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.dialog__spacer { flex: 1; }
+
+.field { display: grid; gap: 6px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.field > span, .field > legend { padding: 0; font-size: 0.8rem; font-weight: 600; color: var(--muted); }
+.field input {
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.field input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.icon-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 6px;
+}
+.icon-option {
+  height: 40px;
+  font-size: 1.25rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.icon-option--site {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+.icon-option--site .favicon { width: 20px; height: 20px; border-radius: 4px; }
+.icon-option.is-selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.icon-custom { margin-top: 6px; }
+
+.button--danger { color: #fff; background: var(--danger); }

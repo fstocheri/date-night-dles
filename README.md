@@ -14,6 +14,8 @@ A hand-picked collection of daily guessing games ("dles"), built to play togethe
 | 🤘 **Mosh Pit** | `/rock/` | Needle Drop, but only emo, pop punk, alternative, and rock | — |
 | 🎤 **Headliner** | `/artists/` | the artist, from a blurred photo and clues | their Deezer fan count bracket |
 
+**Our other dles:** the landing page also has a section for links to outside games. Use **+ Add a dle** to add one (link, name, and the site's icon or an emoji); the ✎ button edits or deletes it. Links are saved in the browser, so each device keeps its own list.
+
 All games share one engine:
 
 - **Six guesses.** A blurred image sharpens (or the audio clip gets longer) with each miss, and a new text clue unlocks.
