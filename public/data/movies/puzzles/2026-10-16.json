@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "difficulty": "Hard",
+  "answerHash": "3a9498f703b0d6ba",
+  "bonusHash": "aed31e5cae69234d",
+  "still": "/gZBEy88TX9rivwU9f3lVGkKB0X0.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Thriller, Science Fiction, Mystery"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Make every second count.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2011 · The Mark Gordon Company"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "When decorated soldier Captain ▇▇▇ wakes up in the body of an unknown man, he discovers he's part of a mission to find the bomber of a Chicago commuter train."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Duncan Jones"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Jake Gyllenhaal"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "difficulty": "Hard",
+  "answerHash": "c9f1d733c65c4bef",
+  "bonusHash": "24b2139d24452e2d",
+  "still": "https://cdn-images.dzcdn.net/images/artist/a992026e60451380163f83bbfeae77d6/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Country"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1990"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Taking The Long Way”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Goodbye Earl”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "T•• C•••••"
+    }
+  ]
+}

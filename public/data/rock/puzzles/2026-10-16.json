@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "difficulty": "Hard",
+  "answerHash": "947a3738223ac88f",
+  "bonusHash": null,
+  "media": "369179231",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2017"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Wolves”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Savior”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "R••• A••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Rise Against"
+    }
+  ]
+}

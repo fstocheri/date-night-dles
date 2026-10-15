@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "difficulty": "Hard",
+  "answerHash": "be16c66c6f7b5e28",
+  "bonusHash": null,
+  "media": "789250",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1995"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Collection”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“You Oughta Know”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A••••• M•••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Alanis Morissette"
+    }
+  ]
+}

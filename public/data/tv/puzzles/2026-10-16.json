@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "difficulty": "Hard",
+  "answerHash": "890ce2ea2209e530",
+  "bonusHash": null,
+  "still": "/nm1NJjXFO6JkQqrQhtK2DuIjsCi.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Crime, Sci-Fi & Fantasy, Action & Adventure"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 13: “Straw Man”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2013 on FOX"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A series of murders are committed by someone copying a serial killer who was put in jail by ▇▇▇'s father."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Dorian"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Karl Urban"
+    }
+  ]
+}
