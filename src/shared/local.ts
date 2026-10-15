@@ -35,8 +35,10 @@ export interface GameRecord {
   guesses: Guess[];
   hard: boolean; // fixed once the first guess is made
   bonusGuesses: number[]; // option indexes
-  /** Set when the main round ends. */
+  /** Set when the main round ends. Quiz games use 'won' to mean finished. */
   outcome?: 'won' | 'lost';
+  /** Quiz games: points scored. */
+  score?: number;
 }
 
 const GAME_PREFIX = 'dnd:game:';

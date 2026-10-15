@@ -12,15 +12,17 @@ import * as movies from './games/movies.mjs';
 import * as songs from './games/songs.mjs';
 import * as artists from './games/artists.mjs';
 import * as rock from './games/rock.mjs';
+import * as trivia from './games/trivia.mjs';
 
 // songs before artists: the artist catalog is built from the song catalog.
-const GAMES = [tv, movies, songs, artists, rock];
+const GAMES = [tv, movies, songs, artists, rock, trivia];
 
 const only = process.argv.slice(2);
 const selected = only.length ? GAMES.filter((g) => only.includes(g.id)) : GAMES;
 
 try {
-  for (const game of selected) await runGame(game);
+  // Most games share the catalog/answer-pool loop; ones that don't bring their own run().
+  for (const game of selected) await (game.run ? game.run() : runGame(game));
 } catch (err) {
   console.error(err);
   process.exit(1);

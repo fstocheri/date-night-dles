@@ -552,3 +552,53 @@ a.button { display: inline-block; text-decoration: none; }
 .reveal h2 { margin: 0 0 4px; font-size: 1.2rem; }
 .reveal p { margin: 0; }
 .reveal strong { font-size: 1.1rem; }
+
+/* ---------- trivia (Date Night Dozen) ---------- */
+
+.quiz-intro, .quiz-card {
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+}
+.quiz-intro { text-align: center; }
+.quiz-intro h2 { margin: 0 0 4px; }
+.quiz-rounds { list-style: none; margin: 16px 0 20px; padding: 0; display: grid; gap: 6px; }
+
+.quiz-meta { display: flex; justify-content: space-between; font-size: 0.85rem; }
+.quiz-score { font-weight: 700; color: var(--accent); }
+.quiz-timer { height: 6px; margin: 10px 0 16px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.quiz-timer span { display: block; height: 100%; background: var(--accent); transition: width 100ms linear; }
+.quiz-timer span.quiz-timer--low { background: var(--danger); }
+.quiz-category { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); }
+.quiz-question { margin: 6px 0 16px; font-size: 1.25rem; line-height: 1.35; }
+.quiz-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 480px) { .quiz-choices { grid-template-columns: 1fr; } }
+.quiz-choice {
+  min-height: 56px;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.quiz-choice:hover:not(:disabled) { border-color: var(--accent); }
+.quiz-choice:disabled { cursor: default; }
+.quiz-choice--correct { background: var(--hit); border-color: var(--hit); }
+.quiz-choice--wrong { background: var(--danger); border-color: var(--danger); }
+.quiz-choice--dim { opacity: 0.45; }
+.quiz-left { margin: 12px 0 0; text-align: center; font-variant-numeric: tabular-nums; }
+.quiz-verdict { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; font-weight: 700; }
+.quiz-verdict--right span { color: var(--hit); }
+.quiz-verdict--wrong span, .quiz-verdict--timeout span { color: var(--danger); }
+
+.quiz-grid { letter-spacing: 1px; }
+.quiz-review-title { margin: 24px 0 10px; font-size: 1.1rem; }
+.quiz-review { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.quiz-review li { padding: 12px; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--hit); border-radius: var(--radius); }
+.quiz-review li.is-wrong { border-left-color: var(--danger); }
+.quiz-review p { margin: 4px 0 0; }

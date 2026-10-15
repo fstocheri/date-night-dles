@@ -16,6 +16,7 @@ export default defineConfig({
         songs: resolve(import.meta.dirname, 'songs/index.html'),
         artists: resolve(import.meta.dirname, 'artists/index.html'),
         rock: resolve(import.meta.dirname, 'rock/index.html'),
+        trivia: resolve(import.meta.dirname, 'trivia/index.html'),
       },
     },
   },

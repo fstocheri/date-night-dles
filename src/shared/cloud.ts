@@ -88,6 +88,7 @@ interface GameRow {
   hard: boolean;
   bonus_guesses: number[];
   outcome: 'won' | 'lost' | null;
+  score: number | null;
 }
 
 const toRecord = (r: GameRow): GameRecord => ({
@@ -95,6 +96,7 @@ const toRecord = (r: GameRow): GameRecord => ({
   hard: r.hard,
   bonusGuesses: r.bonus_guesses,
   ...(r.outcome ? { outcome: r.outcome } : {}),
+  ...(r.score != null ? { score: r.score } : {}),
 });
 
 const toRow = (userId: string, gameId: string, date: string, g: GameRecord) => ({
@@ -105,6 +107,7 @@ const toRow = (userId: string, gameId: string, date: string, g: GameRecord) => (
   hard: g.hard,
   bonus_guesses: g.bonusGuesses,
   outcome: g.outcome ?? null,
+  score: g.score ?? null,
   updated_at: new Date().toISOString(),
 });
 
@@ -115,7 +118,7 @@ export async function pull() {
   setSyncState('syncing');
   try {
     const [games, links, settings] = await Promise.all([
-      supabase.from('game_records').select('game_id, date, guesses, hard, bonus_guesses, outcome'),
+      supabase.from('game_records').select('game_id, date, guesses, hard, bonus_guesses, outcome, score'),
       supabase.from('links').select('id, name, url, icon').order('position'),
       supabase.from('settings').select('hard').maybeSingle(),
     ]);

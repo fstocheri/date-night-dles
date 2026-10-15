@@ -11,25 +11,27 @@ import '../shared/styles.css';
 type Status =
   | { kind: 'new' }
   | { kind: 'playing'; guesses: number }
-  | { kind: 'won'; guesses: number; hard: boolean }
+  | { kind: 'won'; guesses: number; hard: boolean; score?: number }
   | { kind: 'lost' };
 
 function statusOf(game: GameInfo): Status {
   const record = loadGame(game.id, localDate());
-  if (record.outcome === 'won') return { kind: 'won', guesses: record.guesses.length, hard: record.hard };
+  if (record.outcome === 'won') return { kind: 'won', guesses: record.guesses.length, hard: record.hard, score: record.score };
   if (record.outcome === 'lost') return { kind: 'lost' };
   if (record.guesses.length) return { kind: 'playing', guesses: record.guesses.length };
   return { kind: 'new' };
 }
 
 /** Corner badge icon + short label for a tile. */
-function describe(status: Status): { icon: string; label: string } {
+function describe(status: Status, game: GameInfo): { icon: string; label: string } {
+  const total = game.quiz?.questions ?? 6;
   switch (status.kind) {
     case 'new':
       return { icon: '', label: 'Not played' };
     case 'playing':
-      return { icon: '…', label: `In progress · ${status.guesses}/6` };
+      return { icon: '…', label: `In progress · ${status.guesses}/${total}` };
     case 'won':
+      if (game.quiz) return { icon: '✓', label: `Scored ${status.score ?? 0}/${game.quiz.maxScore}` };
       return { icon: '✓', label: `Solved ${status.guesses}/6${status.hard ? '*' : ''}` };
     case 'lost':
       return { icon: '✗', label: 'Missed it' };
@@ -68,7 +70,7 @@ function Landing() {
       <ul className="tiles">
         {GAMES.map((game, i) => {
           const status = statuses[i];
-          const { icon, label } = describe(status);
+          const { icon, label } = describe(status, game);
           const streak = computeStats(game.id, localDate()).streak;
           return (
             <li key={game.id}>
