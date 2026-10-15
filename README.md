@@ -73,6 +73,16 @@ Get a TMDB key at https://www.themoviedb.org/settings/api. Either the v3 API key
 - **Artist facts** (country, solo/group, active/ended, debut album year) come from MusicBrainz, which allows 1 request per second. Lookups are cached in `data/musicbrainz-cache.json` and committed, so only new artists are looked up on later runs.
 - Using Deezer previews in a game is a licensing gray area. That's fine for a private project; revisit before making this public.
 
+## Sync (Supabase)
+
+Progress, stats, "other dles" links, and settings sync across devices through one shared account (☁ chip in the header). Browser storage stays the local cache, so everything still works offline or signed out.
+
+- **Schema:** `supabase/migrations/`, applied with `npm run db:migrate` (needs `VITE_SUPABASE_URL` and `SUPABASE_ACCESS_TOKEN` in `.env`). Row-level security keeps each account's rows private.
+- **Sign-ups are closed** (`npm run db:migrate -- --close-signups`). To add an account later, reopen them in the Supabase dashboard (Authentication → Sign In / Providers), sign up, and close them again.
+- **Build config:** the public URL and publishable key live in the repo variables `SUPABASE_URL` and `SUPABASE_KEY`. Without them the site builds without sync.
+- **Keep-alive:** free projects pause after 7 idle days, so the daily workflow pings the database.
+- **Merging:** a day's guesses only grow, so when devices disagree the copy that's further along wins. Stats are computed from saved games.
+
 ## Attribution
 
 Movie and TV data and images are from [TMDB](https://www.themoviedb.org/); music data, artwork, and previews from [Deezer](https://www.deezer.com/); artist facts from [MusicBrainz](https://musicbrainz.org/). This product uses the TMDB API but is not endorsed or certified by TMDB. TMDB's free API is for non-commercial use; adding ads or payments needs a commercial license.
