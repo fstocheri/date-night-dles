@@ -55,7 +55,8 @@ jobs:
       # Free Supabase projects pause after 7 days without activity; a daily query keeps it awake.
       - name: Keep Supabase awake
         if: vars.SUPABASE_URL != ''
-        run: curl -fsS "${{ vars.SUPABASE_URL }}/rest/v1/settings?select=user_id&limit=1" -H "apikey: ${{ vars.SUPABASE_KEY }}" -o /dev/null || echo "ping failed (non-fatal)"
+        run: |
+          curl -fsS "${{ vars.SUPABASE_URL }}/rest/v1/settings?select=user_id&limit=1"             -H "apikey: ${{ vars.SUPABASE_KEY }}" -o /dev/null || echo "ping failed (non-fatal)"
 
       - uses: actions/configure-pages@v5
 
