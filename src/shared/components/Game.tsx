@@ -124,6 +124,16 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
         />
       )}
 
+      {/* Reveal the answer the moment the round ends, before any bonus round. */}
+      {done && (
+        <section className={`reveal reveal--${won ? 'won' : 'lost'}`} aria-live="polite">
+          <h2>{won ? 'You got it!' : 'Out of guesses'}</h2>
+          <p>
+            It was <strong>{answer.name}</strong> ({subtitle(answer)})
+          </p>
+        </section>
+      )}
+
       {done && config.bonus && bonusOptions && (
         <ChoiceBonus
           prompt={config.bonus.prompt}
@@ -137,7 +147,6 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
       {done && bonusDone && (
         <Result
           title={config.title}
-          answerDetail={subtitle(answer)}
           emoji={config.emoji}
           puzzle={puzzle}
           answer={answer}

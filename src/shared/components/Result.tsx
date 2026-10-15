@@ -4,8 +4,6 @@ import type { Entry, Guess, Puzzle } from '../types';
 
 interface Props {
   title: string;
-  /** Shown after the answer's name, e.g. its year or artist. */
-  answerDetail: string;
   emoji: string;
   puzzle: Puzzle;
   answer: Entry;
@@ -18,7 +16,7 @@ interface Props {
   maxGuesses: number;
 }
 
-export function Result({ title, answerDetail, emoji, puzzle, answer, guesses, won, hard, bonus, stats, maxGuesses }: Props) {
+export function Result({ title, emoji, puzzle, answer, guesses, won, hard, bonus, stats, maxGuesses }: Props) {
   const [copied, setCopied] = useState(false);
 
   const squares: string[] = guesses.map((g) => (g === answer.id ? '🟩' : g === null ? '⬛' : '🟥'));
@@ -44,10 +42,6 @@ export function Result({ title, answerDetail, emoji, puzzle, answer, guesses, wo
 
   return (
     <section className="result">
-      <h2>{won ? 'You got it!' : 'Signal lost.'}</h2>
-      <p className="result__answer">
-        It was <strong>{answer.name}</strong> ({answerDetail})
-      </p>
       <div className="result__actions">
         <button type="button" className="button" onClick={share}>
           {copied ? 'Copied!' : 'Share result'}

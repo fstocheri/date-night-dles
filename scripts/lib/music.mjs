@@ -133,11 +133,16 @@ export async function originalYears(songs) {
     try {
       const res = await musicbrainz('/recording/', {
         query: `recording:"${clean(song.name)}" AND artist:"${clean(song.artist)}"`,
-        limit: 15,
+        limit: 100, // popular songs have dozens of versions; the original is often past the top 15
       });
       const artist = normalize(song.artist);
-      const years = res.recordings
-        .filter((r) => r.score >= 85 && normalize((r['artist-credit'] ?? []).map((c) => c.name).join(' ')).includes(artist))
+      const title = normalize(song.name);
+      const byArtist = res.recordings.filter((r) =>
+        normalize((r['artist-credit'] ?? []).map((c) => c.name).join(' ')).includes(artist),
+      );
+      // Prefer exact title matches (drops remixes and "(Live at …)" versions); fall back to close ones.
+      const exact = byArtist.filter((r) => normalize(r.title) === title);
+      const years = (exact.length ? exact : byArtist.filter((r) => r.score >= 85))
         .map((r) => Number((r['first-release-date'] ?? '').slice(0, 4)))
         .filter((y) => y > 1900);
       cache[song.id] = years.length ? Math.min(...years) : null;

@@ -537,3 +537,18 @@ a.button { display: inline-block; text-decoration: none; }
 .dialog__form p { margin: 0; }
 .dialog__note { color: var(--hit); font-size: 0.875rem; }
 .button:disabled { opacity: 0.6; cursor: default; }
+
+/* Answer reveal: shown as soon as the round ends, above the bonus round and results. */
+.reveal {
+  margin-bottom: 16px;
+  padding: 16px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--hit);
+  border-radius: var(--radius);
+}
+.reveal--lost { border-left-color: var(--danger); }
+.reveal h2 { margin: 0 0 4px; font-size: 1.2rem; }
+.reveal p { margin: 0; }
+.reveal strong { font-size: 1.1rem; }
