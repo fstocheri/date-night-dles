@@ -45,7 +45,17 @@ jobs:
             git push
           fi
 
+      # Supabase URL + publishable key are public by design (they ship in the page), so they
+      # live in repo variables rather than secrets. Unset = the site runs without sync.
       - run: npm run build
+        env:
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_KEY: ${{ vars.SUPABASE_KEY }}
+
+      # Free Supabase projects pause after 7 days without activity; a daily query keeps it awake.
+      - name: Keep Supabase awake
+        if: vars.SUPABASE_URL != ''
+        run: curl -fsS "${{ vars.SUPABASE_URL }}/rest/v1/settings?select=user_id&limit=1" -H "apikey: ${{ vars.SUPABASE_KEY }}" -o /dev/null || echo "ping failed (non-fatal)"
 
       - uses: actions/configure-pages@v5
 

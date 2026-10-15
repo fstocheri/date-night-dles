@@ -1,32 +1,16 @@
 // Your own links to outside dles, shown in their own section of the landing page.
-// Saved in this browser only (there's no server), so each device keeps its own list.
+// Cached in the browser and synced to the database when signed in.
 
-export interface CustomLink {
-  id: string;
-  name: string;
-  url: string;
-  /** An emoji, or 'favicon' to use the site's own icon. */
-  icon: string;
-}
+import { pushLinks } from '../shared/cloud';
+import { readLinks, writeLinks, type CustomLink } from '../shared/local';
 
-const KEY = 'dnd:links';
+export type { CustomLink } from '../shared/local';
 
-export function loadLinks(): CustomLink[] {
-  try {
-    const raw = localStorage.getItem(KEY);
-    const parsed = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
+export const loadLinks = readLinks;
 
 export function saveLinks(links: CustomLink[]) {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(links));
-  } catch {
-    // Storage unavailable (private mode); links last for this visit only.
-  }
+  writeLinks(links);
+  void pushLinks(links);
 }
 
 /** Accepts "framed.wtf" or a full URL; returns a normalized http(s) URL or null. */

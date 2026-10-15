@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { Account } from './Account';
 
 interface Props {
   title: string;
@@ -12,11 +13,10 @@ interface Props {
 export function Layout({ title, emoji, tagline, back, children }: Props) {
   return (
     <div className="app">
-      {back && (
-        <nav className="topnav">
-          <a href={import.meta.env.BASE_URL}>← Date Night Dles</a>
-        </nav>
-      )}
+      <nav className="topnav">
+        {back ? <a href={import.meta.env.BASE_URL}>← Date Night Dles</a> : <span />}
+        <Account />
+      </nav>
       <header className="header">
         <h1>
           <span aria-hidden="true">{emoji}</span> {title}

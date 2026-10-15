@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { GAMES, type GameInfo } from '../games/registry';
 import { Layout } from '../shared/components/Layout';
 import { localDate } from '../shared/data';
-import { loadGame, loadStats } from '../shared/storage';
+import { computeStats, loadGame } from '../shared/storage';
 import { CustomLinks } from './CustomLinks';
+import { initCloud } from '../shared/cloud';
 import '../shared/styles.css';
 
 type Status =
@@ -68,7 +69,7 @@ function Landing() {
         {GAMES.map((game, i) => {
           const status = statuses[i];
           const { icon, label } = describe(status);
-          const streak = loadStats(game.id).streak;
+          const streak = computeStats(game.id, localDate()).streak;
           return (
             <li key={game.id}>
               <a
@@ -98,8 +99,11 @@ function Landing() {
   );
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <Landing />
-  </StrictMode>,
+// Pull synced progress and links first so tiles show the right status on every device.
+void initCloud().then(() =>
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <Landing />
+    </StrictMode>,
+  ),
 );

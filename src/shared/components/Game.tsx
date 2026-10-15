@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { findAnswer, findBonus, loadCatalog, loadPuzzle, localDate, stillUrl } from '../data';
-import { loadGame, loadStats, recordResult, saveGame, saveHardPref, type GameRecord, type Stats } from '../storage';
+import { computeStats, loadGame, saveGame, saveHardPref, type GameRecord, type Stats } from '../storage';
 import type { Entry, GameConfig, Guess, Puzzle } from '../types';
 import { ChoiceBonus, MAX_BONUS_GUESSES } from './ChoiceBonus';
 import { GuessInput } from './GuessInput';
@@ -36,7 +36,7 @@ export function Game<E extends Entry>({ config }: { config: GameConfig<E> }) {
 function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }: { config: GameConfig<E> } & Loaded<E>) {
   const byId = useMemo(() => new Map(entries.map((e) => [e.id, e])), [entries]);
   const [game, setGame] = useState<GameRecord>(() => loadGame(config.id, puzzle.date));
-  const [stats, setStats] = useState<Stats>(() => loadStats(config.id));
+  const [stats, setStats] = useState<Stats>(() => computeStats(config.id, puzzle.date));
   const { guesses, hard, bonusGuesses } = game;
   const subtitle = config.subtitle ?? ((e: E) => String(e.year));
 
@@ -49,18 +49,17 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
   const bonusOptions = config.bonus && bonusAnswer !== null ? config.bonus.options(answer) : null;
   const bonusDone = !bonusOptions || bonusGuesses.includes(bonusAnswer!) || bonusGuesses.length >= MAX_BONUS_GUESSES;
 
+  // Saved synchronously so stats computed right after see the change.
   const update = (patch: Partial<GameRecord>) => {
-    setGame((prev) => {
-      const next = { ...prev, ...patch };
-      saveGame(config.id, puzzle.date, next);
-      return next;
-    });
+    const next = { ...game, ...patch };
+    saveGame(config.id, puzzle.date, next);
+    setGame(next);
   };
 
   useEffect(() => {
     if (!done) return;
-    setStats(recordResult(config.id, puzzle.number, won, guesses.length));
     if (!game.outcome) update({ outcome: won ? 'won' : 'lost' });
+    setStats(computeStats(config.id, puzzle.date));
   }, [done]); // runs once when the round ends
 
   const addGuess = (g: Guess) => {

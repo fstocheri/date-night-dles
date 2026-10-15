@@ -1,72 +1,82 @@
-import type { Guess } from './types';
+// What the games read and write: local storage first, mirrored to the cloud when signed in.
 
-// localStorage can throw or be empty (private mode, blocked storage); the games must still work.
+import { pushGame, pushSettings } from './cloud';
+import { allGames, readGame, readHardPref, writeGame, writeHardPref, type GameRecord } from './local';
 
-function read<T>(key: string, fallback: T): T {
+export type { GameRecord } from './local';
+
+// Games used to be stored under dnd:<game>:game:<date>; move any of those to the new keys once.
+(function migrateLegacyKeys() {
   try {
-    const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : fallback;
-  } catch {
-    return fallback;
-  }
-}
-
-function write(key: string, value: unknown) {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
+    for (const k of Object.keys(localStorage)) {
+      const m = k.match(/^dnd:([a-z-]+):game:(\d{4}-\d{2}-\d{2})$/);
+      if (m && !readGame(m[1], m[2])) writeGame(m[1], m[2], JSON.parse(localStorage.getItem(k)!));
+      if (m) localStorage.removeItem(k);
+    }
   } catch {
     // ignore
   }
+})();
+
+export const loadGame = (gameId: string, date: string): GameRecord =>
+  readGame(gameId, date) ?? { guesses: [], hard: readHardPref(), bonusGuesses: [] };
+
+export function saveGame(gameId: string, date: string, record: GameRecord) {
+  writeGame(gameId, date, record);
+  pushGame(gameId, date, record);
 }
 
-export interface GameRecord {
-  guesses: Guess[];
-  hard: boolean; // fixed once the first guess is made
-  bonusGuesses: number[]; // option indexes
-  /** Set when the main round ends, so the landing page can show results without the answer. */
-  outcome?: 'won' | 'lost';
+export const loadHardPref = readHardPref;
+export function saveHardPref(hard: boolean) {
+  writeHardPref(hard);
+  void pushSettings(hard);
 }
-
-const gameKey = (gameId: string, date: string) => `dnd:${gameId}:game:${date}`;
-
-export const loadGame = (gameId: string, date: string) =>
-  read<GameRecord>(gameKey(gameId, date), { guesses: [], hard: loadHardPref(), bonusGuesses: [] });
-export const saveGame = (gameId: string, date: string, game: GameRecord) => write(gameKey(gameId, date), game);
-
-export const loadHardPref = () => read<boolean>('dnd:hard', false);
-export const saveHardPref = (hard: boolean) => write('dnd:hard', hard);
 
 export interface Stats {
   played: number;
   won: number;
   streak: number;
   maxStreak: number;
-  lastPlayed: number; // puzzle number, so a game is only counted once
-  lastWon: number;
   distribution: number[]; // wins by guess count, index 0 = first guess
 }
 
-const EMPTY_STATS: Stats = { played: 0, won: 0, streak: 0, maxStreak: 0, lastPlayed: 0, lastWon: 0, distribution: [0, 0, 0, 0, 0, 0] };
+const dayMs = 24 * 60 * 60 * 1000;
+const dayNumber = (date: string) => Math.round(Date.parse(date) / dayMs);
 
-export const loadStats = (gameId: string) => read<Stats>(`dnd:${gameId}:stats`, EMPTY_STATS);
+/**
+ * Stats come straight from the saved games rather than a separate counter, so they're
+ * always consistent across devices. A streak is consecutive days won, and it's only
+ * current if the last win was today or yesterday.
+ */
+export function computeStats(gameId: string, today: string): Stats {
+  const finished = allGames(gameId)
+    .filter((g) => g.record.outcome)
+    .sort((a, b) => a.date.localeCompare(b.date));
 
-export function recordResult(gameId: string, puzzleNumber: number, won: boolean, guessCount: number): Stats {
-  const s = loadStats(gameId);
-  if (s.lastPlayed === puzzleNumber) return s;
+  const distribution = [0, 0, 0, 0, 0, 0];
+  let won = 0;
+  let run = 0;
+  let maxStreak = 0;
+  let lastDay: number | null = null;
+  for (const { date, record } of finished) {
+    const day = dayNumber(date);
+    if (record.outcome === 'won') {
+      won++;
+      distribution[Math.min(record.guesses.length, 6) - 1]++;
+      run = lastDay !== null && day - lastDay === 1 ? run + 1 : 1;
+      maxStreak = Math.max(maxStreak, run);
+    } else {
+      run = 0;
+    }
+    lastDay = day;
+  }
+  const current = lastDay !== null && dayNumber(today) - lastDay <= 1 ? run : 0;
+  return { played: finished.length, won, streak: current, maxStreak, distribution };
+}
 
-  const streak = won ? (s.lastWon === puzzleNumber - 1 ? s.streak + 1 : 1) : 0;
-  const distribution = [...s.distribution];
-  if (won) distribution[guessCount - 1]++;
-
-  const next: Stats = {
-    played: s.played + 1,
-    won: s.won + (won ? 1 : 0),
-    streak,
-    maxStreak: Math.max(s.maxStreak, streak),
-    lastPlayed: puzzleNumber,
-    lastWon: won ? puzzleNumber : s.lastWon,
-    distribution,
-  };
-  write(`dnd:${gameId}:stats`, next);
-  return next;
+// Old per-game stats counters are now derived; drop them.
+try {
+  for (const k of Object.keys(localStorage)) if (/^dnd:[a-z-]+:stats$/.test(k)) localStorage.removeItem(k);
+} catch {
+  // ignore
 }

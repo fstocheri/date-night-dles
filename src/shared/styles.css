@@ -511,3 +511,29 @@ a.button { display: inline-block; text-decoration: none; }
 .icon-custom { margin-top: 6px; }
 
 .button--danger { color: #fff; background: var(--danger); }
+
+/* ---------- account / sync ---------- */
+
+.topnav { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 30px; }
+.account-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.account-chip:hover { color: var(--text); border-color: var(--accent); }
+.account-chip--synced { color: var(--hit); }
+.account-chip--syncing { color: var(--near); }
+.account-chip--error { color: var(--danger); border-color: var(--danger); }
+.account-chip--signed-out { color: var(--accent); }
+.account-email { margin: -6px 0 0; font-weight: 600; color: var(--text); }
+.dialog__form p { margin: 0; }
+.dialog__note { color: var(--hit); font-size: 0.875rem; }
+.button:disabled { opacity: 0.6; cursor: default; }
