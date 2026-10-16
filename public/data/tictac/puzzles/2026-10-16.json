@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-16",
+  "number": 3,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1993 NBA Finals?",
+      "choices": [
+        "Chicago Bulls",
+        "Houston Rockets",
+        "Detroit Pistons",
+        "Boston Celtics"
+      ],
+      "answerHash": "62fa3bab2d0543d5"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "choices": [
+        "20",
+        "13",
+        "11",
+        "22"
+      ],
+      "answerHash": "bdc0a2295b98f7e1"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 2002?",
+      "choices": [
+        "Johnny Manziel",
+        "Carson Palmer",
+        "Sam Bradford",
+        "Danny Wuerffel"
+      ],
+      "answerHash": "ff7ed7a2d7807687"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
+      "choices": [
+        "Stephen Chbosky",
+        "John Green",
+        "Suzanne Collins",
+        "Stephenie Meyer"
+      ],
+      "answerHash": "9aed93000de09a26"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "How many countries does Mexico border?",
+      "choices": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "answerHash": "2c218a54df782466"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "In which situation was musician John Lennon assassinated?",
+      "choices": [
+        "Attempting to enter the Dakota Apartments building",
+        "Signing an autograph outside the Record Plant studio",
+        "During an impromptu walk through Central Park",
+        "Waiting outside a music venue in Manhattan following a gig"
+      ],
+      "answerHash": "bf9f9a9e56f80f70"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which group performs the song \"Crash into Me\"?",
+      "choices": [
+        "Phish",
+        "Dave Matthews Band",
+        "The Grateful Dead",
+        "Destiny's Child"
+      ],
+      "answerHash": "4a87819927f00a45"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "\"The A Team\" first aired in the USA and in the UK in what year?",
+      "choices": [
+        "1981",
+        "1987",
+        "1983",
+        "1985"
+      ],
+      "answerHash": "6d031601ad9f1dc5"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+      "choices": [
+        "Perfect.",
+        "Groovy.",
+        "Nice.",
+        "Gnarly."
+      ],
+      "answerHash": "1a6b64d3d0d9233f"
+    }
+  ]
+}

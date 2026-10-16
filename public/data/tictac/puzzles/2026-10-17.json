@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2000 World Series?",
+      "choices": [
+        "Athletics",
+        "New York Yankees",
+        "St. Louis Cardinals",
+        "Arizona Diamondbacks"
+      ],
+      "answerHash": "a39f5ef72e8a5365"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which country produced football players such as Cafu, Roberto Carlos and Pelé?",
+      "choices": [
+        "Argentina",
+        "Spain",
+        "Portugal",
+        "Brazil"
+      ],
+      "answerHash": "be5c0e49a90da4c2"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2005 NCAA women's basketball championship?",
+      "choices": [
+        "Purdue Boilermakers",
+        "Baylor Bears",
+        "Texas Tech Lady Raiders basketball",
+        "Notre Dame Fighting Irish"
+      ],
+      "answerHash": "09f1c0c52cf7ae6e"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What is the name of the author of book series 'Percy Jackson'?",
+      "choices": [
+        "Rick Riordan",
+        "Sandra Bullock",
+        "Roald Dahl",
+        "J.K. Rowling"
+      ],
+      "answerHash": "7a0131bd0995cb07"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The historical city Timbuktu is located in which West African country?",
+      "choices": [
+        "Niger",
+        "Burkina Faso",
+        "Senegal",
+        "Mali"
+      ],
+      "answerHash": "8278fc81016106fc"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Where was Kanye West born?",
+      "choices": [
+        "Detroit, Michigan",
+        "Chicago, Illinois",
+        "Atlanta, Georgia",
+        "Los Angeles, California"
+      ],
+      "answerHash": "84fbf6df8d49dcf5"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What was Taylor Swift's 5th album called?",
+      "choices": [
+        "1989",
+        "Red",
+        "Fearless",
+        "Speak Now"
+      ],
+      "answerHash": "969c1db4b3035328"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the comedy series \"Trailer Park Boys\", which of the following characters takes care of stray cats?",
+      "choices": [
+        "Randy",
+        "Ricky",
+        "Julian",
+        "Bubbles"
+      ],
+      "answerHash": "ae008ac6c0411e38"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What movie starring Bruce Willis contains the line \"I see dead people\"?",
+      "choices": [
+        "Die Hard",
+        "The Sixth Sense",
+        "The Fifth Element",
+        "Armageddon"
+      ],
+      "answerHash": "b1da0606f30b8827"
+    }
+  ]
+}

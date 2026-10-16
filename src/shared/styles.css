@@ -602,3 +602,38 @@ a.button { display: inline-block; text-decoration: none; }
 .quiz-review li { padding: 12px; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--hit); border-radius: var(--radius); }
 .quiz-review li.is-wrong { border-left-color: var(--danger); }
 .quiz-review p { margin: 4px 0 0; }
+
+/* ---------- Tic-Tac-Trivia ---------- */
+
+.tictac-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; font-size: 0.875rem; }
+.tictac-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.tictac-square {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px;
+  font: inherit;
+  color: var(--text);
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: border-color 150ms ease, transform 150ms ease;
+}
+.tictac-square:hover { border-color: var(--accent); transform: translateY(-2px); }
+.tictac-square__mark { font-size: clamp(1.8rem, 8vw, 2.6rem); line-height: 1; }
+.tictac-square__category { font-size: clamp(0.7rem, 2.6vw, 0.9rem); font-weight: 700; line-height: 1.2; }
+.tictac-square__hint { font-size: 0.65rem; color: var(--muted); }
+.tictac-square--right { background: color-mix(in srgb, var(--hit) 28%, var(--surface)); border-color: var(--hit); }
+.tictac-square--wrong { background: color-mix(in srgb, var(--danger) 22%, var(--surface)); border-color: var(--danger); }
+.tictac-square--right .tictac-square__mark { color: var(--hit); }
+.tictac-square--wrong .tictac-square__mark { color: var(--danger); }

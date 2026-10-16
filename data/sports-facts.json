@@ -1,0 +1,1425 @@
+{
+  "fetchedAt": "2026-10-16T17:08:28.861Z",
+  "facts": {
+    "superbowl": [
+      {
+        "year": 1970,
+        "winner": "Kansas City Chiefs",
+        "edition": "Super Bowl IV"
+      },
+      {
+        "year": 1971,
+        "winner": "Baltimore Colts",
+        "edition": "Super Bowl V"
+      },
+      {
+        "year": 1972,
+        "winner": "Dallas Cowboys",
+        "edition": "Super Bowl VI"
+      },
+      {
+        "year": 1973,
+        "winner": "Washington Commanders",
+        "edition": "Super Bowl VII"
+      },
+      {
+        "year": 1974,
+        "winner": "Miami Dolphins",
+        "edition": "Super Bowl VIII"
+      },
+      {
+        "year": 1975,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl IX"
+      },
+      {
+        "year": 1976,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl X"
+      },
+      {
+        "year": 1977,
+        "winner": "Las Vegas Raiders",
+        "edition": "Super Bowl XI"
+      },
+      {
+        "year": 1978,
+        "winner": "Dallas Cowboys",
+        "edition": "Super Bowl XII"
+      },
+      {
+        "year": 1979,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl XIII"
+      },
+      {
+        "year": 1980,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl XIV"
+      },
+      {
+        "year": 1981,
+        "winner": "Las Vegas Raiders",
+        "edition": "Super Bowl XV"
+      },
+      {
+        "year": 1982,
+        "winner": "San Francisco 49ers",
+        "edition": "Super Bowl XVI"
+      },
+      {
+        "year": 1983,
+        "winner": "Washington Commanders",
+        "edition": "Super Bowl XVII"
+      },
+      {
+        "year": 1984,
+        "winner": "Los Angeles Raiders",
+        "edition": "Super Bowl XVIII"
+      },
+      {
+        "year": 1985,
+        "winner": "San Francisco 49ers",
+        "edition": "Super Bowl XIX"
+      },
+      {
+        "year": 1986,
+        "winner": "Chicago Bears",
+        "edition": "Super Bowl XX"
+      },
+      {
+        "year": 1987,
+        "winner": "New York Giants",
+        "edition": "Super Bowl XXI"
+      },
+      {
+        "year": 1988,
+        "winner": "Washington Commanders",
+        "edition": "Super Bowl XXII"
+      },
+      {
+        "year": 1989,
+        "winner": "San Francisco 49ers",
+        "edition": "Super Bowl XXIII"
+      },
+      {
+        "year": 1990,
+        "winner": "San Francisco 49ers",
+        "edition": "Super Bowl XXIV"
+      },
+      {
+        "year": 1991,
+        "winner": "New York Giants",
+        "edition": "Super Bowl XXV"
+      },
+      {
+        "year": 1992,
+        "winner": "Washington Commanders",
+        "edition": "Super Bowl XXVI"
+      },
+      {
+        "year": 1993,
+        "winner": "Dallas Cowboys",
+        "edition": "Super Bowl XXVII"
+      },
+      {
+        "year": 1994,
+        "winner": "Dallas Cowboys",
+        "edition": "Super Bowl XXVIII"
+      },
+      {
+        "year": 1995,
+        "winner": "San Francisco 49ers",
+        "edition": "Super Bowl XXIX"
+      },
+      {
+        "year": 1996,
+        "winner": "Dallas Cowboys",
+        "edition": "Super Bowl XXX"
+      },
+      {
+        "year": 1997,
+        "winner": "Green Bay Packers",
+        "edition": "Super Bowl XXXI"
+      },
+      {
+        "year": 1998,
+        "winner": "Denver Broncos",
+        "edition": "Super Bowl XXXII"
+      },
+      {
+        "year": 1999,
+        "winner": "Denver Broncos",
+        "edition": "Super Bowl XXXIII"
+      },
+      {
+        "year": 2000,
+        "winner": "Los Angeles Rams",
+        "edition": "Super Bowl XXXIV"
+      },
+      {
+        "year": 2001,
+        "winner": "Baltimore Ravens",
+        "edition": "Super Bowl XXXV"
+      },
+      {
+        "year": 2002,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl XXXVI"
+      },
+      {
+        "year": 2003,
+        "winner": "Tampa Bay Buccaneers",
+        "edition": "Super Bowl XXXVII"
+      },
+      {
+        "year": 2004,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl XXXVIII"
+      },
+      {
+        "year": 2005,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl XXXIX"
+      },
+      {
+        "year": 2006,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl XL"
+      },
+      {
+        "year": 2007,
+        "winner": "Indianapolis Colts",
+        "edition": "Super Bowl XLI"
+      },
+      {
+        "year": 2008,
+        "winner": "New York Giants",
+        "edition": "Super Bowl XLII"
+      },
+      {
+        "year": 2009,
+        "winner": "Pittsburgh Steelers",
+        "edition": "Super Bowl XLIII"
+      },
+      {
+        "year": 2010,
+        "winner": "New Orleans Saints",
+        "edition": "Super Bowl XLIV"
+      },
+      {
+        "year": 2011,
+        "winner": "Green Bay Packers",
+        "edition": "Super Bowl XLV"
+      },
+      {
+        "year": 2012,
+        "winner": "New York Giants",
+        "edition": "Super Bowl XLVI"
+      },
+      {
+        "year": 2013,
+        "winner": "Baltimore Ravens",
+        "edition": "Super Bowl XLVII"
+      },
+      {
+        "year": 2014,
+        "winner": "Seattle Seahawks",
+        "edition": "Super Bowl XLVIII"
+      },
+      {
+        "year": 2015,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl XLIX"
+      },
+      {
+        "year": 2016,
+        "winner": "Denver Broncos",
+        "edition": "Super Bowl 50"
+      },
+      {
+        "year": 2017,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl LI"
+      },
+      {
+        "year": 2018,
+        "winner": "Philadelphia Eagles",
+        "edition": "Super Bowl LII"
+      },
+      {
+        "year": 2019,
+        "winner": "New England Patriots",
+        "edition": "Super Bowl LIII"
+      },
+      {
+        "year": 2020,
+        "winner": "Kansas City Chiefs",
+        "edition": "Super Bowl LIV"
+      },
+      {
+        "year": 2021,
+        "winner": "Tampa Bay Buccaneers",
+        "edition": "Super Bowl LV"
+      },
+      {
+        "year": 2022,
+        "winner": "Los Angeles Rams",
+        "edition": "Super Bowl LVI"
+      },
+      {
+        "year": 2023,
+        "winner": "Kansas City Chiefs",
+        "edition": "Super Bowl LVII"
+      },
+      {
+        "year": 2024,
+        "winner": "Kansas City Chiefs",
+        "edition": "Super Bowl LVIII"
+      },
+      {
+        "year": 2025,
+        "winner": "Philadelphia Eagles",
+        "edition": "Super Bowl LIX"
+      },
+      {
+        "year": 2026,
+        "winner": "Seattle Seahawks",
+        "edition": "Super Bowl LX"
+      }
+    ],
+    "nba": [
+      {
+        "year": 1970,
+        "winner": "New York Knicks",
+        "edition": "1970 NBA World Championship Series"
+      },
+      {
+        "year": 1971,
+        "winner": "Milwaukee Bucks",
+        "edition": "1971 NBA World Championship Series"
+      },
+      {
+        "year": 1972,
+        "winner": "Los Angeles Lakers",
+        "edition": "1972 NBA World Championship Series"
+      },
+      {
+        "year": 1973,
+        "winner": "New York Knicks",
+        "edition": "1973 NBA World Championship Series"
+      },
+      {
+        "year": 1974,
+        "winner": "Boston Celtics",
+        "edition": "1974 NBA Finals"
+      },
+      {
+        "year": 1975,
+        "winner": "Golden State Warriors",
+        "edition": "1975 NBA World Championship Series"
+      },
+      {
+        "year": 1976,
+        "winner": "Boston Celtics",
+        "edition": "1976 NBA World Championship Series"
+      },
+      {
+        "year": 1977,
+        "winner": "Portland Trail Blazers",
+        "edition": "1977 NBA World Championship Series"
+      },
+      {
+        "year": 1978,
+        "winner": "Washington Wizards",
+        "edition": "1978 NBA World Championship Series"
+      },
+      {
+        "year": 1979,
+        "winner": "Seattle SuperSonics",
+        "edition": "1979 NBA World Championship Series"
+      },
+      {
+        "year": 1980,
+        "winner": "Los Angeles Lakers",
+        "edition": "1980 NBA World Championship Series"
+      },
+      {
+        "year": 1981,
+        "winner": "Boston Celtics",
+        "edition": "1981 NBA World Championship Series"
+      },
+      {
+        "year": 1982,
+        "winner": "Los Angeles Lakers",
+        "edition": "1982 NBA World Championship Series"
+      },
+      {
+        "year": 1983,
+        "winner": "Philadelphia 76ers",
+        "edition": "1983 NBA World Championship Series"
+      },
+      {
+        "year": 1984,
+        "winner": "Boston Celtics",
+        "edition": "1984 NBA World Championship Series"
+      },
+      {
+        "year": 1985,
+        "winner": "Los Angeles Lakers",
+        "edition": "1985 NBA World Championship Series"
+      },
+      {
+        "year": 1986,
+        "winner": "Boston Celtics",
+        "edition": "1986 NBA World Championship Series"
+      },
+      {
+        "year": 1987,
+        "winner": "Los Angeles Lakers",
+        "edition": "1987 NBA World Championship Series"
+      },
+      {
+        "year": 1988,
+        "winner": "Los Angeles Lakers",
+        "edition": "1988 NBA Finals"
+      },
+      {
+        "year": 1989,
+        "winner": "Detroit Pistons",
+        "edition": "1989 NBA Finals"
+      },
+      {
+        "year": 1990,
+        "winner": "Detroit Pistons",
+        "edition": "1990 NBA Finals"
+      },
+      {
+        "year": 1991,
+        "winner": "Chicago Bulls",
+        "edition": "1991 NBA Finals"
+      },
+      {
+        "year": 1992,
+        "winner": "Chicago Bulls",
+        "edition": "1992 NBA Finals"
+      },
+      {
+        "year": 1993,
+        "winner": "Chicago Bulls",
+        "edition": "1993 NBA Finals"
+      },
+      {
+        "year": 1994,
+        "winner": "Houston Rockets",
+        "edition": "1994 NBA Finals"
+      },
+      {
+        "year": 1995,
+        "winner": "Houston Rockets",
+        "edition": "1995 NBA Finals"
+      },
+      {
+        "year": 1996,
+        "winner": "Chicago Bulls",
+        "edition": "1996 NBA Finals"
+      },
+      {
+        "year": 1997,
+        "winner": "Chicago Bulls",
+        "edition": "1997 NBA Finals"
+      },
+      {
+        "year": 1998,
+        "winner": "Chicago Bulls",
+        "edition": "1998 NBA Finals"
+      },
+      {
+        "year": 1999,
+        "winner": "San Antonio Spurs",
+        "edition": "1999 NBA Finals"
+      },
+      {
+        "year": 2000,
+        "winner": "Los Angeles Lakers",
+        "edition": "2000 NBA Finals"
+      },
+      {
+        "year": 2001,
+        "winner": "Los Angeles Lakers",
+        "edition": "2001 NBA Finals"
+      },
+      {
+        "year": 2002,
+        "winner": "Los Angeles Lakers",
+        "edition": "2002 NBA Finals"
+      },
+      {
+        "year": 2003,
+        "winner": "San Antonio Spurs",
+        "edition": "2003 NBA Finals"
+      },
+      {
+        "year": 2004,
+        "winner": "Detroit Pistons",
+        "edition": "2004 NBA Finals"
+      },
+      {
+        "year": 2005,
+        "winner": "San Antonio Spurs",
+        "edition": "2005 NBA Finals"
+      },
+      {
+        "year": 2006,
+        "winner": "Miami Heat",
+        "edition": "2006 NBA Finals"
+      },
+      {
+        "year": 2007,
+        "winner": "San Antonio Spurs",
+        "edition": "2007 NBA Finals"
+      },
+      {
+        "year": 2008,
+        "winner": "Boston Celtics",
+        "edition": "2008 NBA Finals"
+      },
+      {
+        "year": 2009,
+        "winner": "Los Angeles Lakers",
+        "edition": "2009 NBA Finals"
+      },
+      {
+        "year": 2010,
+        "winner": "Los Angeles Lakers",
+        "edition": "2010 NBA Finals"
+      },
+      {
+        "year": 2011,
+        "winner": "Dallas Mavericks",
+        "edition": "2011 NBA Finals"
+      },
+      {
+        "year": 2012,
+        "winner": "Miami Heat",
+        "edition": "2012 NBA Finals"
+      },
+      {
+        "year": 2013,
+        "winner": "Miami Heat",
+        "edition": "2013 NBA Finals"
+      },
+      {
+        "year": 2014,
+        "winner": "San Antonio Spurs",
+        "edition": "2014 NBA Finals"
+      },
+      {
+        "year": 2015,
+        "winner": "Golden State Warriors",
+        "edition": "2015 NBA Finals"
+      },
+      {
+        "year": 2020,
+        "winner": "Los Angeles Lakers",
+        "edition": "2020 NBA Finals"
+      },
+      {
+        "year": 2021,
+        "winner": "Milwaukee Bucks",
+        "edition": "2021 NBA Finals"
+      },
+      {
+        "year": 2022,
+        "winner": "Golden State Warriors",
+        "edition": "2022 NBA Finals"
+      },
+      {
+        "year": 2023,
+        "winner": "Denver Nuggets",
+        "edition": "2023 NBA Finals"
+      },
+      {
+        "year": 2024,
+        "winner": "Boston Celtics",
+        "edition": "2024 NBA Finals"
+      },
+      {
+        "year": 2025,
+        "winner": "Oklahoma City Thunder",
+        "edition": "2025 NBA Finals"
+      }
+    ],
+    "worldseries": [
+      {
+        "year": 1970,
+        "winner": "Baltimore Orioles",
+        "edition": "1970 World Series"
+      },
+      {
+        "year": 1971,
+        "winner": "Pittsburgh Pirates",
+        "edition": "1971 World Series"
+      },
+      {
+        "year": 1972,
+        "winner": "Athletics",
+        "edition": "1972 World Series"
+      },
+      {
+        "year": 1973,
+        "winner": "Athletics",
+        "edition": "1973 World Series"
+      },
+      {
+        "year": 1974,
+        "winner": "Athletics",
+        "edition": "1974 World Series"
+      },
+      {
+        "year": 1975,
+        "winner": "Cincinnati Reds",
+        "edition": "1975 World Series"
+      },
+      {
+        "year": 1976,
+        "winner": "Cincinnati Reds",
+        "edition": "1976 World Series"
+      },
+      {
+        "year": 1977,
+        "winner": "New York Yankees",
+        "edition": "1977 World Series"
+      },
+      {
+        "year": 1978,
+        "winner": "New York Yankees",
+        "edition": "1978 World Series"
+      },
+      {
+        "year": 1979,
+        "winner": "Pittsburgh Pirates",
+        "edition": "1979 World Series"
+      },
+      {
+        "year": 1980,
+        "winner": "Philadelphia Phillies",
+        "edition": "1980 World Series"
+      },
+      {
+        "year": 1981,
+        "winner": "Los Angeles Dodgers",
+        "edition": "1981 World Series"
+      },
+      {
+        "year": 1982,
+        "winner": "St. Louis Cardinals",
+        "edition": "1982 World Series"
+      },
+      {
+        "year": 1983,
+        "winner": "Baltimore Orioles",
+        "edition": "1983 World Series"
+      },
+      {
+        "year": 1984,
+        "winner": "Detroit Tigers",
+        "edition": "1984 World Series"
+      },
+      {
+        "year": 1985,
+        "winner": "Kansas City Royals",
+        "edition": "1985 World Series"
+      },
+      {
+        "year": 1986,
+        "winner": "New York Mets",
+        "edition": "1986 World Series"
+      },
+      {
+        "year": 1987,
+        "winner": "Minnesota Twins",
+        "edition": "1987 World Series"
+      },
+      {
+        "year": 1988,
+        "winner": "Los Angeles Dodgers",
+        "edition": "1988 World Series"
+      },
+      {
+        "year": 1989,
+        "winner": "Athletics",
+        "edition": "1989 World Series"
+      },
+      {
+        "year": 1990,
+        "winner": "Cincinnati Reds",
+        "edition": "1990 World Series"
+      },
+      {
+        "year": 1991,
+        "winner": "Minnesota Twins",
+        "edition": "1991 World Series"
+      },
+      {
+        "year": 1992,
+        "winner": "Toronto Blue Jays",
+        "edition": "1992 World Series"
+      },
+      {
+        "year": 1993,
+        "winner": "Toronto Blue Jays",
+        "edition": "1993 World Series"
+      },
+      {
+        "year": 1995,
+        "winner": "Atlanta Braves",
+        "edition": "1995 World Series"
+      },
+      {
+        "year": 1996,
+        "winner": "New York Yankees",
+        "edition": "1996 World Series"
+      },
+      {
+        "year": 1997,
+        "winner": "Florida Marlins",
+        "edition": "1997 World Series"
+      },
+      {
+        "year": 1998,
+        "winner": "New York Yankees",
+        "edition": "1998 World Series"
+      },
+      {
+        "year": 1999,
+        "winner": "New York Yankees",
+        "edition": "1999 World Series"
+      },
+      {
+        "year": 2000,
+        "winner": "New York Yankees",
+        "edition": "2000 World Series"
+      },
+      {
+        "year": 2001,
+        "winner": "Arizona Diamondbacks",
+        "edition": "2001 World Series"
+      },
+      {
+        "year": 2002,
+        "winner": "Los Angeles Angels",
+        "edition": "2002 World Series"
+      },
+      {
+        "year": 2003,
+        "winner": "Miami Marlins",
+        "edition": "2003 World Series"
+      },
+      {
+        "year": 2004,
+        "winner": "Boston Red Sox",
+        "edition": "2004 World Series"
+      },
+      {
+        "year": 2005,
+        "winner": "Chicago White Sox",
+        "edition": "2005 World Series"
+      },
+      {
+        "year": 2006,
+        "winner": "St. Louis Cardinals",
+        "edition": "2006 World Series"
+      },
+      {
+        "year": 2007,
+        "winner": "Boston Red Sox",
+        "edition": "2007 World Series"
+      },
+      {
+        "year": 2008,
+        "winner": "Philadelphia Phillies",
+        "edition": "2008 World Series"
+      },
+      {
+        "year": 2009,
+        "winner": "New York Yankees",
+        "edition": "2009 World Series"
+      },
+      {
+        "year": 2010,
+        "winner": "San Francisco Giants",
+        "edition": "2010 World Series"
+      },
+      {
+        "year": 2011,
+        "winner": "St. Louis Cardinals",
+        "edition": "2011 World Series"
+      },
+      {
+        "year": 2012,
+        "winner": "San Francisco Giants",
+        "edition": "2012 World Series"
+      },
+      {
+        "year": 2013,
+        "winner": "Boston Red Sox",
+        "edition": "2013 World Series"
+      },
+      {
+        "year": 2014,
+        "winner": "San Francisco Giants",
+        "edition": "2014 World Series"
+      },
+      {
+        "year": 2015,
+        "winner": "Kansas City Royals",
+        "edition": "2015 World Series"
+      },
+      {
+        "year": 2016,
+        "winner": "Chicago Cubs",
+        "edition": "2016 World Series"
+      },
+      {
+        "year": 2017,
+        "winner": "Houston Astros",
+        "edition": "2017 World Series"
+      },
+      {
+        "year": 2018,
+        "winner": "Boston Red Sox",
+        "edition": "2018 World Series"
+      },
+      {
+        "year": 2019,
+        "winner": "Washington Nationals",
+        "edition": "2019 World Series"
+      },
+      {
+        "year": 2020,
+        "winner": "Los Angeles Dodgers",
+        "edition": "2020 World Series"
+      },
+      {
+        "year": 2021,
+        "winner": "Atlanta Braves",
+        "edition": "2021 World Series"
+      },
+      {
+        "year": 2022,
+        "winner": "Houston Astros",
+        "edition": "2022 World Series"
+      },
+      {
+        "year": 2023,
+        "winner": "Texas Rangers",
+        "edition": "2023 World Series"
+      },
+      {
+        "year": 2024,
+        "winner": "Los Angeles Dodgers",
+        "edition": "2024 World Series"
+      },
+      {
+        "year": 2025,
+        "winner": "Los Angeles Dodgers",
+        "edition": "2025 World Series"
+      }
+    ],
+    "ncaam": [
+      {
+        "year": 1970,
+        "winner": "UCLA Bruins",
+        "edition": "1970 NCAA University Division basketball tournament"
+      },
+      {
+        "year": 1971,
+        "winner": "UCLA Bruins",
+        "edition": "1971 NCAA University Division basketball tournament"
+      },
+      {
+        "year": 1972,
+        "winner": "UCLA Bruins",
+        "edition": "1972 NCAA University Division basketball tournament"
+      },
+      {
+        "year": 1973,
+        "winner": "UCLA Bruins",
+        "edition": "1973 NCAA University Division basketball tournament"
+      },
+      {
+        "year": 1974,
+        "winner": "NC State Wolfpack",
+        "edition": "1974 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1975,
+        "winner": "UCLA Bruins",
+        "edition": "1975 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1976,
+        "winner": "Indiana Hoosiers",
+        "edition": "1976 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1977,
+        "winner": "Marquette Golden Eagles",
+        "edition": "1977 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1978,
+        "winner": "Kentucky Wildcats",
+        "edition": "1978 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1979,
+        "winner": "Michigan State Spartans",
+        "edition": "1979 NCAA Division I basketball tournament"
+      },
+      {
+        "year": 1980,
+        "winner": "Louisville Cardinals",
+        "edition": "1980 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1981,
+        "winner": "Indiana Hoosiers",
+        "edition": "1981 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1982,
+        "winner": "North Carolina Tar Heels",
+        "edition": "1982 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1983,
+        "winner": "NC State Wolfpack",
+        "edition": "1983 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1984,
+        "winner": "Georgetown Hoyas",
+        "edition": "1984 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1985,
+        "winner": "Villanova Wildcats",
+        "edition": "1985 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1986,
+        "winner": "Louisville Cardinals",
+        "edition": "1986 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1987,
+        "winner": "Indiana Hoosiers",
+        "edition": "1987 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1988,
+        "winner": "Kansas Jayhawks",
+        "edition": "1988 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1989,
+        "winner": "Michigan Wolverines",
+        "edition": "1989 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1990,
+        "winner": "UNLV Runnin' Rebels basketball",
+        "edition": "1990 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1991,
+        "winner": "Duke Blue Devils",
+        "edition": "1991 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1992,
+        "winner": "Duke Blue Devils",
+        "edition": "1992 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1993,
+        "winner": "North Carolina Tar Heels",
+        "edition": "1993 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1994,
+        "winner": "Arkansas Razorbacks",
+        "edition": "1994 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1995,
+        "winner": "UCLA Bruins",
+        "edition": "1995 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1996,
+        "winner": "Kentucky Wildcats",
+        "edition": "1996 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1997,
+        "winner": "Arizona Wildcats",
+        "edition": "1997 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1998,
+        "winner": "Kentucky Wildcats",
+        "edition": "1998 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 1999,
+        "winner": "UConn Huskies",
+        "edition": "1999 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2000,
+        "winner": "Michigan State Spartans",
+        "edition": "2000 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2001,
+        "winner": "Duke Blue Devils",
+        "edition": "2001 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2002,
+        "winner": "Maryland Terrapins",
+        "edition": "2002 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2003,
+        "winner": "Syracuse Orange",
+        "edition": "2003 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2004,
+        "winner": "UConn Huskies",
+        "edition": "2004 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2005,
+        "winner": "North Carolina Tar Heels",
+        "edition": "2005 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2006,
+        "winner": "Florida Gators",
+        "edition": "2006 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2007,
+        "winner": "Florida Gators",
+        "edition": "2007 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2008,
+        "winner": "Kansas Jayhawks",
+        "edition": "2008 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2009,
+        "winner": "North Carolina Tar Heels",
+        "edition": "2009 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2010,
+        "winner": "Duke Blue Devils",
+        "edition": "2010 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2011,
+        "winner": "UConn Huskies",
+        "edition": "2011 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2012,
+        "winner": "Kentucky Wildcats",
+        "edition": "2012 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2013,
+        "winner": "Louisville Cardinals",
+        "edition": "2013 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2014,
+        "winner": "UConn Huskies",
+        "edition": "2014 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2015,
+        "winner": "Duke Blue Devils",
+        "edition": "2015 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2016,
+        "winner": "Villanova Wildcats",
+        "edition": "2016 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2017,
+        "winner": "North Carolina Tar Heels",
+        "edition": "2017 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2018,
+        "winner": "Villanova Wildcats",
+        "edition": "2018 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2019,
+        "winner": "Virginia Cavaliers",
+        "edition": "2019 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2021,
+        "winner": "Baylor Bears",
+        "edition": "2021 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2022,
+        "winner": "Kansas Jayhawks",
+        "edition": "2022 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2023,
+        "winner": "UConn Huskies",
+        "edition": "2023 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2024,
+        "winner": "UConn Huskies",
+        "edition": "2024 NCAA Division I men's basketball tournament"
+      },
+      {
+        "year": 2025,
+        "winner": "Florida Gators",
+        "edition": "2025 NCAA Division I Men's Basketball Tournament"
+      },
+      {
+        "year": 2026,
+        "winner": "Michigan Wolverines",
+        "edition": "2026 NCAA Division I men's basketball tournament"
+      }
+    ],
+    "ncaaw": [
+      {
+        "year": 1982,
+        "winner": "Louisiana Tech Lady Techsters basketball",
+        "edition": "1982 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1983,
+        "winner": "USC Trojans",
+        "edition": "1983 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1984,
+        "winner": "USC Trojans",
+        "edition": "1984 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1985,
+        "winner": "Old Dominion Monarchs",
+        "edition": "1985 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1986,
+        "winner": "Texas Longhorns",
+        "edition": "1986 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1987,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1987 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1988,
+        "winner": "Louisiana Tech Lady Techsters basketball",
+        "edition": "1988 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1989,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1989 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1990,
+        "winner": "Stanford Cardinal",
+        "edition": "1990 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1991,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1991 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1992,
+        "winner": "Stanford Cardinal",
+        "edition": "1992 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1993,
+        "winner": "Texas Tech Lady Raiders basketball",
+        "edition": "1993 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1994,
+        "winner": "North Carolina Tar Heels",
+        "edition": "1994 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1995,
+        "winner": "UConn Huskies",
+        "edition": "1995 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1996,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1996 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1997,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1997 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1998,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "1998 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 1999,
+        "winner": "Purdue Boilermakers",
+        "edition": "1999 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2000,
+        "winner": "UConn Huskies",
+        "edition": "2000 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2001,
+        "winner": "Notre Dame Fighting Irish",
+        "edition": "2001 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2002,
+        "winner": "UConn Huskies",
+        "edition": "2002 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2003,
+        "winner": "UConn Huskies",
+        "edition": "2003 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2004,
+        "winner": "UConn Huskies",
+        "edition": "2004 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2005,
+        "winner": "Baylor Bears",
+        "edition": "2005 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2006,
+        "winner": "Maryland Terrapins",
+        "edition": "2006 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2007,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "2007 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2008,
+        "winner": "Tennessee Lady Volunteers basketball",
+        "edition": "2008 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2009,
+        "winner": "UConn Huskies",
+        "edition": "2009 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2010,
+        "winner": "UConn Huskies",
+        "edition": "2010 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2011,
+        "winner": "Texas A&M Aggies",
+        "edition": "2011 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2012,
+        "winner": "Baylor Bears",
+        "edition": "2012 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2013,
+        "winner": "UConn Huskies",
+        "edition": "2013 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2014,
+        "winner": "UConn Huskies",
+        "edition": "2014 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2015,
+        "winner": "UConn Huskies",
+        "edition": "2015 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2016,
+        "winner": "UConn Huskies",
+        "edition": "2016 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2017,
+        "winner": "South Carolina Gamecocks",
+        "edition": "2017 NCAA Division I Women's Basketball Tournament"
+      },
+      {
+        "year": 2018,
+        "winner": "Notre Dame Fighting Irish",
+        "edition": "2018 NCAA Women's Division I Basketball Tournament"
+      },
+      {
+        "year": 2019,
+        "winner": "Baylor Bears",
+        "edition": "2019 NCAA Division I Women's Basketball Tournament"
+      },
+      {
+        "year": 2021,
+        "winner": "Stanford Cardinal",
+        "edition": "2021 NCAA Division I Women's Basketball Tournament"
+      },
+      {
+        "year": 2022,
+        "winner": "South Carolina Gamecocks",
+        "edition": "2022 NCAA Division I Women's Basketball Tournament"
+      },
+      {
+        "year": 2023,
+        "winner": "LSU Tigers",
+        "edition": "2023 NCAA Division I women's basketball tournament"
+      },
+      {
+        "year": 2024,
+        "winner": "South Carolina Gamecocks",
+        "edition": "2024 NCAA Division I women's basketball tournament"
+      },
+      {
+        "year": 2025,
+        "winner": "UConn Huskies",
+        "edition": "2025 NCAA Division I women's basketball tournament"
+      },
+      {
+        "year": 2026,
+        "winner": "UCLA Bruins",
+        "edition": "2026 NCAA Division I women's basketball tournament"
+      }
+    ],
+    "heisman": [
+      {
+        "year": 1973,
+        "winner": "John Cappelletti"
+      },
+      {
+        "year": 1982,
+        "winner": "Herschel Walker"
+      },
+      {
+        "year": 1985,
+        "winner": "Bo Jackson"
+      },
+      {
+        "year": 1990,
+        "winner": "Ty Detmer"
+      },
+      {
+        "year": 1996,
+        "winner": "Danny Wuerffel"
+      },
+      {
+        "year": 1997,
+        "winner": "Charles Woodson"
+      },
+      {
+        "year": 2002,
+        "winner": "Carson Palmer"
+      },
+      {
+        "year": 2007,
+        "winner": "Tim Tebow"
+      },
+      {
+        "year": 2008,
+        "winner": "Sam Bradford"
+      },
+      {
+        "year": 2010,
+        "winner": "Cam Newton"
+      },
+      {
+        "year": 2012,
+        "winner": "Johnny Manziel"
+      },
+      {
+        "year": 2014,
+        "winner": "Marcus Mariota"
+      },
+      {
+        "year": 2015,
+        "winner": "Derrick Henry"
+      },
+      {
+        "year": 2016,
+        "winner": "Lamar Jackson"
+      },
+      {
+        "year": 2017,
+        "winner": "Baker Mayfield"
+      },
+      {
+        "year": 2018,
+        "winner": "Kyler Murray"
+      },
+      {
+        "year": 2019,
+        "winner": "Joe Burrow"
+      },
+      {
+        "year": 2020,
+        "winner": "DeVonta Smith"
+      },
+      {
+        "year": 2022,
+        "winner": "Caleb Williams"
+      },
+      {
+        "year": 2023,
+        "winner": "Jayden Daniels"
+      },
+      {
+        "year": 2024,
+        "winner": "Travis Hunter"
+      },
+      {
+        "year": 2025,
+        "winner": "Fernando Mendoza"
+      }
+    ]
+  }
+}

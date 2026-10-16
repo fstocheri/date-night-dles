@@ -11,7 +11,7 @@ A hand-picked collection of daily guessing games ("dles"), built to play togethe
 | 📺 **Channel Surf** | `/tv/` | the TV show, from one episode | which season the episode is from |
 | 🎬 **Final Cut** | `/movies/` | the movie, from a single frame | its worldwide box-office bracket |
 | 🎧 **Needle Drop** | `/songs/` | the song, from a clip that grows 1s → 16s | — |
-| 🧠 **Date Night Dozen** | `/trivia/` | 12 multiple-choice trivia questions in 3 rounds (1/2/3 pts), 20s each, from [Open Trivia DB](https://opentdb.com/) | — |
+| 🧠 **Tic-Tac-Trivia** | `/tictac/` | a 3×3 board of nine categories, one question each; bonus for every row/column/diagonal you get fully right. Sports squares are generated from Wikidata championship history; the rest come from [Open Trivia DB](https://opentdb.com/) | — |
 | 🤘 **Mosh Pit** | `/rock/` | Needle Drop, but only emo, pop punk, alternative, and rock | — |
 | 🎤 **Headliner** | `/artists/` | the artist, from a blurred photo and clues | their Deezer fan count bracket |
 
