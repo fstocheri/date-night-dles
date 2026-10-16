@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "difficulty": "Hard",
+  "answerHash": "f42374ed094a56ae",
+  "bonusHash": "c85be567f2f81b28",
+  "still": "https://cdn-images.dzcdn.net/images/artist/2934ac42d48d38f77ec99977b44ad7fd/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2016"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“WILD WEST”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“ROXANNE”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "A•••••• Z•••••"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "rounds": [
+    {
+      "name": "Round 1",
+      "difficulty": "easy",
+      "points": 1,
+      "questions": [
+        {
+          "category": "Animals",
+          "question": "What is Grumpy Cat's real name?",
+          "choices": [
+            "Minnie",
+            "Tardar Sauce",
+            "Sauce",
+            "Broccoli"
+          ],
+          "answerHash": "a39f5ef72e8a5365"
+        },
+        {
+          "category": "Television",
+          "question": "How many seasons did \"Stargate SG-1\" have?",
+          "choices": [
+            "10",
+            "3",
+            "12",
+            "7"
+          ],
+          "answerHash": "6570ff987b8dcb8b"
+        },
+        {
+          "category": "General Knowledge",
+          "question": "In \"Katamari Damacy\", you control a character known as:",
+          "choices": [
+            "Ichigo",
+            "Foomin",
+            "Fujio",
+            "The Prince"
+          ],
+          "answerHash": "c9d10cd52511b8ec"
+        },
+        {
+          "category": "Sports",
+          "question": "What is the most common type of pitch thrown by pitchers in baseball?",
+          "choices": [
+            "Fastball",
+            "Slowball",
+            "Screwball",
+            "Palmball"
+          ],
+          "answerHash": "7a0131bd0995cb07"
+        }
+      ]
+    },
+    {
+      "name": "Round 2",
+      "difficulty": "medium",
+      "points": 2,
+      "questions": [
+        {
+          "category": "Animals",
+          "question": "What is the collective noun for bears?",
+          "choices": [
+            "Tribe",
+            "Drove",
+            "Sloth",
+            "Husk"
+          ],
+          "answerHash": "a609883c24765b78"
+        },
+        {
+          "category": "Politics",
+          "question": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+          "choices": [
+            "Brian and Justin",
+            "John and Louis",
+            "Brian and Pierre",
+            "Justin and Pierre"
+          ],
+          "answerHash": "7fbc69ff10fdc831"
+        },
+        {
+          "category": "Geography",
+          "question": "What is the capital of Peru?",
+          "choices": [
+            "Lima",
+            "Buenos Aires",
+            "Montevideo",
+            "Santiago"
+          ],
+          "answerHash": "969c1db4b3035328"
+        },
+        {
+          "category": "Science & Nature",
+          "question": "What part of the brain takes its name from the Greek for seahorse?",
+          "choices": [
+            "Thalamus",
+            "Hippocampus",
+            "Cerebellum",
+            "Amygdala"
+          ],
+          "answerHash": "a1d967891486d3a3"
+        }
+      ]
+    },
+    {
+      "name": "Round 3",
+      "difficulty": "hard",
+      "points": 3,
+      "questions": [
+        {
+          "category": "Animals",
+          "question": "To which biological phylum do all mammals, birds and reptiles belong?",
+          "choices": [
+            "Annelida",
+            "Placazoa",
+            "Echinodermata",
+            "Chordata"
+          ],
+          "answerHash": "13fbee8873c6cdfe"
+        },
+        {
+          "category": "Television",
+          "question": "In Star Trek, what is the name of Spock's father?",
+          "choices": [
+            "Sarek",
+            "Surak",
+            "T'Pal",
+            "Tuvok"
+          ],
+          "answerHash": "7c28934ec5ac3fb8"
+        },
+        {
+          "category": "Film",
+          "question": "In \"Star Trek Nemesis\", why was Praetor Shinzon created?",
+          "choices": [
+            "To steal the Enterprise",
+            "To become Picard's friend",
+            "To replace Picard as a Romulan Agent",
+            "To destroy the Enterprise"
+          ],
+          "answerHash": "fad2b835106f8890"
+        },
+        {
+          "category": "General Knowledge",
+          "question": "What is the airspeed velocity of an unladen swallow?",
+          "choices": [
+            "15 MPH",
+            "24 MPH",
+            "200 MPH",
+            "20 MPH"
+          ],
+          "answerHash": "761c21de335b7db8"
+        }
+      ]
+    }
+  ]
+}

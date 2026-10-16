@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "difficulty": "Hard",
+  "answerHash": "e1a740ef5f3e6b36",
+  "bonusHash": "966ddca4d6341383",
+  "still": "/i1oWUGVDNBhGBykcCRBlX326udb.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Crime, History, Thriller"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“What are you prepared to do?”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1987 · Paramount Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Elliot ▇▇▇, an ambitious prohibition agent, is determined to take down ▇▇▇. In order to achieve this goal, he forms a group given the nickname “▇▇▇”."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Brian De Palma"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Kevin Costner"
+    }
+  ]
+}

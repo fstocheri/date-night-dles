@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "difficulty": "Hard",
+  "answerHash": "b537aa9eca1e6bef",
+  "bonusHash": null,
+  "still": "/1mjzXGMvskzBYShzVr7VpawEh14.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Documentary, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 2: “One of Us”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2019 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "As investigators search for a suspect in the string of brutal murders near Seattle, a woman manages to escape the ▇▇▇'s clutches in Utah."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Self"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Ted Bundy"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "difficulty": "Hard",
+  "answerHash": "d22bd8fcf14ba2ec",
+  "bonusHash": null,
+  "media": "812567072",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2019"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“The Downfall Of Us All”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A D•• T• R•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "A Day To Remember"
+    }
+  ]
+}

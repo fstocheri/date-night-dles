@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "number": 4,
+  "difficulty": "Hard",
+  "answerHash": "0b530e5d69ba7688",
+  "bonusHash": null,
+  "media": "663571",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2002"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Under Construction”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Get Ur Freak On”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M•••• E••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Missy Elliott"
+    }
+  ]
+}
