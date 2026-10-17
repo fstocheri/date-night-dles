@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl LIII (2019)?",
+      "choices": [
+        "Indianapolis Colts",
+        "Pittsburgh Steelers",
+        "New England Patriots",
+        "Tampa Bay Buccaneers"
+      ],
+      "answerHash": "ca950251f89960ec"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "What sport features the terms love, deuce, match and volley?",
+      "choices": [
+        "Basketball",
+        "Tennis",
+        "Curling",
+        "Cricket"
+      ],
+      "answerHash": "ec8fe591032a6d0b"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1996 NCAA women's basketball championship?",
+      "choices": [
+        "Tennessee Lady Volunteers basketball",
+        "UConn Huskies",
+        "Notre Dame Fighting Irish",
+        "North Carolina Tar Heels"
+      ],
+      "answerHash": "4fb5642773671c10"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote \"A Tale of Two Cities\"?",
+      "choices": [
+        "Roald Dahl",
+        "Charles Darwin",
+        "Mark Twain",
+        "Charles Dickens"
+      ],
+      "answerHash": "2a613464bbfff3eb"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which of the following geographic features is a ring-shaped coral reef, island, or series of islets?",
+      "choices": [
+        "Peninsula",
+        "Delta",
+        "Atoll",
+        "Isthmus"
+      ],
+      "answerHash": "fd26483d2b092bdf"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which TV chef wrote an autobiography titled \"Humble Pie\"?",
+      "choices": [
+        "Ainsley Harriott",
+        "Gordon Ramsay",
+        "Antony Worrall Thompson",
+        "Jamie Oliver"
+      ],
+      "answerHash": "ac3ad47b339dc276"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Who was featured in the song \"Words\" by Feint?",
+      "choices": [
+        "Veela",
+        "Danyka Nadeau",
+        "Anna Yvette",
+        "Laura Brehm"
+      ],
+      "answerHash": "b71ac7fb91ce9632"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "British actor David Morrissey stars as which role in \"The Walking Dead\"?",
+      "choices": [
+        "Rick Grimes",
+        "Daryl Dixon",
+        "The Governor",
+        "Negan"
+      ],
+      "answerHash": "6be8a184f0e303e0"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In Mulan (1998), who is the leader of the Huns?",
+      "choices": [
+        "Fa Zhou",
+        "Shan Yu",
+        "Li Shang",
+        "Chien-Po"
+      ],
+      "answerHash": "c80d1865d9399732"
+    }
+  ]
+}

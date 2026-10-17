@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "difficulty": "Expert",
+  "answerHash": "ceb80db0f80d4147",
+  "bonusHash": "b9af2b06959f7109",
+  "still": "https://cdn-images.dzcdn.net/images/artist/8cc086b7cd608c8cdc06f79ae6075bfd/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2015"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Time & Space”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“BIRDS”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "T••••••••"
+    }
+  ]
+}

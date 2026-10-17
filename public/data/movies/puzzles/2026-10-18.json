@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "difficulty": "Expert",
+  "answerHash": "6e79cce9146a290c",
+  "bonusHash": "e8818b7924a163f4",
+  "still": "/7sFjHJSPMjWS7OdeceTzz2ojKB7.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Adventure"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“\"If I could only have one food to eat for the rest of my life?\" \"That's easy. Pez. Cherry flavor Pez. No question about it.\"”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1986 · Act III Productions"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "After learning that a boy their age has been accidentally killed near their rural homes, four boys decide to go see the body. ▇▇▇, ▇▇▇, ▇▇▇, and ▇▇▇ encounter a mean junk man and a marsh full of leeches, but they also learn more about one another and their very different home lives. Just a lark at first, the boys' adventure evolves into a defining event in their lives."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Rob Reiner"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Wil Wheaton"
+    }
+  ]
+}

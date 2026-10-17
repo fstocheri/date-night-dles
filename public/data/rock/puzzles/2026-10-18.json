@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "difficulty": "Expert",
+  "answerHash": "31d9a22a9bc74ae1",
+  "bonusHash": null,
+  "media": "4272365552",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2006"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Falling Down”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Atreyu"
+    }
+  ]
+}

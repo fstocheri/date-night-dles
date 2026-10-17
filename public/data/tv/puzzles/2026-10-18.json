@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "difficulty": "Expert",
+  "answerHash": "bfc23a435d05780f",
+  "bonusHash": "b9af2b06959f7109",
+  "still": "/lZMkDgeByQISErb9zOcWKGGUoQq.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Crime, Mystery"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 4: “Episode 4”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2025 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ goes to the island to find out what ▇▇▇ couldn't. ▇▇▇ finds a note which sends the investigation in an entirely new direction."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "DCI James Hardy"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Matthew Goode"
+    }
+  ]
+}

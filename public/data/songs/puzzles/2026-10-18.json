@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "number": 5,
+  "difficulty": "Expert",
+  "answerHash": "09339924950240d7",
+  "bonusHash": null,
+  "media": "13162038",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2000"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Warriorz”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Ante Up (Robbin Hoodz Theory)”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M.•.•."
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "M.O.P."
+    }
+  ]
+}
