@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "number": 6,
+  "difficulty": "Easy",
+  "answerHash": "e5ac9ca77c548413",
+  "bonusHash": "d92f611206d74184",
+  "still": "/e6ZiRNeHCFuXRJdwoQJORA9q9nl.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Crime, Drama, Mystery"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 4: “Let's Give the Boy a Hand”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2006 on Showtime"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Body parts from the Ice Truck Killer's latest victim begin appearing all over Miami in locations. In the meanwhile, ▇▇▇ realizes that the locations that have been picked for each and every one of the killings from the Ice Truck Killer could possibly be related to his own childhood."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Debra Morgan"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Michael C. Hall"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "number": 6,
+  "difficulty": "Easy",
+  "answerHash": "f7ef0b447476d6b5",
+  "bonusHash": null,
+  "media": "921959412",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2005"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“All That We Needed”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Rhythm Of Love”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "P•••• W•••• T'•"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Plain White T's"
+    }
+  ]
+}

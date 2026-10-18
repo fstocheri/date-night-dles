@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "number": 6,
+  "difficulty": "Easy",
+  "answerHash": "8d8a3784af9244a2",
+  "bonusHash": "176342b89e4be79b",
+  "still": "/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Crime"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Fear can hold you prisoner. Hope can set you free.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1994 · Castle Rock Entertainment"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker ▇▇▇ begins a new life at the ▇▇▇ prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, ▇▇▇ comes to be admired by the other inmates -- including an older prisoner named ▇▇▇ -- for his integrity and unquenchable sense of hope."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Frank Darabont"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Tim Robbins"
+    }
+  ]
+}

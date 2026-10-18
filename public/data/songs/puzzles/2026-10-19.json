@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "number": 6,
+  "difficulty": "Easy",
+  "answerHash": "533a61c5fb40d35c",
+  "bonusHash": null,
+  "media": "2176856",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2006"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Rehab”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A•• W••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Amy Winehouse"
+    }
+  ]
+}

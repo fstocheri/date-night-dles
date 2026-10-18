@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-19",
+  "number": 6,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2025 World Series?",
+      "choices": [
+        "Los Angeles Dodgers",
+        "Chicago Cubs",
+        "Texas Rangers",
+        "Atlanta Braves"
+      ],
+      "answerHash": "d7c89dc64023aabf"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Josh Mansour is part of what NRL team?",
+      "choices": [
+        "Sydney Roosters",
+        "Melbourne Storm",
+        "Penrith Panthers",
+        "North Queensland Cowboys"
+      ],
+      "answerHash": "f79040af765c3dca"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1994 NCAA women's basketball championship?",
+      "choices": [
+        "North Carolina Tar Heels",
+        "Notre Dame Fighting Irish",
+        "Old Dominion Monarchs",
+        "Purdue Boilermakers"
+      ],
+      "answerHash": "aaf74d0d6e81d6bc"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Which of the following is the world's best-selling book?",
+      "choices": [
+        "Harry Potter and the Philosopher's Stone",
+        "The Little Prince",
+        "The Da Vinci Code",
+        "The Lord of the Rings"
+      ],
+      "answerHash": "b0f0ee42c5c4df80"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the highest mountain in the world?",
+      "choices": [
+        "Kangchenjunga",
+        "Mt. Everest",
+        "Mount Godwin Austen",
+        "Annapurna"
+      ],
+      "answerHash": "b4103a7fef03ee21"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "In what year did \"Bob Ross\" die?",
+      "choices": [
+        "1986",
+        "1989",
+        "1997",
+        "1995"
+      ],
+      "answerHash": "ad81592c6d5c5487"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Who is the lead singer of the British pop rock band Coldplay?",
+      "choices": [
+        "Guy Berryman",
+        "Chris Martin",
+        "Will Champion",
+        "Jonny Buckland"
+      ],
+      "answerHash": "431758a0be8c45c4"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the show \"Tengen Toppa Gurren Lagann\" what is the name of the character who force everyone to live underground?",
+      "choices": [
+        "Lord Genome",
+        "Kingloname",
+        "Lordgenome",
+        "King Loname"
+      ],
+      "answerHash": "c4c3e12c49b28552"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie \"Batman\"?",
+      "choices": [
+        "Michael Keaton",
+        "George Clooney",
+        "Val Kilmer",
+        "Adam West"
+      ],
+      "answerHash": "84860e85cac5c2ff"
+    }
+  ]
+}
