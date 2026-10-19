@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "number": 7,
+  "difficulty": "Easy",
+  "answerHash": "f5126f8dd7782c69",
+  "bonusHash": "f8d6b1a3c3ee799c",
+  "still": "/k9pshruhCpJAdH9RaGJO6jaWQ4X.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Action, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“The ▇▇▇ saga continues.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1980 · Lucasfilm Ltd."
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "The epic saga continues as ▇▇▇, in hopes of defeating the evil Galactic ▇▇▇, learns the ways of the Jedi from aging master ▇▇▇. But ▇▇▇ is more determined than ever to capture ▇▇▇. Meanwhile, rebel leader ▇▇▇, cocky ▇▇▇, ▇▇▇, and droids ▇▇▇ and ▇▇▇ are thrown into various stages of capture, betrayal and despair."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Irvin Kershner"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Mark Hamill"
+    }
+  ]
+}

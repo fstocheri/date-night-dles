@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "number": 7,
+  "difficulty": "Easy",
+  "answerHash": "84cc3c4b91892d4b",
+  "bonusHash": "b54cff026cff8669",
+  "still": "https://cdn-images.dzcdn.net/images/artist/d1a3db36015dd98615f42a5441dcf2f5/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1999"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“We Are Not Your Kind”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Duality”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "S•••••••"
+    }
+  ]
+}

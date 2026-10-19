@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "number": 7,
+  "difficulty": "Easy",
+  "answerHash": "87cec22154bf7457",
+  "bonusHash": null,
+  "media": "65245760",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2013"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Sempiternal”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Throne”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "B•••• M• T•• H••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Bring Me The Horizon"
+    }
+  ]
+}

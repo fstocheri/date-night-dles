@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "number": 7,
+  "difficulty": "Easy",
+  "answerHash": "b2810fa5f649e76d",
+  "bonusHash": "357c37e2af4c0ebd",
+  "still": "/65EGY5u8yw0rg0XlOqu2GwesUbS.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action & Adventure, Crime, Sci-Fi & Fantasy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 11: “Super”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2011 on CBS"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ is confined to a wheelchair recovering from his gunshot wound, but ▇▇▇ sets him up in an apartment where he’s to keep an eye on the Super, who is their latest POI. Also, ▇▇▇ approaches ▇▇▇ and gives her a POI to show her what they do."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Harold Finch"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Jim Caviezel"
+    }
+  ]
+}

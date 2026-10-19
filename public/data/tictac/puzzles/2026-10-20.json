@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-20",
+  "number": 7,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl XXXVIII (2004)?",
+      "choices": [
+        "Pittsburgh Steelers",
+        "New England Patriots",
+        "New York Giants",
+        "San Francisco 49ers"
+      ],
+      "answerHash": "7c74867482a8b64c"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+      "choices": [
+        "Boston",
+        "Brooklyn",
+        "Las Vegas",
+        "Seattle"
+      ],
+      "answerHash": "9a4b7738fa5cf315"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 1997?",
+      "choices": [
+        "Bo Jackson",
+        "Charles Woodson",
+        "Ty Detmer",
+        "Danny Wuerffel"
+      ],
+      "answerHash": "0f238761a64fd83e"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Which famous book is sub-titled 'The Modern Prometheus'?",
+      "choices": [
+        "Dracula",
+        "Frankenstein",
+        "The Strange Case of Dr. Jekyll and Mr. Hyde",
+        "The Legend of Sleepy Hollow"
+      ],
+      "answerHash": "402f283f1d2c6958"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which continent is considered the largest and most populous continent in the world?",
+      "choices": [
+        "Africa",
+        "North America",
+        "Asia",
+        "Europe"
+      ],
+      "answerHash": "1329e96f4b6933e1"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What is generally considered to be William Shakespeare's birth date?",
+      "choices": [
+        "September 29th, 1699",
+        "December 1st, 1750",
+        "April 23rd, 1564",
+        "July 4th, 1409"
+      ],
+      "answerHash": "4bbe6dbe445ce1dd"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+      "choices": [
+        "Venus",
+        "Uranus",
+        "Mars",
+        "Earth"
+      ],
+      "answerHash": "1235e83b84c586f2"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama \"The X-Files\"?",
+      "choices": [
+        "David Duchovny",
+        "Robert Patrick",
+        "Gillian Anderson",
+        "Mitch Pileggi"
+      ],
+      "answerHash": "73f9ac5ae18d47ec"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What historical time period was the center of the Assassin’s Creed movie (2016)?",
+      "choices": [
+        "Spanish Inquisition",
+        "French Revolution",
+        "Victorian England",
+        "Colonial America"
+      ],
+      "answerHash": "cbfebf95b8cdfa8b"
+    }
+  ]
+}
