@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "difficulty": "Medium",
+  "answerHash": "06c7f96b8bd144df",
+  "bonusHash": "91d005e8b19a7cca",
+  "still": "/1Rh76Fkk5xuyp03S8ECYSt5U9t6.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action & Adventure, Sci-Fi & Fantasy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 7: “REINDEER SHAMES”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2023 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Dr. Kureha tells the heartwrenching story of ▇▇▇'s origins, including how he met his mentor Dr. Hiriluk and their quest to cure all disease."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Nami"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Iñaki Godoy"
+    }
+  ]
+}

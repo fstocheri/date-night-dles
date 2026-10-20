@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "difficulty": "Medium",
+  "answerHash": "bd227cc5271e3e0b",
+  "bonusHash": "619efd8f2e3059d5",
+  "still": "https://cdn-images.dzcdn.net/images/artist/3812923a39bce04d31754997bc98720e/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1979"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Walk Between Worlds”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Alive And Kicking”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "S••••• M••••"
+    }
+  ]
+}

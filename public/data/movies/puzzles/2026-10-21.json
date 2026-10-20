@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "difficulty": "Medium",
+  "answerHash": "a35492dbe51cff46",
+  "bonusHash": "ad47e3b64d0dfeab",
+  "still": "/nphdgY5Vca7cvKqml7UPSI73TQp.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Fantasy, Action, Adventure, Animation, Family"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Training is over. The adventure begins.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2014 · DreamWorks Animation"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Five years after uniting the dragons and Vikings of Berk, ▇▇▇ and ▇▇▇ soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons—and a mysterious ▇▇▇ rider with a startling connection to ▇▇▇. And as the ruthless conqueror ▇▇▇ Bludvist rises to seize control of both dragons and people alike, ▇▇▇ must step into his role as a true leader and, alongside his friends and ▇▇▇, protect Berk from a devastating war."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Dean DeBlois"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Jay Baruchel"
+    }
+  ]
+}

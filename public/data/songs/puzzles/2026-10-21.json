@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "difficulty": "Medium",
+  "answerHash": "c914b9bf0f4a7031",
+  "bonusHash": null,
+  "media": "72194073",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1983"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“She's So Unusual”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Girls Just Want to Have Fun”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "C•••• L•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Cyndi Lauper"
+    }
+  ]
+}

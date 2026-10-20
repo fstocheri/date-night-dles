@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl XIII (1979)?",
+      "choices": [
+        "Las Vegas Raiders",
+        "San Francisco 49ers",
+        "Pittsburgh Steelers",
+        "New York Giants"
+      ],
+      "answerHash": "a195503dad8664c1"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "What year did the New Orleans Saints win the Super Bowl?",
+      "choices": [
+        "2011",
+        "2008",
+        "2009",
+        "2010"
+      ],
+      "answerHash": "0f5fcea94cfae361"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 1973?",
+      "choices": [
+        "John Cappelletti",
+        "DeVonta Smith",
+        "Tim Tebow",
+        "Johnny Manziel"
+      ],
+      "answerHash": "cb5f67c4d3d665b7"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+      "choices": [
+        "A Case of Identity",
+        "The Sign of the Four",
+        "A Study in Scarlet",
+        "The Doings of Raffles Haw"
+      ],
+      "answerHash": "274ad0a010876db1"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which of these is NOT an Australian state or territory?",
+      "choices": [
+        "Alberta",
+        "Queensland",
+        "New South Wales",
+        "Victoria"
+      ],
+      "answerHash": "955938a90c64a40d"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which of these celebrities was not a member of the Jackson 5?",
+      "choices": [
+        "Bo Jackson",
+        "Jermaine Jackson",
+        "Tito Jackson",
+        "Marlon Jackson"
+      ],
+      "answerHash": "27908848df8b1ee0"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+      "choices": [
+        "Instant Crush",
+        "Doin' It Right",
+        "Get Lucky",
+        "The Game of Love"
+      ],
+      "answerHash": "bfa2b253fed38659"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In season one of the Netflix political drama \"House of Cards\", what government position does Frank Underwood hold?",
+      "choices": [
+        "President",
+        "Chief of Staff",
+        "Attorney General",
+        "House Majority Whip"
+      ],
+      "answerHash": "2214c1c528b17bb5"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In \"Mean Girls\", who has breasts that tell when it's raining?",
+      "choices": [
+        "Cady Heron",
+        "Janice Ian",
+        "Karen Smith",
+        "Gretchen Weiners"
+      ],
+      "answerHash": "457daf3340920160"
+    }
+  ]
+}

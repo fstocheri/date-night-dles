@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "number": 8,
+  "difficulty": "Medium",
+  "answerHash": "d0ffaaa0771ee87d",
+  "bonusHash": null,
+  "media": "3166602",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1993"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Hungry Like the Wolf”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "D•••• D••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Duran Duran"
+    }
+  ]
+}
