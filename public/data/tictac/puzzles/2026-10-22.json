@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl VI (1972)?",
+      "choices": [
+        "Dallas Cowboys",
+        "Pittsburgh Steelers",
+        "Las Vegas Raiders",
+        "Los Angeles Raiders"
+      ],
+      "answerHash": "731265a011977e60"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "choices": [
+        "The New York Giants & The New England Patriots",
+        "The Green Bay Packers & The Pittsburgh Steelers",
+        "The Philadelphia Eagles & The New England Patriots",
+        "The Seattle Seahawks & The Denver Broncos"
+      ],
+      "answerHash": "b4c5dc430e58a585"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 2016?",
+      "choices": [
+        "Jayden Daniels",
+        "Baker Mayfield",
+        "Lamar Jackson",
+        "Joe Burrow"
+      ],
+      "answerHash": "32b0d9d2717aaff6"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "The title of Adolf Hitler's autobiography \"Mein Kampf\" is what when translated to English?",
+      "choices": [
+        "My Desire",
+        "My Sadness",
+        "My Hatred",
+        "My Struggle"
+      ],
+      "answerHash": "df38658ef37eb4f2"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The derisive acronym \"PIIGS\" refers to which of the following European countries and their economic statuses?",
+      "choices": [
+        "Portugal, Ireland, Italy, Greece, Spain",
+        "Poland, Iceland, Italy, Greenland, Spain",
+        "Portugal, Iceland, Ireland, Greece, Serbia",
+        "Poland, Iceland, Italy, Greece, Serbia"
+      ],
+      "answerHash": "6c702fe00d92db1d"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Nikki Diamond portrayed which Gladiator in the 1992 TV show \"Gladiators\"?",
+      "choices": [
+        "Nightshade",
+        "Jet",
+        "Scorpio",
+        "Falcon"
+      ],
+      "answerHash": "d83356958698f948"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which one of these Rammstein songs has two official music videos?",
+      "choices": [
+        "Benzin",
+        "Du Hast",
+        "Du Riechst So Gut",
+        "Mein Teil"
+      ],
+      "answerHash": "1f34c4731db8db81"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+      "choices": [
+        "The Aztecs",
+        "An Unearthly Child",
+        "The Daleks",
+        "The Edge of Destruction"
+      ],
+      "answerHash": "43b346826413656e"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the movie Gremlins, after what time of day should you not feed Mogwai?",
+      "choices": [
+        "Midnight",
+        "Afternoon",
+        "Evening",
+        "Morning"
+      ],
+      "answerHash": "91ceb51346dc0644"
+    }
+  ]
+}

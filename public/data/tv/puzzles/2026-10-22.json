@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "difficulty": "Medium",
+  "answerHash": "cb3fe728bf96762e",
+  "bonusHash": "bf6b6cfd54417776",
+  "still": "/mnSVqzBFybY7M0ttlU1xXVaT6e0.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Sci-Fi & Fantasy, Comedy, Family, Drama"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 5: “It's So Nice to Have a Spouse Around the House”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "1964 on ABC"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Serena is involved again. This time, Drarin takes her to the honeymoon spot where he and ▇▇▇ went. ▇▇▇ is at a Witches Council meeting and doesn't know what is going on. ▇▇▇ gets intimate with Serena, thinking that she is ▇▇▇, and she tells him to back off. Then ▇▇▇ is called to solve the puzzle."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Endora"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Elizabeth Montgomery"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "difficulty": "Medium",
+  "answerHash": "ff743f1c78550ec2",
+  "bonusHash": "f0c676b0ad619616",
+  "still": "/3z0oRN1qKDIB5puUtSaFs3pJO4V.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Horror, Mystery, Thriller"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Every family tree hides a secret.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2018 · PalmStar Media"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Following the death of the ▇▇▇ family matriarch, ▇▇▇ and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Ari Aster"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Toni Collette"
+    }
+  ]
+}

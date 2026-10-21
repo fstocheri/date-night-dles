@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "difficulty": "Medium",
+  "answerHash": "e910d6832943a313",
+  "bonusHash": null,
+  "media": "776220",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1983"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Epiphany: The Best of ▇▇▇, Vol. 1”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“I'm Every Woman”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "C•••• K•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Chaka Khan"
+    }
+  ]
+}

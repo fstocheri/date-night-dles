@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "difficulty": "Medium",
+  "answerHash": "5980bf5b6c0b1b66",
+  "bonusHash": "f0c676b0ad619616",
+  "still": "https://cdn-images.dzcdn.net/images/artist/e2028aa97337e6ebb6dc9219b5edd600/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo female artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1997"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Da Real World”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Get Ur Freak On”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "M•••• E••••••"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "number": 9,
+  "difficulty": "Medium",
+  "answerHash": "2ded577008538990",
+  "bonusHash": null,
+  "media": "785961",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2004"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Three Cheers for Sweet Revenge”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Teenagers”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M• C••••••• R••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "My Chemical Romance"
+    }
+  ]
+}
