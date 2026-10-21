@@ -65,6 +65,8 @@ export interface GameConfig<E extends Entry> {
   placeholder: string;
   /** Feedback tiles for a wrong guess. */
   compare: (guess: E, answer: E) => Cell[];
+  /** Extra text a guess can be found by, e.g. a song's artist. */
+  searchAlso?: (entry: E) => string[];
   /** Secondary text beside a title in suggestions and results. Defaults to the year. */
   subtitle?: (entry: E) => string;
   /** Turns puzzle.still into a URL. Defaults to a TMDB image path. */

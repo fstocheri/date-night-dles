@@ -9,30 +9,34 @@ interface Props<E extends Entry> {
   exclude: Set<number>;
   placeholder: string;
   subtitle: (entry: E) => string;
+  searchAlso?: (entry: E) => string[];
   onGuess: (entry: E) => void;
   onSkip: () => void;
 }
 
-export function GuessInput<E extends Entry>({ entries, exclude, placeholder, subtitle, onGuess, onSkip }: Props<E>) {
+export function GuessInput<E extends Entry>({ entries, exclude, placeholder, subtitle, searchAlso, onGuess, onSkip }: Props<E>) {
   const [query, setQuery] = useState('');
   const [active, setActive] = useState(0);
 
   const matches = useMemo(() => {
     const q = normalize(query);
     if (q.length < 2) return [];
+    const words = q.split(' ');
     return entries
       .filter((e) => !exclude.has(e.id))
       .map((e) => {
         const names = [normalize(e.name), e.original ? normalize(e.original) : ''];
-        const starts = names.some((n) => n.startsWith(q));
-        const contains = starts || names.some((n) => n.includes(q));
-        return { e, starts, contains };
+        const everything = [...names, ...(searchAlso?.(e) ?? []).map(normalize)].join(' ');
+        // Best: the title starts with what you typed; then the title contains it; then every
+        // word you typed appears somewhere in the title or the extra text (e.g. "love taylor").
+        const tier = names.some((n) => n.startsWith(q)) ? 0 : names.some((n) => n.includes(q)) ? 1 : words.every((w) => everything.includes(w)) ? 2 : -1;
+        return { e, tier };
       })
-      .filter((m) => m.contains)
-      .sort((a, b) => Number(b.starts) - Number(a.starts) || a.e.rank - b.e.rank)
-      .slice(0, 8)
+      .filter((m) => m.tier >= 0)
+      .sort((a, b) => a.tier - b.tier || a.e.rank - b.e.rank)
+      .slice(0, 10)
       .map((m) => m.e);
-  }, [query, entries, exclude]);
+  }, [query, entries, exclude, searchAlso]);
 
   const choose = (entry: E) => {
     onGuess(entry);

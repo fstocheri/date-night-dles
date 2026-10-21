@@ -16,8 +16,9 @@ const minutes = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(
 
 export const songsConfig: GameConfig<Song> = {
   ...gameInfo('songs'),
-  placeholder: 'Type a song…',
+  placeholder: 'Type a song or artist…',
   subtitle: (s) => s.artist,
+  searchAlso: (s) => [s.artist],
   Media: AudioClip,
   compare: (g, a) => [
     exactCell('Artist', g.artist, a.artist),

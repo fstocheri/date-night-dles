@@ -119,6 +119,7 @@ function Board<E extends Entry>({ config, puzzle, entries, answer, bonusAnswer }
           exclude={guessedIds}
           placeholder={config.placeholder}
           subtitle={subtitle}
+          searchAlso={config.searchAlso}
           onGuess={(e) => addGuess(e.id)}
           onSkip={() => addGuess(null)}
         />
