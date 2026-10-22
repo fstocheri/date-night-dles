@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "difficulty": "Hard",
+  "answerHash": "ef58d33f2416fa5e",
+  "bonusHash": "7cdb885c34264c2d",
+  "still": "/hdVf4DWKpDBjFxBDYskClwsZteP.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 6: “The Offer”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2017 on FX"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ must deal with his past in order to retrieve stolen merchandise. ▇▇▇ and Matt take a trip to Central America. Now in the crosshairs of La Fuerza, ▇▇▇ and ▇▇▇ set out to find the one thing that can save them."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Teddy McDonald"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Damson Idris"
+    }
+  ]
+}

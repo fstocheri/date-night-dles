@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "difficulty": "Hard",
+  "answerHash": "4870e06d9e3fa516",
+  "bonusHash": "96a69ceb096ad332",
+  "still": "/1sejUyhtyAcGX5KPufRzzWUfjNZ.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action, Thriller"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“▇▇▇ harder.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1990 · Gordon Company"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "One year after his heroics in Los Angeles, ▇▇▇ is an off-duty cop who is the wrong guy in the wrong place at the wrong time. On a snowy Christmas Eve, as he waits for his wife's plane to land at Washington Dulles International Airport, terrorists take over the air traffic control system in a plot to free a South American army general and drug smuggler being flown into the US to face drug charges. It's now up to ▇▇▇ to take on the terrorists, while coping with an inept airport police chief, an uncooperative anti-terrorist squad, and the life of his wife and everyone else trapped in planes circling overhead."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Renny Harlin"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Bruce Willis"
+    }
+  ]
+}

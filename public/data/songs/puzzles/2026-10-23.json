@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "difficulty": "Hard",
+  "answerHash": "71292f625960dc75",
+  "bonusHash": null,
+  "media": "3119536",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1994"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Solid Gold Hits”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Intergalactic”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "B•••••• B•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Beastie Boys"
+    }
+  ]
+}

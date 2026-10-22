@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "difficulty": "Hard",
+  "answerHash": "513bcbfc837064a1",
+  "bonusHash": null,
+  "media": "366916761",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1994"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Jumper”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•••• E•• B••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Third Eye Blind"
+    }
+  ]
+}

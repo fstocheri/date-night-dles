@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1985 World Series?",
+      "choices": [
+        "Cincinnati Reds",
+        "Kansas City Royals",
+        "Baltimore Orioles",
+        "Detroit Tigers"
+      ],
+      "answerHash": "6b83ef7223d9e453"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which country hosted the 2020 Summer Olympics?",
+      "choices": [
+        "China",
+        "Germany",
+        "Japan",
+        "Australia"
+      ],
+      "answerHash": "24beb8725c2d88b6"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2015 NCAA men's basketball championship?",
+      "choices": [
+        "Duke Blue Devils",
+        "Kentucky Wildcats",
+        "Virginia Cavaliers",
+        "Florida Gators"
+      ],
+      "answerHash": "2e6af962fad7de34"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who was the original author of Frankenstein?",
+      "choices": [
+        "Mary Shelley",
+        "Bram Stoker",
+        "H. P. Lovecraft",
+        "Edgar Allan Poe"
+      ],
+      "answerHash": "9a1f8ef050dad080"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the Polish city known to Germans as Danzig?",
+      "choices": [
+        "Warsaw",
+        "Zakopane",
+        "Gdańsk",
+        "Poznań"
+      ],
+      "answerHash": "4b7588187632564c"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
+      "choices": [
+        "Rocco Botte",
+        "Shawn Chatfield",
+        "Derrick Acosta",
+        "Jon Jafari"
+      ],
+      "answerHash": "ac57e18c6d50432b"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+      "choices": [
+        "Keyboards",
+        "Bass Guitar",
+        "Drums",
+        "Guitar"
+      ],
+      "answerHash": "e6cad5749a86bebe"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+      "choices": [
+        "South Park",
+        "Rick & Morty",
+        "Family Guy",
+        "American Dad"
+      ],
+      "answerHash": "5226dc6a5e441d1a"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?",
+      "choices": [
+        "The Long Ships",
+        "Spartacus",
+        "Prince Valiant",
+        "The Vikings"
+      ],
+      "answerHash": "7e4a5d36e5871cff"
+    }
+  ]
+}

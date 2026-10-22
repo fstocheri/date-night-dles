@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "number": 10,
+  "difficulty": "Hard",
+  "answerHash": "510070c4e7426d7f",
+  "bonusHash": "7cdb885c34264c2d",
+  "still": "https://cdn-images.dzcdn.net/images/artist/3f44f1d9518985b54ecdaf08994ce027/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1998"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Transatlanticism Demos”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“I Will Follow You into the Dark”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "D•••• C•• f•• C••••"
+    }
+  ]
+}
