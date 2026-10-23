@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1971 World Series?",
+      "choices": [
+        "St. Louis Cardinals",
+        "Los Angeles Dodgers",
+        "Pittsburgh Pirates",
+        "Cincinnati Reds"
+      ],
+      "answerHash": "d556c4014b875047"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "What year was hockey legend Wayne Gretzky born?",
+      "choices": [
+        "1963",
+        "1961",
+        "1965",
+        "1959"
+      ],
+      "answerHash": "662abbce8d53ae6c"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1999 NCAA men's basketball championship?",
+      "choices": [
+        "Indiana Hoosiers",
+        "Maryland Terrapins",
+        "North Carolina Tar Heels",
+        "UConn Huskies"
+      ],
+      "answerHash": "554a8e6c7e63d773"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
+      "choices": [
+        "The Poseidon",
+        "The Atlantis",
+        "The Neptune",
+        "The Nautilus"
+      ],
+      "answerHash": "6ddb464f5d295a76"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+      "choices": [
+        "Estonian",
+        "Samoyedic",
+        "Hungarian",
+        "Finnish"
+      ],
+      "answerHash": "0397e5aaf242317a"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which actress's real name was Frances Ethel Gumm?",
+      "choices": [
+        "Doris Day",
+        "Judy Garland",
+        "Julie Andrews",
+        "Marilyn Monroe"
+      ],
+      "answerHash": "aac6ce9800a791a9"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "\"Hallelujah\" is a song written by which Canadian recording artist?",
+      "choices": [
+        "Kory Lefkowits",
+        "Justin Bieber",
+        "Leonard Cohen",
+        "Ryan Letourneau"
+      ],
+      "answerHash": "f94859caedce5f4a"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Cesar Romero played which iconic Batman villain from the 1960's TV show?",
+      "choices": [
+        "The Penguin",
+        "Mr. Freeze",
+        "The Riddler",
+        "The Joker"
+      ],
+      "answerHash": "fab54a4e25f4f0a7"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Max Schreck, a famous German silent film actor, plays a famous monster in which 1922 film?",
+      "choices": [
+        "Frankenstein",
+        "Häxan",
+        "Nosferatu",
+        "The Headless Horseman"
+      ],
+      "answerHash": "c9ff127f5c27735c"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "difficulty": "Hard",
+  "answerHash": "f2b6d2ca86ebbcac",
+  "bonusHash": "a9a0913c7e7e7c2e",
+  "still": "/osXnWu2NxDDaUT3eKI4dYMOysqB.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Comedy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 12: “Any Given Workday”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2010 on Comedy Central"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇'s new arm lands him on the DOI's intramural football team, and ▇▇▇ pimps out ▇▇▇."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Randall Skeffington"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Matt Oberg"
+    }
+  ]
+}

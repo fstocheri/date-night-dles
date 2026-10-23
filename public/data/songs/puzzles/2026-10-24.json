@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "difficulty": "Hard",
+  "answerHash": "ceba12d044cd65b3",
+  "bonusHash": null,
+  "media": "904784",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1968"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇ Now”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Respect”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A••••• F•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Aretha Franklin"
+    }
+  ]
+}

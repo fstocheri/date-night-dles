@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "difficulty": "Hard",
+  "answerHash": "1ba3ccc26546a360",
+  "bonusHash": "a9a0913c7e7e7c2e",
+  "still": "https://cdn-images.dzcdn.net/images/artist/d56e4db5f7971fe2075f5fd77afe3fdc/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1989"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Wildflowers”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Free Fallin'”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "T•• P••••"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "difficulty": "Hard",
+  "answerHash": "95d325680268ef87",
+  "bonusHash": null,
+  "media": "676930",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2003"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Live in Texas”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“In the End”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "L••••• P•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Linkin Park"
+    }
+  ]
+}

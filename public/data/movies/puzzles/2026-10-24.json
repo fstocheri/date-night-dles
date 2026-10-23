@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "number": 11,
+  "difficulty": "Hard",
+  "answerHash": "7ca3fb20cd6b7980",
+  "bonusHash": "c5fca17991147124",
+  "still": "/TnHMnkHIPK3W3LWUlxsEK4mx52.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Science Fiction, Adventure, Action"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Protect your own.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2016 · LStar Capital"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "16-year-old ▇▇▇ tries to survive in a world devastated by the waves of an alien invasion that has already decimated the population and knocked mankind back to the Stone Age."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "J Blakeson"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Chloë Grace Moretz"
+    }
+  ]
+}
