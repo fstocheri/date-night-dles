@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "difficulty": "Expert",
+  "answerHash": "38ce815f918d7458",
+  "bonusHash": null,
+  "media": "137136442",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2001"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Vote for Me”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Coconut Island”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "U••••••••••••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Uncommonmenfrommars"
+    }
+  ]
+}

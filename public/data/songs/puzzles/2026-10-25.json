@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "difficulty": "Expert",
+  "answerHash": "50dd924ea626b429",
+  "bonusHash": null,
+  "media": "2346695655",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2021"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“1-800”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "b•••$"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "bbno$"
+    }
+  ]
+}

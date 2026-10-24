@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2013 World Series?",
+      "choices": [
+        "San Francisco Giants",
+        "Boston Red Sox",
+        "Philadelphia Phillies",
+        "Atlanta Braves"
+      ],
+      "answerHash": "a635a2eaf21d3ed7"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which country hosted the 2022 FIFA World Cup?",
+      "choices": [
+        "Switzerland",
+        "Japan",
+        "Qatar",
+        "USA"
+      ],
+      "answerHash": "fb35f54682fab888"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1989 NCAA men's basketball championship?",
+      "choices": [
+        "Indiana Hoosiers",
+        "Arizona Wildcats",
+        "Michigan Wolverines",
+        "NC State Wolfpack"
+      ],
+      "answerHash": "52d437632124e4cc"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote \"The Scarlet Letter\", published in 1850?",
+      "choices": [
+        "Washington Irving",
+        "Catherine Maria Sedgwick",
+        "Nathaniel Hawthorne",
+        "James Fenimore Cooper"
+      ],
+      "answerHash": "e914a5585e0c14d6"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What country has a horizontal bicolor red and white flag?",
+      "choices": [
+        "Bahrain",
+        "Liechenstein",
+        "Malta",
+        "Monaco"
+      ],
+      "answerHash": "ef9def5de1e89e47"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What year did radio icon Howard Stern start a job at radio station WNBC?",
+      "choices": [
+        "1984",
+        "1995",
+        "1985",
+        "1982"
+      ],
+      "answerHash": "d39e6617c9d1b5b9"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What kind of instrument is a \"Mandolin\"?",
+      "choices": [
+        "Percussion",
+        "Brass",
+        "Woodwind",
+        "String"
+      ],
+      "answerHash": "2575b2ef8d17f9ef"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the show \"Futurama\" what is Fry's full name?",
+      "choices": [
+        "Fry Philip",
+        "Philip J. Fry",
+        "Fry Rodríguez",
+        "Fry J. Philip"
+      ],
+      "answerHash": "84d00efa044882f6"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Who is the protagonist of the 2002 film \"Kung Pow! Enter the Fist\"?",
+      "choices": [
+        "Master Tang",
+        "Dragon King",
+        "Chosen One",
+        "Iron Monkey"
+      ],
+      "answerHash": "7cd2b88e41c74112"
+    }
+  ]
+}

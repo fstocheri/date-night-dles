@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "difficulty": "Expert",
+  "answerHash": "693e23d228c2ce3a",
+  "bonusHash": "e935b482a907c116",
+  "still": "https://cdn-images.dzcdn.net/images/artist/1f3674cdc90bfc1a2d01b91d281c445c/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from Australia"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1986"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Gravity Stairs”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Don't Dream It's Over”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "C•••••• H••••"
+    }
+  ]
+}

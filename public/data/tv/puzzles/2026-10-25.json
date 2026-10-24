@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "difficulty": "Expert",
+  "answerHash": "51f2c07dc4d3b173",
+  "bonusHash": "2fca85eeca05acff",
+  "still": "/z67sdy7YGlMGd0Oa8X5Bpkqcs6p.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 6: “Relics”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2011 on Showtime"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ unites the sons of the five Romagna families with his own army against Forli, and the Pope negotiates for a with Constantinople Jews for a holy relic."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Cesare Borgia"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Jeremy Irons"
+    }
+  ]
+}

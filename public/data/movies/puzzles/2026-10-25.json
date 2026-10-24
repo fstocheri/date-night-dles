@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-25",
+  "number": 12,
+  "difficulty": "Expert",
+  "answerHash": "fbdae8712dfce1c1",
+  "bonusHash": "2fca85eeca05acff",
+  "still": "/gXIuss4Ajlex0E6iJPjkSTR8Qip.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Comedy"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Fitting in is overrated.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2017 · LuckyChap Entertainment"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Competitive ice skater ▇▇▇ Harding rises amongst the ranks at the U.S. Figure ▇▇▇ Championships, but her future in the sport is thrown into doubt when her ex-husband intervenes."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Craig Gillespie"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Margot Robbie"
+    }
+  ]
+}
