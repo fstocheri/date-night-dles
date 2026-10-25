@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "number": 13,
+  "difficulty": "Easy",
+  "answerHash": "bd59138bfc58cf60",
+  "bonusHash": null,
+  "media": "625643",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1981"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Essential ▇▇▇”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Separate Ways (Worlds Apart) [2024 Remaster]”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "J••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Journey"
+    }
+  ]
+}

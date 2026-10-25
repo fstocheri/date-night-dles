@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-26",
+  "number": 13,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl XXII (1988)?",
+      "choices": [
+        "Chicago Bears",
+        "Pittsburgh Steelers",
+        "Denver Broncos",
+        "Washington Commanders"
+      ],
+      "answerHash": "1096c243daaa901c"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which football manager won more trophies than any other during his tenure at English football club Manchester United?",
+      "choices": [
+        "José Mourinho",
+        "Sir Alex Ferguson",
+        "David Moyes",
+        "Louis van Gaal"
+      ],
+      "answerHash": "4e025e5b3d72b2d1"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2026 NCAA men's basketball championship?",
+      "choices": [
+        "Kansas Jayhawks",
+        "Duke Blue Devils",
+        "Michigan Wolverines",
+        "Baylor Bears"
+      ],
+      "answerHash": "5b110fe2985565bf"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote the \"A Song of Ice And Fire\" fantasy novel series?",
+      "choices": [
+        "George Orwell",
+        "George Lucas",
+        "George R. R. Martin",
+        "George Eliot"
+      ],
+      "answerHash": "b3366f6073c81739"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The White Cliffs of Dover is located in which country?",
+      "choices": [
+        "Sweden",
+        "United Kingdom",
+        "United States",
+        "Netherlands"
+      ],
+      "answerHash": "8910b87a9b59430f"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+      "choices": [
+        "Tino Martinez",
+        "Mason Williams",
+        "Joe DiMaggio",
+        "Babe Ruth"
+      ],
+      "answerHash": "ca8d39c56527a7b9"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What is the real name of American rapper Pitbull?",
+      "choices": [
+        "Ramón Luis Ayala Rodríguez",
+        "Armando Christian Pérez",
+        "Belcalis Marlenis Almánzar",
+        "Benito Antonio Martinez Ocasio"
+      ],
+      "answerHash": "37e3ebd2cde1ae0c"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "On the NBC show Community, whose catch-phrase was \"Pop! Pop!\"?",
+      "choices": [
+        "Leonard",
+        "Star Burns",
+        "Magnitude",
+        "Senoir Chang"
+      ],
+      "answerHash": "e4a9c0b3007cec7d"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the 1986 film \"The Wraith\", what concept car is used for the Turbo Interceptor?",
+      "choices": [
+        "Pontiac Banshee",
+        "Dodge Copperhead",
+        "General Motors Firebird",
+        "Dodge M4S"
+      ],
+      "answerHash": "91e0f4fa51098ca2"
+    }
+  ]
+}

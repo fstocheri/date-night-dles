@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "number": 13,
+  "difficulty": "Easy",
+  "answerHash": "b24e497d294d6323",
+  "bonusHash": null,
+  "media": "536485",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2005"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Oracular Spectacular”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Electric Feel”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "MGMT"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "number": 13,
+  "difficulty": "Easy",
+  "answerHash": "175b90440160663c",
+  "bonusHash": "fbc90870534c5be8",
+  "still": "/dDpTdsaS3pobY2eUti5hGjFrUgp.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action & Adventure, Drama, Sci-Fi & Fantasy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 6: “Where Is He?”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2022 on Prime Video"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ considers a proposition. ▇▇▇ faces judgment. ▇▇▇ finds himself at a crossroads. ▇▇▇'s plans bear fruit."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Elrond"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Morfydd Clark"
+    }
+  ]
+}

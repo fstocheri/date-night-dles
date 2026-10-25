@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "number": 13,
+  "difficulty": "Easy",
+  "answerHash": "1d42ad433afd9624",
+  "bonusHash": "536c8fa6ee034d79",
+  "still": "/ejyXv2hRKeA3lU9AHU3Jd59IwoG.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action, Adventure, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“The future belongs to the ▇▇▇.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2015 · Warner Bros. Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "George Miller"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Tom Hardy"
+    }
+  ]
+}
