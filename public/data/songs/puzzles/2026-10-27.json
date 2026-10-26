@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "difficulty": "Easy",
+  "answerHash": "7242ce2ac6af206a",
+  "bonusHash": null,
+  "media": "14299589",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2011"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Mylo Xyloto”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Yellow”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "C•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Coldplay"
+    }
+  ]
+}

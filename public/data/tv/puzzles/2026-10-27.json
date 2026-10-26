@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "difficulty": "Easy",
+  "answerHash": "ec9ee02211943ae2",
+  "bonusHash": "6422abc0da1f0d86",
+  "still": "/oTVKt2I8bZIWQiYcbY3BzZFnR0A.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 6: “Rock Show”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2009 on NBC"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ attends what she believes is a business meeting with an elderly local government bigwig, unaware that her mother has secretly set her up on a blind date. ▇▇▇ plays his first gig since breaking both of his legs in the pit."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Tom Haverford"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Amy Poehler"
+    }
+  ]
+}

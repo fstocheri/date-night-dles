@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "difficulty": "Easy",
+  "answerHash": "7015681f2dfcb44a",
+  "bonusHash": "254ddf67774c7330",
+  "still": "/gHZjFEc1Bqet7q41rBcxHn1k3qx.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Horror, Thriller"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“▇▇▇ has 23 distinct personalities. The 24th is about to be unleashed.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2017 · Blinding Edge Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Though ▇▇▇ has evidenced 23 personalities to his trusted psychiatrist, Dr. ▇▇▇, there remains one still submerged who is set to materialize and dominate all the others. Compelled to abduct three teenage girls led by the willful, observant ▇▇▇, ▇▇▇ reaches a war for survival among all of those contained within him — as well as everyone around him — as the walls between his compartments shatter apart."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "M. Night Shyamalan"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "James McAvoy"
+    }
+  ]
+}

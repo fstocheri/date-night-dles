@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1976 NBA Finals?",
+      "choices": [
+        "Golden State Warriors",
+        "Boston Celtics",
+        "Portland Trail Blazers",
+        "Seattle SuperSonics"
+      ],
+      "answerHash": "12bed2e9059c7e62"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "What is the oldest team in Major League Baseball?",
+      "choices": [
+        "Chicago Cubs",
+        "Cincinnati Reds",
+        "St. Louis Cardinals",
+        "Atlanta Braves"
+      ],
+      "answerHash": "4d5cdc3f9667b60e"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2019 NCAA women's basketball championship?",
+      "choices": [
+        "Texas A&M Aggies",
+        "UConn Huskies",
+        "South Carolina Gamecocks",
+        "Baylor Bears"
+      ],
+      "answerHash": "dfdcfaf4cd1babeb"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1990)?",
+      "choices": [
+        "1989 Toyota Land Cruiser",
+        "1989 Jeep Wrangler YJ Sahar",
+        "Mercedes M-Class",
+        "1989 Ford Explorer XLT"
+      ],
+      "answerHash": "32d5949d234f48c1"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The Space Needle is located in which city?",
+      "choices": [
+        "Vancouver",
+        "Los Angles",
+        "Toronto",
+        "Seattle"
+      ],
+      "answerHash": "46310cb557db50bd"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Donald J. Trump's Middle Name is...",
+      "choices": [
+        "John",
+        "Jeff",
+        "Jason",
+        "Jerald"
+      ],
+      "answerHash": "fc52ef7437785d1e"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which Coldplay album won the Grammy for Best Rock Album in the 2009 Grammy Awards?",
+      "choices": [
+        "A Rush Of Blood To The Head",
+        "Viva La Vida Or Death And All His Friends",
+        "X&Y",
+        "Mylo Xyloto"
+      ],
+      "answerHash": "92f25eb4b623fec3"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What was Nickelodeon's original name?",
+      "choices": [
+        "MTVKids",
+        "Pinwheel",
+        "KidsTV",
+        "Splat!"
+      ],
+      "answerHash": "325786b96075d88f"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What is the name of the dog that played Toto in the 1939 film \"The Wizard of Oz\"?",
+      "choices": [
+        "Toto",
+        "Tommy",
+        "Teddy",
+        "Terry"
+      ],
+      "answerHash": "29a084bfb50014d3"
+    }
+  ]
+}

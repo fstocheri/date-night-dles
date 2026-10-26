@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "difficulty": "Easy",
+  "answerHash": "04760ba8f246b3ca",
+  "bonusHash": "b1035e9d78fe65df",
+  "still": "https://cdn-images.dzcdn.net/images/artist/3e279f4e0269fdb2733474ddfa074a91/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1991"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Yield”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Black”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "P•••• J••"
+    }
+  ]
+}

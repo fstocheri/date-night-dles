@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "number": 14,
+  "difficulty": "Easy",
+  "answerHash": "4aea139e9b996451",
+  "bonusHash": null,
+  "media": "2522288451",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1998"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Come Together”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• B••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Beatles"
+    }
+  ]
+}
