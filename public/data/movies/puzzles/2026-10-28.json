@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "difficulty": "Medium",
+  "answerHash": "24c1425c79a588da",
+  "bonusHash": "85cd267fa74066e4",
+  "still": "/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Crime, Mystery"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Hell, any of them could have done it.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2019 · MRC"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "When renowned crime novelist ▇▇▇ is found dead at his estate just after his 85th birthday, the inquisitive and debonair ▇▇▇ is mysteriously enlisted to investigate. From ▇▇▇'s dysfunctional family to his devoted staff, ▇▇▇ sifts through a web of red herrings and self-serving lies to uncover the truth behind ▇▇▇'s untimely death."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Rian Johnson"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Daniel Craig"
+    }
+  ]
+}

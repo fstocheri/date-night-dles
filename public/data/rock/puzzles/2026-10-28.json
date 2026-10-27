@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "difficulty": "Medium",
+  "answerHash": "3588071be115935b",
+  "bonusHash": null,
+  "media": "2121813",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1971"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇'s Next”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Baba O'Riley”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• W••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Who"
+    }
+  ]
+}

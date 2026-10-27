@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl LI (2017)?",
+      "choices": [
+        "Philadelphia Eagles",
+        "Pittsburgh Steelers",
+        "New England Patriots",
+        "New Orleans Saints"
+      ],
+      "answerHash": "f5d950bfd494cd76"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "In baseball, how many fouls are an out?",
+      "choices": [
+        "5",
+        "3",
+        "0",
+        "2"
+      ],
+      "answerHash": "cb8107a163a5f3bf"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2005 NCAA men's basketball championship?",
+      "choices": [
+        "Duke Blue Devils",
+        "Michigan State Spartans",
+        "North Carolina Tar Heels",
+        "Arkansas Razorbacks"
+      ],
+      "answerHash": "de2c0ef396823b0b"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who is the author of the \"A Song of Ice and Fire\" book series, starting with \"A Game of Thrones\"?",
+      "choices": [
+        "George R. R. Martin",
+        "Brandon Sanderson",
+        "J. R. R. Tolkien",
+        "Steven Erikson"
+      ],
+      "answerHash": "4adfc7becb20d97c"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the smallest country in the world?",
+      "choices": [
+        "Monaco",
+        "Malta",
+        "Maldives",
+        "Vatican City"
+      ],
+      "answerHash": "3bab013eca498c7f"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which radio personality calls himself \"The King of All Media\"?",
+      "choices": [
+        "Pete Tong",
+        "Ryan Seacrest",
+        "Howard Stern",
+        "Rush Limbaugh"
+      ],
+      "answerHash": "8309960a296ad849"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What is the name of Finnish DJ Darude's hit single released in October 1999?",
+      "choices": [
+        "Dust Devil",
+        "Sandstorm",
+        "Khamsin",
+        "Sirocco"
+      ],
+      "answerHash": "03cb13d74568f782"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the Netflix show, Stranger Things, what song would Will sing to himself as he was missing?",
+      "choices": [
+        "Africa",
+        "This Charming Man",
+        "Should I Stay or Should I Go?",
+        "Love Will Tear Us Apart"
+      ],
+      "answerHash": "14424f361d929a2b"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+      "choices": [
+        "Pam Grier",
+        "Uma Thurman",
+        "Kathy Griffin",
+        "Bridget Fonda"
+      ],
+      "answerHash": "aa8fbff56792f8fd"
+    }
+  ]
+}

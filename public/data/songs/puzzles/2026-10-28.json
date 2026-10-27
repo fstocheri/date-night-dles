@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "difficulty": "Medium",
+  "answerHash": "2392f2709fdf3e6b",
+  "bonusHash": null,
+  "media": "15531170",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2008"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Only By The Night”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Use Somebody”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "K•••• O• L•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Kings Of Leon"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "difficulty": "Medium",
+  "answerHash": "361f546d8a254c9d",
+  "bonusHash": "5243fa0e57e1850b",
+  "still": "/ziiN3EHZig8uN9EmnmNq16Gcr6X.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action & Adventure, Drama, War & Politics"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 2: “Viking”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2022 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "To save the life of ▇▇▇, ▇▇▇ agrees to join ▇▇▇ and ▇▇▇'s siege of London. ▇▇▇ dispatches stepson Edmund to secure an ally's help."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Freydis Eriksdotter"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Sam Corlett"
+    }
+  ]
+}

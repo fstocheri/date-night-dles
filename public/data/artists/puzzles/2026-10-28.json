@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "number": 15,
+  "difficulty": "Medium",
+  "answerHash": "1b5d6f4d8232bf51",
+  "bonusHash": "4f7faa617079c239",
+  "still": "https://cdn-images.dzcdn.net/images/artist/75f8103b1810e1f4bc70edb415b6cc39/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1993"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“No Come Down (B Sides & Outtakes)”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Bitter Sweet Symphony”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "T•• V••••"
+    }
+  ]
+}
