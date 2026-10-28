@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "difficulty": "Medium",
+  "answerHash": "270f092db4ba30b9",
+  "bonusHash": "77a57c12e811805d",
+  "still": "https://cdn-images.dzcdn.net/images/artist/9a958ac5c45361acf68918c0db5834e8/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo female artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1965"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Love Hurts”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Believe”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "C•••"
+    }
+  ]
+}

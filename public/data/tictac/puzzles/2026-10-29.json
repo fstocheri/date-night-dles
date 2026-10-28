@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2019 World Series?",
+      "choices": [
+        "Washington Nationals",
+        "Boston Red Sox",
+        "Los Angeles Dodgers",
+        "St. Louis Cardinals"
+      ],
+      "answerHash": "9d4a99251fe61429"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "In golf, what name is given to a hole score of two under par?",
+      "choices": [
+        "Albatross",
+        "Bogey",
+        "Birdie",
+        "Eagle"
+      ],
+      "answerHash": "b0e0a007141e431e"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1971 NCAA men's basketball championship?",
+      "choices": [
+        "UCLA Bruins",
+        "North Carolina Tar Heels",
+        "Indiana Hoosiers",
+        "Marquette Golden Eagles"
+      ],
+      "answerHash": "4d11d09488f50812"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote \"Harry Potter\"?",
+      "choices": [
+        "J.R.R. Tolkien",
+        "Terry Pratchett",
+        "Daniel Radcliffe",
+        "J.K. Rowling"
+      ],
+      "answerHash": "ff2cabea9b010e40"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which US state is nicknamed \"The Golden State\"?",
+      "choices": [
+        "California",
+        "New Mexico",
+        "Florida",
+        "Alaska"
+      ],
+      "answerHash": "3b2895f58a21b490"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+      "choices": [
+        "Elvis Presley",
+        "Bing Crosby",
+        "Groucho Marx",
+        "Charlie Chaplin"
+      ],
+      "answerHash": "158976fd00d21787"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "The \"British Invasion\" was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?",
+      "choices": [
+        "60's",
+        "50's",
+        "40's",
+        "30's"
+      ],
+      "answerHash": "0ca8530c4bffa5ce"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What is Meg's full name in \"Family Guy\"?",
+      "choices": [
+        "Who-Cares Griffin",
+        "Neil Griffin",
+        "Megatron Griffin",
+        "Megan Griffin"
+      ],
+      "answerHash": "2a28ec9c9be7684c"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1993)?",
+      "choices": [
+        "Mercedes M-Class",
+        "1992 Toyota Land Cruiser",
+        "1992 Jeep Wrangler YJ Sahar",
+        "1992 Ford Explorer XLT"
+      ],
+      "answerHash": "01559f7c00f7c700"
+    }
+  ]
+}

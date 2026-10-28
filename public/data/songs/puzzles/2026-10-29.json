@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "difficulty": "Medium",
+  "answerHash": "b974fe817103afd7",
+  "bonusHash": null,
+  "media": "378299591",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1994"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Smash”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“You're Gonna Go Far, Kid”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• O••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Offspring"
+    }
+  ]
+}

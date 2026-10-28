@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "difficulty": "Medium",
+  "answerHash": "fb395daaa8963e2e",
+  "bonusHash": "50f02c28dca8b745",
+  "still": "/sWLSQ3eNVTyXugBRTULqkMIpK3x.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Fantasy, Drama, Romance"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“It all begins... with a choice.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2010 · Summit Entertainment"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "▇▇▇ once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for ▇▇▇ and her friendship with ▇▇▇, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, ▇▇▇ is confronted with the most important decision of her life."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "David Slade"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Kristen Stewart"
+    }
+  ]
+}

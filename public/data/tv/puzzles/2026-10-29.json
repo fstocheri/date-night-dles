@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "difficulty": "Medium",
+  "answerHash": "d9fdf505bb565731",
+  "bonusHash": null,
+  "still": "/zGuBOOED7VZne0JlhBPSqCpx6mB.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 5: “Thief”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2021 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A job cleaning out the childhood home of a notorious local thief triggers memories for ▇▇▇, who also discovers what's causing ▇▇▇'s worrying cough."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Sean Boyd"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Margaret Qualley"
+    }
+  ]
+}

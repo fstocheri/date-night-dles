@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "number": 16,
+  "difficulty": "Medium",
+  "answerHash": "ee550902746742db",
+  "bonusHash": null,
+  "media": "559725",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2005"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Mezmerize”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Chop Suey!”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "S••••• o• A D•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "System of A Down"
+    }
+  ]
+}
