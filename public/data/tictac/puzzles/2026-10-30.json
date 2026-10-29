@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-30",
+  "number": 17,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2021 NBA Finals?",
+      "choices": [
+        "Milwaukee Bucks",
+        "Los Angeles Lakers",
+        "Dallas Mavericks",
+        "San Antonio Spurs"
+      ],
+      "answerHash": "c4002e9a301b08fa"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+      "choices": [
+        "Quebec City",
+        "Houston",
+        "New York",
+        "Montreal"
+      ],
+      "answerHash": "f3fc7684591cc6b2"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2008 NCAA men's basketball championship?",
+      "choices": [
+        "Kansas Jayhawks",
+        "Arizona Wildcats",
+        "UConn Huskies",
+        "Virginia Cavaliers"
+      ],
+      "answerHash": "43cd751b9984149a"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+      "choices": [
+        "Thorin Oakenshield",
+        "Bombur",
+        "Gloin",
+        "Dwalin"
+      ],
+      "answerHash": "61aed75dbada26b4"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The Japanese district Akihabara is also known by what nickname?",
+      "choices": [
+        "Otaku Central",
+        "Electric Town",
+        "Moon Walk River",
+        "Big Eyes"
+      ],
+      "answerHash": "a1e7bcddc1327bc7"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
+      "choices": [
+        "Bullying",
+        "Criminal Record",
+        "Racism",
+        "Nomination for Worst Actor"
+      ],
+      "answerHash": "ac14523a1d2ecb22"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which of these artists do NOT originate from France?",
+      "choices": [
+        "Justice",
+        "The Chemical Brothers",
+        "Air",
+        "Daft Punk"
+      ],
+      "answerHash": "3bc3b34a066b05d0"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
+      "choices": [
+        "Jessica",
+        "Erica",
+        "Sandra",
+        "Angela"
+      ],
+      "answerHash": "b1d269622fdf47fb"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the 2002 film \"Kung Pow! Enter the Fist\", why was Wimp Lo purposely trained wrong?",
+      "choices": [
+        "To test him",
+        "As a joke",
+        "For cheating",
+        "Revenge"
+      ],
+      "answerHash": "a3e84f6ffc0b2b43"
+    }
+  ]
+}

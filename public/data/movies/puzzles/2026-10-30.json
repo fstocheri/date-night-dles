@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "number": 17,
+  "difficulty": "Hard",
+  "answerHash": "ba5577d2c6054551",
+  "bonusHash": "27f13c27e0c476ed",
+  "still": "/1ClgfKeczI0d0KKuBs5qSIqUReT.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Comedy, Fantasy, Family"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“One final ▇▇▇ to save the day.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2014 · Moving Picture Company"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "When the magic powers of The Tablet of ▇▇▇ begin to die out, ▇▇▇ spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Shawn Levy"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Ben Stiller"
+    }
+  ]
+}

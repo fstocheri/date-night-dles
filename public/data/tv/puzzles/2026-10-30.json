@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "number": 17,
+  "difficulty": "Hard",
+  "answerHash": "a79b62c0906dba05",
+  "bonusHash": "659902641e9bd30f",
+  "still": "/dvBGkX7AhLdR6Jvvg8u4TbTijId.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Animation"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 10: “The Big House”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "1997 on MTV"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "The annual teachers-versus-deejays roller hockey game is coming, and there's a good chance the students will get to see Mr. DeMartino die of an aneurysm during the game—but ▇▇▇'s going to miss it because she's been grounded by her parents."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Jane Lane / Quinn Morgendorffer / Helen Morgendorffer"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Tracy Grandstaff"
+    }
+  ]
+}

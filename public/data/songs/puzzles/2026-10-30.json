@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-30",
+  "number": 17,
+  "difficulty": "Hard",
+  "answerHash": "3f0c9c50c83ea965",
+  "bonusHash": null,
+  "media": "1842063487",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2022"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“RENAISSANCE”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Halo”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "B••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Beyoncé"
+    }
+  ]
+}
