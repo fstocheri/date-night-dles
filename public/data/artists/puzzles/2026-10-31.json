@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "difficulty": "Hard",
+  "answerHash": "37829b4d7134496e",
+  "bonusHash": "dfe0937249753f70",
+  "still": "https://cdn-images.dzcdn.net/images/artist/7b74ddded6082cc19e77c62536795f17/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Electro"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1997"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Ninja Tuna”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Get A Move On!”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "M•. S•••••"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1976 World Series?",
+      "choices": [
+        "Minnesota Twins",
+        "Athletics",
+        "Kansas City Royals",
+        "Cincinnati Reds"
+      ],
+      "answerHash": "72346f7d14edfd05"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+      "choices": [
+        "Nico Rosberg",
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Kimi Raikkonen"
+      ],
+      "answerHash": "4d0fad01512dcea2"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2021 NCAA women's basketball championship?",
+      "choices": [
+        "Stanford Cardinal",
+        "LSU Tigers",
+        "Texas A&M Aggies",
+        "UConn Huskies"
+      ],
+      "answerHash": "a38a79438953b055"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "In the \"The Hobbit\", who kills Smaug?",
+      "choices": [
+        "Bilbo Baggins",
+        "Gandalf the Grey",
+        "Frodo",
+        "Bard"
+      ],
+      "answerHash": "099893297be6c235"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is Laos?",
+      "choices": [
+        "River",
+        "City",
+        "Country",
+        "Region"
+      ],
+      "answerHash": "63ef66a5c710add9"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "If he was still alive, in what year would Elvis Presley celebrate his 100th birthday?",
+      "choices": [
+        "2035",
+        "2040",
+        "2030",
+        "2045"
+      ],
+      "answerHash": "57b840eef7e546be"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What animal is featured on the cover of English electronic music group The Prodigy's album, \"The Fat of the Land\"?",
+      "choices": [
+        "Fox",
+        "Crab",
+        "Tiger",
+        "Elephant"
+      ],
+      "answerHash": "f7198b316c7a11b9"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the TV show \"Mad Men\", what was Donald Draper's birthname?",
+      "choices": [
+        "John Ashbury",
+        "Richard \"Dick\" Whitman",
+        "Michael \"Mikey\" Wilhelm",
+        "Donald Draper"
+      ],
+      "answerHash": "a3889e2f11748758"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "What was the first monster to appear alongside Godzilla?",
+      "choices": [
+        "Mothra",
+        "King Kong",
+        "King Ghidora",
+        "Anguirus"
+      ],
+      "answerHash": "4575408b0548936c"
+    }
+  ]
+}

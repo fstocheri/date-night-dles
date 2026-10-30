@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "difficulty": "Hard",
+  "answerHash": "e82f3ac064927e82",
+  "bonusHash": null,
+  "media": "608507",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1981"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Here and Now”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "L••••• V•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Luther Vandross"
+    }
+  ]
+}

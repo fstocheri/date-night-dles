@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "difficulty": "Hard",
+  "answerHash": "1e00db2a5a45cc5d",
+  "bonusHash": "cc38cb459d8852d4",
+  "still": "/1qmqIdPOX2aFfT9BSAfJr5rAbt6.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Horror, Action, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“A secret experiment. A deadly virus. A fatal mistake.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2002 · Impact Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "When a virus leaks from a top-secret facility, turning all ▇▇▇ researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Paul W. S. Anderson"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Milla Jovovich"
+    }
+  ]
+}

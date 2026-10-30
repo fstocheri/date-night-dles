@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "difficulty": "Hard",
+  "answerHash": "ca8703e19668c421",
+  "bonusHash": "de208fd4b2e664e5",
+  "still": "/vOJ3Tv7beV93OrAxzpDh7qTZYn4.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "War & Politics, Drama, Comedy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 14: “The Tooth Shall Set You Free”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "1972 on CBS"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ has a serious toothache, but hates the thought of having anything done about it.  The doctors suspect prejudice when an inordinate number of black casualties are brought in from a single unit, led by ▇▇▇ Weems."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Margaret Houlihan"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Alan Alda"
+    }
+  ]
+}

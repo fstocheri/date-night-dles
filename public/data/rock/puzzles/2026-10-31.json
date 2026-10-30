@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-31",
+  "number": 18,
+  "difficulty": "Hard",
+  "answerHash": "bb8e72afe5df6cba",
+  "bonusHash": null,
+  "media": "4638678",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2009"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“The Diary Of Jane”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "B••••••• B•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Breaking Benjamin"
+    }
+  ]
+}
