@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "number": 19,
+  "difficulty": "Expert",
+  "answerHash": "b7cb95aa023318ee",
+  "bonusHash": "e0ddc5fb3402ab4b",
+  "still": "https://cdn-images.dzcdn.net/images/artist/e34341cdc2fabe09f479a02f96aa4052/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2014"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Face Your Fear”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Need Your Love”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "C••••• H••••••"
+    }
+  ]
+}

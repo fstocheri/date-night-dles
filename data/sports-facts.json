@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T04:27:31.208Z",
+  "fetchedAt": "2026-10-31T05:26:48.308Z",
   "facts": {
     "superbowl": [
       {
@@ -825,6 +825,11 @@
         "year": 2025,
         "winner": "Los Angeles Dodgers",
         "edition": "2025 World Series"
+      },
+      {
+        "year": 2026,
+        "winner": "Milwaukee Brewers",
+        "edition": "2026 World Series"
       }
     ],
     "ncaam": [

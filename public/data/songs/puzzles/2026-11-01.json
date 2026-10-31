@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "number": 19,
+  "difficulty": "Expert",
+  "answerHash": "fd1109281812ce38",
+  "bonusHash": null,
+  "media": "1173960",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1994"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Downward Spiral”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“The Hand That Feeds”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "N••• I••• N••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Nine Inch Nails"
+    }
+  ]
+}

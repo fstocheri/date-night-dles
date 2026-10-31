@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "number": 19,
+  "difficulty": "Expert",
+  "answerHash": "da1d79b724593d6b",
+  "bonusHash": null,
+  "media": "94754824",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1998"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Spookshow International Live”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Living Dead Girl”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "R•• Z•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Rob Zombie"
+    }
+  ]
+}

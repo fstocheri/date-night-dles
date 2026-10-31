@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-01",
+  "number": 19,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1978 NBA Finals?",
+      "choices": [
+        "Washington Wizards",
+        "Philadelphia 76ers",
+        "Milwaukee Bucks",
+        "New York Knicks"
+      ],
+      "answerHash": "433bc82c7b791a62"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which soccer team won the Copa América Centenario 2016?",
+      "choices": [
+        "Colombia",
+        "Brazil",
+        "Chile",
+        "Argentina"
+      ],
+      "answerHash": "2c8abb8541c7ef3a"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1994 NCAA men's basketball championship?",
+      "choices": [
+        "Arkansas Razorbacks",
+        "UCLA Bruins",
+        "UConn Huskies",
+        "Michigan Wolverines"
+      ],
+      "answerHash": "ba0f884a7b5e7543"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "In \"Little Women\", which of the March sisters married Laurie?",
+      "choices": [
+        "Amy",
+        "Jo",
+        "Beth",
+        "Meg"
+      ],
+      "answerHash": "3547455539bcbf2b"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Lake Titicaca is located between which two nations?",
+      "choices": [
+        "Kenya and Uganda",
+        "Peru and Bolivia",
+        "India and Bangladesh",
+        "Mexico and the United States"
+      ],
+      "answerHash": "a4008fe4b481c853"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What is the real name of \"moot\", founder of the imageboard 4chan?",
+      "choices": [
+        "Allison Harvard",
+        "Mark Zuckerberg",
+        "Catie Wayne",
+        "Christopher Poole"
+      ],
+      "answerHash": "9aeb3a7b3089bd88"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "From which country does the piano originate?",
+      "choices": [
+        "Italy",
+        "Austria",
+        "France",
+        "Germany"
+      ],
+      "answerHash": "1bfccfb7fa226aa4"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Guy's Grocery Games is hosted by which presenter?",
+      "choices": [
+        "Guy Martin",
+        "Guy Fieri",
+        "Ainsley Harriott",
+        "Guy Ritchie"
+      ],
+      "answerHash": "43e6f11410bad5b4"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In Avengers: Infinity War, the Reality Stone (aka the Aether) was kept under safe possession by who?",
+      "choices": [
+        "The Grandmaster",
+        "Doctor Strange",
+        "The Collector",
+        "Scarlet Witch"
+      ],
+      "answerHash": "4d3807894e943cf9"
+    }
+  ]
+}

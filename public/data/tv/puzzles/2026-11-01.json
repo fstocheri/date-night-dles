@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "number": 19,
+  "difficulty": "Expert",
+  "answerHash": "cf2b06d57a20ba0d",
+  "bonusHash": "eeee42dc7fa9b7ca",
+  "still": "/w9hTM4HD3JpBg7pARPPuuv7VuCh.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Sci-Fi & Fantasy, Comedy, Family"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 13: “▇▇▇ & ▇▇▇ Present Egg Yölkeo”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "1991 on Nickelodeon"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "In this parody of Pinocchio, Renwaldo, the village of Egg Smithëe, makes a puppet boy name Egg Yölkeo."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Ren"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Billy West"
+    }
+  ]
+}
