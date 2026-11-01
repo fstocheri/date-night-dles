@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "difficulty": "Easy",
+  "answerHash": "6e085c23cc3d4024",
+  "bonusHash": "415017e706e0df07",
+  "still": "https://cdn-images.dzcdn.net/images/artist/a265497da39e9ee8df5d5a1b7e3060c3/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from Ireland"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2008"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The User's Guide to Being Human”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“The Man Who Can't Be Moved”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "T•• S•••••"
+    }
+  ]
+}

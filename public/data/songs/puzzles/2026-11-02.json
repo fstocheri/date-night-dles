@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "difficulty": "Easy",
+  "answerHash": "53b84d9188a11d76",
+  "bonusHash": null,
+  "media": "4603408",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1982"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇'s This Is It”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Thriller”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M•••••• J••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Michael Jackson"
+    }
+  ]
+}

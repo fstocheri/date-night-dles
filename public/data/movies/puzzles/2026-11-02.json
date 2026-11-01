@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "difficulty": "Easy",
+  "answerHash": "616963cc2df16313",
+  "bonusHash": "223914aa86be8cc3",
+  "still": "/shGL2I5kHezQI2z6Zuan4PAQn5k.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Action, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“▇▇▇ to a galaxy far far away.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1983 · Lucasfilm Ltd."
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "▇▇▇ leads a mission to rescue his friend ▇▇▇ from the clutches of Jabba the Hutt, the ▇▇▇ prepares to crush the Rebellion with a more powerful Death ▇▇▇, and the Rebel fleet mounts a massive attack on the space station. ▇▇▇ confronts ▇▇▇ in a final climactic duel before the evil ▇▇▇."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Richard Marquand"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Mark Hamill"
+    }
+  ]
+}

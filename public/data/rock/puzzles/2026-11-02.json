@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "difficulty": "Easy",
+  "answerHash": "326b5715bfbc057f",
+  "bonusHash": null,
+  "media": "71828723",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2000"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Best of ▇▇▇, Vol. 1”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Burn It to the Ground”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "N•••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Nickelback"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1978 World Series?",
+      "choices": [
+        "Kansas City Royals",
+        "New York Yankees",
+        "New York Mets",
+        "Philadelphia Phillies"
+      ],
+      "answerHash": "c545f3c421eebabf"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which NFL team plays for New England?",
+      "choices": [
+        "Dolphins",
+        "Chiefs",
+        "Patriots",
+        "49ers"
+      ],
+      "answerHash": "78c0bd8397608118"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1973 NCAA men's basketball championship?",
+      "choices": [
+        "Marquette Golden Eagles",
+        "UCLA Bruins",
+        "Indiana Hoosiers",
+        "Georgetown Hoyas"
+      ],
+      "answerHash": "6f8db7f985b94484"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+      "choices": [
+        "Death",
+        "Loving everyone around you",
+        "Chocolate",
+        "42"
+      ],
+      "answerHash": "978ec222faf1da91"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which of the following former Yugoslavian states is landlocked?",
+      "choices": [
+        "Serbia",
+        "Bosnia and Herzegovina",
+        "Croatia",
+        "Montenegro"
+      ],
+      "answerHash": "9dc411a04fea64c9"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What year was O.J. Simpson aquitted of his murder charges?",
+      "choices": [
+        "1996",
+        "1995",
+        "1992",
+        "1991"
+      ],
+      "answerHash": "6646dd3c35380b02"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+      "choices": [
+        "Taylor Hawkins",
+        "Nate Mendel",
+        "Dave Grohl",
+        "Chris Shiflett"
+      ],
+      "answerHash": "f32f3174fb0b438c"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Who was the first ever actor to play \"The Doctor\" on \"Doctor Who\"?",
+      "choices": [
+        "David Tennant",
+        "William Hartnell",
+        "Peter Capaldi",
+        "Tom Baker"
+      ],
+      "answerHash": "000a9b6db46374e0"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Who is the main antagonist of Christopher Nolan's 2012 film \"The Dark Knight Rises\"?",
+      "choices": [
+        "The Joker",
+        "CIA",
+        "The Riddler",
+        "Bane"
+      ],
+      "answerHash": "5098d8c0513ed078"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "number": 20,
+  "difficulty": "Easy",
+  "answerHash": "bf29503330304e55",
+  "bonusHash": "223914aa86be8cc3",
+  "still": "/qQVCVniTClcE8uNRYXiWpVzDjZe.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Mystery"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 17: “We’ve All Got Baggage”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2010 on ABC Family"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "As romantic relationships move forward, the ▇▇▇ investigate a new suspect in the murder case. With ▇▇▇ back in Rosewood, ▇▇▇ must tell him the truth about her involvement with his book. ▇▇▇ and ▇▇▇ deal with a media leak that affects the campaign. ▇▇▇ takes a look at her life after an incident at work. ▇▇▇ gets harassed by the stalker while she continues the search for Sara.\n\nMeanwhile, two lovers finally tie the knot with the help of a special officiant."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Spencer Hastings"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Lucy Hale"
+    }
+  ]
+}
