@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-03",
+  "number": 21,
+  "difficulty": "Easy",
+  "answerHash": "5b877f01848863bf",
+  "bonusHash": "99d7590f16bee037",
+  "still": "/rtSucmBIzQPcBejfWXqRC8ElcEQ.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Sci-Fi & Fantasy, Drama, Action & Adventure"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 3: “▇▇▇ Triumphant”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2022 on HBO"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ learns the situation in ▇▇▇'s Landing is not what she anticipated. Unable to locate her enemies, and with demands coming from all sides, ▇▇▇ must navigate a delicate balance between appeasing her supporters and consolidating her rule."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Lord Corlys 'The Sea Snake' Velaryon"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Matt Smith"
+    }
+  ]
+}

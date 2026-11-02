@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-03",
+  "number": 21,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2005 NBA Finals?",
+      "choices": [
+        "Houston Rockets",
+        "Dallas Mavericks",
+        "San Antonio Spurs",
+        "Detroit Pistons"
+      ],
+      "answerHash": "1c0992287b57fe65"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+      "choices": [
+        "2010",
+        "2006",
+        "2009",
+        "2007"
+      ],
+      "answerHash": "4c54a04bd1d20d91"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 1985?",
+      "choices": [
+        "Charles Woodson",
+        "Bo Jackson",
+        "John Cappelletti",
+        "Herschel Walker"
+      ],
+      "answerHash": "1359bc567e332578"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What position does Harry Potter play in Quidditch?",
+      "choices": [
+        "Seeker",
+        "Beater",
+        "Keeper",
+        "Chaser"
+      ],
+      "answerHash": "9f96047bbde71b9b"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which is the world's longest river?",
+      "choices": [
+        "Yangtze",
+        "Nile",
+        "Amazon",
+        "Missouri"
+      ],
+      "answerHash": "24bfe117fc9bd0ed"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Which television show has Dan Gheesling been on?",
+      "choices": [
+        "Big Brother",
+        "Jeopardy",
+        "Survivor",
+        "The Bachelor"
+      ],
+      "answerHash": "e5a189bde2453ec6"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "In an orchestra, what is the lowest member of the brass family?",
+      "choices": [
+        "Tuba",
+        "Bassoon",
+        "Contrabass",
+        "Trombone"
+      ],
+      "answerHash": "a6b0eb4c385196ff"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Who is the main character in the show \"Burn Notice\"?",
+      "choices": [
+        "Sam Axe",
+        "Fiona Glenanne",
+        "Madeline Westen",
+        "Michael Westen"
+      ],
+      "answerHash": "ee242f83cdbfc2a8"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Who plays protagonist Ethan Hunt in the \"Mission: Impossible\" film-series?",
+      "choices": [
+        "Pierce Brosnan",
+        "Tom Cruise",
+        "Johnny Depp",
+        "Sean Connery"
+      ],
+      "answerHash": "92ec4add16c4a8ba"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-03",
+  "number": 21,
+  "difficulty": "Easy",
+  "answerHash": "d9b8142b2ea09640",
+  "bonusHash": "42983edbd826c21e",
+  "still": "https://cdn-images.dzcdn.net/images/artist/561402d0ce91b933f86b61ce9050c913/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A group from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1965"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Cucumber Castle”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Stayin Alive”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "B•• G•••"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-03",
+  "number": 21,
+  "difficulty": "Easy",
+  "answerHash": "d5e28265852e7770",
+  "bonusHash": null,
+  "media": "4283830192",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2026"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Popular Monster”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "F•••••• i• R••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Falling in Reverse"
+    }
+  ]
+}

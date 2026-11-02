@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-03",
+  "number": 21,
+  "difficulty": "Easy",
+  "answerHash": "be97e05bb4541ef5",
+  "bonusHash": null,
+  "media": "134523754",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1998"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Follow The Leader”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Freak On a Leash”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "K•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Korn"
+    }
+  ]
+}
