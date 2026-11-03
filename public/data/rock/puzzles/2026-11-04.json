@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "number": 22,
+  "difficulty": "Medium",
+  "answerHash": "10b1add2876fb516",
+  "bonusHash": null,
+  "media": "676576",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2006"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Black Parade”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Welcome to the Black Parade”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "M• C••••••• R••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "My Chemical Romance"
+    }
+  ]
+}

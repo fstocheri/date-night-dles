@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "number": 22,
+  "difficulty": "Medium",
+  "answerHash": "54dfa924bf65c248",
+  "bonusHash": "8ac760a53b11b266",
+  "still": "/84DdSgui5quyWDHE32MomfFQEmW.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, History"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Meet the women you don't know, behind the mission you do.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2016 · Fox 2000 Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "The untold story of ▇▇▇, ▇▇▇ and ▇▇▇ – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut ▇▇▇ into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Theodore Melfi"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Taraji P. Henson"
+    }
+  ]
+}

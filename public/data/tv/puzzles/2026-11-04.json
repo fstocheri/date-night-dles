@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "number": 22,
+  "difficulty": "Medium",
+  "answerHash": "c77e01ff24d27ddb",
+  "bonusHash": "d48cc41058989740",
+  "still": "/ka3EgflO93lmHfMGkVrjhIAWWRC.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Mystery, Sci-Fi & Fantasy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 7: “Necro”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2021 on Hulu"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A young mortician discovers the living are more terrifying than the dead."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Maya"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Sierra McCormick"
+    }
+  ]
+}

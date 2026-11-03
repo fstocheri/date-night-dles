@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "number": 22,
+  "difficulty": "Medium",
+  "answerHash": "13a0e46621880fdc",
+  "bonusHash": null,
+  "media": "1457025872",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2021"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“I'm Still Standing”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "E•••• J•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Elton John"
+    }
+  ]
+}

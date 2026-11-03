@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-04",
+  "number": 22,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1994 NBA Finals?",
+      "choices": [
+        "Miami Heat",
+        "Philadelphia 76ers",
+        "Houston Rockets",
+        "San Antonio Spurs"
+      ],
+      "answerHash": "dfad8005e4ef22a9"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+      "choices": [
+        "Boston Bruins",
+        "Toronto Maple Leafs",
+        "Philadelphia Flyers",
+        "New York Rangers"
+      ],
+      "answerHash": "0f56a5b032d7169d"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1977 NCAA men's basketball championship?",
+      "choices": [
+        "Marquette Golden Eagles",
+        "Kentucky Wildcats",
+        "NC State Wolfpack",
+        "Georgetown Hoyas"
+      ],
+      "answerHash": "9d3bec4a73a3b01f"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "In the \"Harry Potter\" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+      "choices": [
+        "Speak a password",
+        "Knock in sequence",
+        "Rhythmically tap barrels with a wand",
+        "Answer a riddle"
+      ],
+      "answerHash": "cc45242e4dd158c8"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "How many federal states does Germany have?",
+      "choices": [
+        "16",
+        "13",
+        "25",
+        "32"
+      ],
+      "answerHash": "fae68faf0e8d9403"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "In 2014, this new top 100 rapper who featured in \"Computers\" and \"Body Dance\" was arrested in a NYPD sting for murder.",
+      "choices": [
+        "Young Thug",
+        "DJ Snake",
+        "Bobby Shmurda",
+        "Swae Lee"
+      ],
+      "answerHash": "6c323c9b12bed3f8"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which British female singer and songwriter was sampled Eminem's hit single 'Stan'?",
+      "choices": [
+        "Lily Allen",
+        "Leona Lewis",
+        "Adele",
+        "Dido"
+      ],
+      "answerHash": "ff9da971f3330b51"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Which WWF wrestler had the nickname \"The Ayatollah of Rock 'N' Rolla\"?",
+      "choices": [
+        "Chris Jericho",
+        "Scott Hall",
+        "Shawn Michaels",
+        "Marty Jannetty"
+      ],
+      "answerHash": "624805fc61bfa144"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which of these actors/actresses is NOT a part of the cast for the 2016 movie \"Suicide Squad\"?",
+      "choices": [
+        "Margot Robbie",
+        "Will Smith",
+        "Jared Leto",
+        "Scarlett Johansson"
+      ],
+      "answerHash": "2f51dc33c6504b35"
+    }
+  ]
+}
