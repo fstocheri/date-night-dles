@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2014 World Series?",
+      "choices": [
+        "Los Angeles Dodgers",
+        "Houston Astros",
+        "Washington Nationals",
+        "San Francisco Giants"
+      ],
+      "answerHash": "bd4bfa3a9a11a6a0"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which wrestler won the 2019 Men’s Royal Rumble?",
+      "choices": [
+        "Andrade",
+        "Braun Strowman",
+        "AJ Styles",
+        "Seth Rollins"
+      ],
+      "answerHash": "4de1996aadd36c91"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1997 NCAA men's basketball championship?",
+      "choices": [
+        "Michigan Wolverines",
+        "Arizona Wildcats",
+        "Syracuse Orange",
+        "Villanova Wildcats"
+      ],
+      "answerHash": "f5aae013e8dc7cb4"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "By what name was the author Eric Blair better known?",
+      "choices": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "Ernest Hemingway"
+      ],
+      "answerHash": "aa6a60f509263853"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the capital of Peru?",
+      "choices": [
+        "Lima",
+        "Buenos Aires",
+        "Santiago",
+        "Montevideo"
+      ],
+      "answerHash": "c388fdf8f1b5784e"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Paul McCartney has always used his middle name. What is his real first name?",
+      "choices": [
+        "Justin",
+        "James",
+        "John",
+        "Jack"
+      ],
+      "answerHash": "6bef7056d052e84c"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Finish these lyrics from the 2016 song \"Panda\" by Desiigner: \"I got broads in _______\".",
+      "choices": [
+        "Augusta",
+        "Marietta",
+        "Savannah",
+        "Atlanta"
+      ],
+      "answerHash": "9078f329e842a74d"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What is the name of the main antagonists in Battlestar Galactica?",
+      "choices": [
+        "The Federation",
+        "The Cylons",
+        "The Rebels",
+        "The Collective"
+      ],
+      "answerHash": "8518b5af341dc65b"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+      "choices": [
+        "Heat",
+        "Reservoir Dogs",
+        "Goodfellas",
+        "Scarface"
+      ],
+      "answerHash": "4fdf594a386bd544"
+    }
+  ]
+}

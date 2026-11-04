@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "difficulty": "Medium",
+  "answerHash": "27bb2bf0915c0ffc",
+  "bonusHash": null,
+  "still": "/jm6IM5Suxd3zKnSyLd7ef1XhF7V.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Mystery, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 2: “Tread Lightly”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2026 on MGM+"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "You're an investigator. Investigate."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Joe 'Robbie' Robertson"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Nicolas Cage"
+    }
+  ]
+}

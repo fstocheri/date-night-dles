@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "difficulty": "Medium",
+  "answerHash": "5fac0c1bd1bf36c2",
+  "bonusHash": "db56e738420f72df",
+  "still": "/hHDLTu6zrA427iLRDavTwNb9Tf0.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Drama, Romance"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“A comedy about growing up… and the bumps along the way.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2007 · Mandate Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Faced with an unplanned pregnancy, sixteen year old high-schooler, ▇▇▇, makes an unusual decision regarding her unborn child."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Jason Reitman"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Elliot Page"
+    }
+  ]
+}

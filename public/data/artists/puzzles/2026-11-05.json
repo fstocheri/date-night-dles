@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "difficulty": "Medium",
+  "answerHash": "00716548bb1e04c5",
+  "bonusHash": "53a8ab3b62cacad6",
+  "still": "https://cdn-images.dzcdn.net/images/artist/d77ec8321316aa8bfbf4b25581b7224d/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2003"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“On Earth, and in Heaven”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Blurred Lines”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "R•••• T•••••"
+    }
+  ]
+}

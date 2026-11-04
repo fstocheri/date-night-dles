@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "difficulty": "Medium",
+  "answerHash": "5798af7997752394",
+  "bonusHash": null,
+  "media": "4124759",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1973"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Goats Head Soup”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Sympathy For The Devil”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• R•••••• S•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Rolling Stones"
+    }
+  ]
+}

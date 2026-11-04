@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "number": 23,
+  "difficulty": "Medium",
+  "answerHash": "66739392578c88f3",
+  "bonusHash": null,
+  "media": "3569857331",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2025"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Housewife”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T••• M••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Tate McRae"
+    }
+  ]
+}
