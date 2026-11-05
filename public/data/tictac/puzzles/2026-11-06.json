@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-06",
+  "number": 24,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2003 World Series?",
+      "choices": [
+        "Kansas City Royals",
+        "Miami Marlins",
+        "Arizona Diamondbacks",
+        "Florida Marlins"
+      ],
+      "answerHash": "970bf3ef86970607"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+      "choices": [
+        "Stoke City",
+        "Watford",
+        "Tottenham Hotspur",
+        "Leicester City"
+      ],
+      "answerHash": "359298552604ed81"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 2024?",
+      "choices": [
+        "Johnny Manziel",
+        "Jayden Daniels",
+        "Baker Mayfield",
+        "Travis Hunter"
+      ],
+      "answerHash": "8944fa3de70b3406"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Which Russian author wrote the epic novel War and Peace?",
+      "choices": [
+        "Alexander Pushkin",
+        "Leo Tolstoy",
+        "Vladimir Nabokov",
+        "Fyodor Dostoyevsky"
+      ],
+      "answerHash": "1d1f0013e397eb57"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the nickname for the US state Delaware?",
+      "choices": [
+        "The Fiftieth State",
+        "The Second State",
+        "The First State",
+        "The Sixteenth State"
+      ],
+      "answerHash": "9409d657fbe48ddb"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Before voicing Pearl in Steven Universe, Deedee Magno Hall was part of which American band?",
+      "choices": [
+        "The Party",
+        "The Weather Girls",
+        "The Cheetah Girls",
+        "The Pussycat Dolls"
+      ],
+      "answerHash": "ec48752b24bcc31d"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
+      "choices": [
+        "Rain",
+        "Sleet",
+        "Snow",
+        "Hail"
+      ],
+      "answerHash": "9ea41576b555fbea"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In which state of America was the Fresh Prince of Bel-Air born and raised in?",
+      "choices": [
+        "California",
+        "Florida",
+        "New Jersey",
+        "Pennsylvania"
+      ],
+      "answerHash": "d1c577da7d3ee382"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+      "choices": [
+        "Ratatouille",
+        "The Simpsons Movie",
+        "Spider-Man 3",
+        "Shrek the Third"
+      ],
+      "answerHash": "8cafa9d39b37e9b3"
+    }
+  ]
+}

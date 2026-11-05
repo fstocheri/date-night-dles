@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "number": 24,
+  "difficulty": "Hard",
+  "answerHash": "8db4762e44ef0f9a",
+  "bonusHash": "61f674fedb6a7c04",
+  "still": "/4npL5g0QOxuIZKsEx6SnC8niDuo.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Horror, Thriller, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“The ▇▇▇ are numbered.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2002 · DNA Films"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Twenty-eight ▇▇▇ after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Danny Boyle"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Cillian Murphy"
+    }
+  ]
+}

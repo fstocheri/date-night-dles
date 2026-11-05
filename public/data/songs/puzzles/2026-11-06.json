@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "number": 24,
+  "difficulty": "Hard",
+  "answerHash": "e47a4decd639e8ee",
+  "bonusHash": null,
+  "media": "14172440",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2011"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Good Girls Go Bad (feat. Leighton Meester)”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "C•••• S•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Cobra Starship"
+    }
+  ]
+}

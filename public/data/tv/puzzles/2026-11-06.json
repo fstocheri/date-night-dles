@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "number": 24,
+  "difficulty": "Hard",
+  "answerHash": "b4fda9252fa4035e",
+  "bonusHash": "295cc4fd1a89babe",
+  "still": "/thIfH7recYQjz83mZGAWds92M2D.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Drama, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 2: “There's a Rat in the Kitchen”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2024 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ makes a deal with the Mafia in Milan, while ▇▇▇ preps for a high-stakes night on the town. But will either be able to deliver on their promise?"
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Susie Glass"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Theo James"
+    }
+  ]
+}

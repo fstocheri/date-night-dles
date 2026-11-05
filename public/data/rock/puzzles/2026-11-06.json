@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "number": 24,
+  "difficulty": "Hard",
+  "answerHash": "6904e9fe2ad5a07c",
+  "bonusHash": null,
+  "media": "3098839",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2002"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“A Rush of Blood to the Head”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Yellow”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "C•••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Coldplay"
+    }
+  ]
+}
