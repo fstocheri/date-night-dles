@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "difficulty": "Hard",
+  "answerHash": "07509403fff8b62e",
+  "bonusHash": null,
+  "media": "15178233",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1992"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Dirt”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Man in the Box”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "A•••• I• C•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Alice In Chains"
+    }
+  ]
+}

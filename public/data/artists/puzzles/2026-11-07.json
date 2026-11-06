@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "difficulty": "Hard",
+  "answerHash": "b72161ddd0d74454",
+  "bonusHash": "d92bdac973eebcda",
+  "still": "https://cdn-images.dzcdn.net/images/artist/4bc6b33a37ab637bfefe523b69c84bee/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1968"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“In the Pocket”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Carolina in My Mind”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "J•••• T•••••"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "difficulty": "Hard",
+  "answerHash": "a35ae7e9e0acda69",
+  "bonusHash": "d92bdac973eebcda",
+  "still": "/Jn2tqrG2xfRKrPIf6SHsD9XT5g.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Thriller, Mystery, Drama"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“It only takes one witness to spoil the perfect crime.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1954 · Alfred J. Hitchcock Productions"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "A wheelchair-bound photographer spies on his neighbors from his apartment ▇▇▇ and becomes convinced one of them has committed murder."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Alfred Hitchcock"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "James Stewart"
+    }
+  ]
+}

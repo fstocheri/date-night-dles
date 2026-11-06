@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1989 World Series?",
+      "choices": [
+        "Athletics",
+        "Atlanta Braves",
+        "Pittsburgh Pirates",
+        "Baltimore Orioles"
+      ],
+      "answerHash": "aaa87040d1f31d8d"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+      "choices": [
+        "Toronto Wolfpack",
+        "Toronto Rock",
+        "Toronto Argonauts",
+        "Toronto Marlies"
+      ],
+      "answerHash": "9b60423d9d1598ca"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1993 NCAA men's basketball championship?",
+      "choices": [
+        "Kansas Jayhawks",
+        "Michigan State Spartans",
+        "North Carolina Tar Heels",
+        "Maryland Terrapins"
+      ],
+      "answerHash": "2a1a7c8e1f794a59"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+      "choices": [
+        "Mark Twain",
+        "Lewis Carroll",
+        "Richard Bachman",
+        "J. D. Robb"
+      ],
+      "answerHash": "f94fc971b92f1568"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which of these countries is \"doubly landlocked\" (surrounded entirely by one or more landlocked countries)?",
+      "choices": [
+        "Bolivia",
+        "Uzbekistan",
+        "Ethiopia",
+        "Switzerland"
+      ],
+      "answerHash": "bc60f8cb0248f557"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Who is \"James Rolfe\" better known as?",
+      "choices": [
+        "TotalBiscuit",
+        "PeanutButterGamer",
+        "PewDiePie",
+        "The Angry Video Game Nerd"
+      ],
+      "answerHash": "27dcbc17d4d586cd"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "Which rap group released the album \"Straight Outta Compton\"?",
+      "choices": [
+        "Run-D.M.C.",
+        "Beastie Boys",
+        "N.W.A",
+        "Wu-Tang Clan"
+      ],
+      "answerHash": "0e387b31904ae3f1"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
+      "choices": [
+        "Double Dare",
+        "Nickelodeon Guts",
+        "Finders Keepers",
+        "Nick Arcade"
+      ],
+      "answerHash": "e63674ed1ff93746"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?",
+      "choices": [
+        "October 21, 2015",
+        "August 28, 2015",
+        "January 25, 2015",
+        "July 20, 2015"
+      ],
+      "answerHash": "af9e28e3c52020c3"
+    }
+  ]
+}

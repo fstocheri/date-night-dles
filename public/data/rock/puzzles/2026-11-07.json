@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "difficulty": "Hard",
+  "answerHash": "f4b63cbf0c0e3aef",
+  "bonusHash": null,
+  "media": "773670",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1978"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Excitable Boy”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Werewolves of London”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "W••••• Z••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Warren Zevon"
+    }
+  ]
+}

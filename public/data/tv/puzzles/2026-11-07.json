@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "number": 25,
+  "difficulty": "Hard",
+  "answerHash": "0d2a37f2b0037542",
+  "bonusHash": "af7c2516e23956ca",
+  "still": "/hTMCiKF2RYg8LNBz2ESDpWMD6Yq.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Mystery, Drama, Comedy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 4: “Heads You Lose”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2004 on UPN"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "Convinced the bomber is still at large, ▇▇▇ visits Chino to learn more about Clyde and Big ▇▇▇. Mayor Dobbins’ request for help from the FBI brings an old flame to Neptune. ▇▇▇ confronts her mugger."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Keith Mars"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Kristen Bell"
+    }
+  ]
+}
