@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 2002 NBA Finals?",
+      "choices": [
+        "Los Angeles Lakers",
+        "Miami Heat",
+        "Boston Celtics",
+        "Houston Rockets"
+      ],
+      "answerHash": "c14062aa48df17ef"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+      "choices": [
+        "Donald Sutherland",
+        "Don Taylor",
+        "Don Cherry",
+        "Don McKellar"
+      ],
+      "answerHash": "dbcde43efe31fcc0"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2009 NCAA men's basketball championship?",
+      "choices": [
+        "Kansas Jayhawks",
+        "North Carolina Tar Heels",
+        "Arizona Wildcats",
+        "Syracuse Orange"
+      ],
+      "answerHash": "2bc72e82abae75d6"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Who wrote the 1967 horror novel \"Rosemary's Baby\"?",
+      "choices": [
+        "Ira Levin",
+        "Robert Bloch",
+        "Mary Shelley",
+        "Stephen King"
+      ],
+      "answerHash": "2eb8c1b87975f7a0"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is the capital of Bangladesh?",
+      "choices": [
+        "Lahore",
+        "Dhaka",
+        "London",
+        "Khulna"
+      ],
+      "answerHash": "0c3ef4fd52c186cb"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "When was Elvis Presley born?",
+      "choices": [
+        "December 13, 1931",
+        "January 8, 1935",
+        "April 17, 1938",
+        "July 18, 1940"
+      ],
+      "answerHash": "39fab20dc76fd371"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "How many albums did King Gizzard & the Lizard Wizard release in 2017?",
+      "choices": [
+        "6",
+        "3",
+        "5",
+        "2"
+      ],
+      "answerHash": "7b2b540237a1d1f6"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+      "choices": [
+        "Hermione",
+        "Dorothy",
+        "Sabrina",
+        "Dahlia"
+      ],
+      "answerHash": "8626154bcda7dff0"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the movie \"Blade Runner\", what is the term used for human-like androids ?",
+      "choices": [
+        "Cylons",
+        "Synthetics",
+        "Replicants",
+        "Skinjobs"
+      ],
+      "answerHash": "fb2464d92adbee54"
+    }
+  ]
+}

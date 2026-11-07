@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "difficulty": "Expert",
+  "answerHash": "9d8ee0cddcbdd082",
+  "bonusHash": "7e1d3a516f656eee",
+  "still": "https://cdn-images.dzcdn.net/images/artist/83e446b6cbe1dd6b30c53498c59bbba2/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2014"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Momentum 2 (The Return of Ghetto)”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Double Standards (feat. Sampha)”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "G•••••"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "difficulty": "Expert",
+  "answerHash": "5b890873c341daa3",
+  "bonusHash": null,
+  "media": "2606031412",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2007"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Rise or ▇▇▇ Trying”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“It Must Really Suck To Be ▇▇▇ Right Now”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "F••• Y••• S•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Four Year Strong"
+    }
+  ]
+}

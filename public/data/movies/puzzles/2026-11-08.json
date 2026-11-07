@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "difficulty": "Expert",
+  "answerHash": "f5f77616e3523e4e",
+  "bonusHash": "0e9452744d26edaf",
+  "still": "/9DUAR7p4SGqt2ISH2lmSzNx3uni.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Comedy, Family"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Everybody dance now!”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2006 · Kennedy Miller Productions"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!"
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "George Miller"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Elijah Wood"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "difficulty": "Expert",
+  "answerHash": "6677bb19a4aa19f9",
+  "bonusHash": null,
+  "media": "15041869",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2008"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“▇▇▇”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“The Man Who Can't Be Moved”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• S•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Script"
+    }
+  ]
+}

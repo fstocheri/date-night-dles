@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "number": 26,
+  "difficulty": "Expert",
+  "answerHash": "4177b650fb731a6e",
+  "bonusHash": "e9f469845f14cd48",
+  "still": "/ps0UCghdmDOdU4y1s636aUhjY9E.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 8: “408”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2014 on Showtime"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A hopeful epiphany leads ▇▇▇ on a journey to a horrific discovery. ▇▇▇ questions his role in tragic events."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Helen Solloway"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Dominic West"
+    }
+  ]
+}
