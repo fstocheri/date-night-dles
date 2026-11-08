@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "difficulty": "Easy",
+  "answerHash": "0a6a97d220a7592e",
+  "bonusHash": null,
+  "media": "533609232",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2018"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Scorpion”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Janice STFU”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "D••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Drake"
+    }
+  ]
+}

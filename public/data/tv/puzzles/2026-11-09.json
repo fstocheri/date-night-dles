@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "difficulty": "Easy",
+  "answerHash": "5d610d2e92981e97",
+  "bonusHash": "d09bb942198d1c9b",
+  "still": "/nQji4zOolk5wa8XBp2zVcDTBKVM.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 22: “She's Leaving Home”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2005 on ABC"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ and the staff feel the impact of losing one of their own; ▇▇▇ struggles with ▇▇▇'s decision; ▇▇▇ and ▇▇▇ argue about their future. Months after ▇▇▇'s funeral, ▇▇▇ struggles with her emotions; ▇▇▇ plans to return; and ▇▇▇'s part in ▇▇▇'s life continues to grow."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Miranda Bailey"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Ellen Pompeo"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "difficulty": "Easy",
+  "answerHash": "6cb861597088dd36",
+  "bonusHash": "8423f819c0058ef5",
+  "still": "https://cdn-images.dzcdn.net/images/artist/d6bb84390641d8ae9118228d9544e53d/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Pop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2011"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“2step (The Remixes)”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Perfect”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "E• S••••••"
+    }
+  ]
+}

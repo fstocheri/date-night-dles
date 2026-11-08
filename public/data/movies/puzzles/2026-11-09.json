@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "difficulty": "Easy",
+  "answerHash": "72fdf536f95dc65c",
+  "bonusHash": "d7b19e1753f1112a",
+  "still": "/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Action, Adventure, Science Fiction"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“A new ▇▇▇ has come.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2015 · Marvel Studios"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "When ▇▇▇ tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous ▇▇▇ emerges, it is up to ▇▇▇ to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Joss Whedon"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Robert Downey Jr."
+    }
+  ]
+}

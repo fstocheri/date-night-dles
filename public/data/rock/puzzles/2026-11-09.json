@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "difficulty": "Easy",
+  "answerHash": "d346363aa68b2667",
+  "bonusHash": null,
+  "media": "2127426277",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2014"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“In the End”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "L••••• P•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Linkin Park"
+    }
+  ]
+}

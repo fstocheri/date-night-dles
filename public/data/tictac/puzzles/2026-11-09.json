@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-09",
+  "number": 27,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1993 World Series?",
+      "choices": [
+        "Arizona Diamondbacks",
+        "Toronto Blue Jays",
+        "New York Mets",
+        "Minnesota Twins"
+      ],
+      "answerHash": "cd51bcbd4099b343"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "How many soccer players should be on the field at the same time?",
+      "choices": [
+        "26",
+        "20",
+        "22",
+        "24"
+      ],
+      "answerHash": "bc85d740fdcddcaa"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 1991 NCAA men's basketball championship?",
+      "choices": [
+        "Georgetown Hoyas",
+        "Syracuse Orange",
+        "Duke Blue Devils",
+        "Arizona Wildcats"
+      ],
+      "answerHash": "c6e3b2d8ff7921de"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "choices": [
+        "The Greasers",
+        "The Mafia",
+        "The Outsiders",
+        "The Socs"
+      ],
+      "answerHash": "e7aaaf6091f8cbba"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "How many provinces are in the Netherlands?",
+      "choices": [
+        "12",
+        "10",
+        "14",
+        "13"
+      ],
+      "answerHash": "6f96ab1ae41381eb"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "Who out of these actresses is the youngest?",
+      "choices": [
+        "Ariel Winter",
+        "Emma Watson",
+        "Kiernan Shipka",
+        "Bonnie Wright"
+      ],
+      "answerHash": "f65be97679836b8d"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "In August 1964, who introduced the Beatles to cannabis?",
+      "choices": [
+        "Bob Dylan",
+        "Jim Morrison",
+        "Brian Epstein",
+        "Jerry Garcia"
+      ],
+      "answerHash": "d6b349d0a8fe7238"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Who composed the theme song for The Simpsons?",
+      "choices": [
+        "Hans Zimmer",
+        "Danny Elfman",
+        "Ennio Morricone",
+        "John Williams"
+      ],
+      "answerHash": "7bb1c5a4defb309b"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the movie \"V for Vendetta,\" what is the date that masked vigilante \"V\" urges people to remember?",
+      "choices": [
+        "November 6th",
+        "November 5th",
+        "November 4th",
+        "September 5th"
+      ],
+      "answerHash": "ee97b69b96b03a2c"
+    }
+  ]
+}
