@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "difficulty": "Easy",
+  "answerHash": "69c7c3c3406f8b22",
+  "bonusHash": "a94a52012bc83735",
+  "still": "https://cdn-images.dzcdn.net/images/artist/7003fc8e2a26471a8bf000b10eff8698/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1973"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Chapter and Verse”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Dancing In the Dark”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "B•••• S••••••••••"
+    }
+  ]
+}

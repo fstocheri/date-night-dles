@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "difficulty": "Easy",
+  "answerHash": "8a6a60fa1a66a1e1",
+  "bonusHash": null,
+  "media": "1109730",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2000"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Curtain Call: The Hits”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Lose Yourself”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "E•••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Eminem"
+    }
+  ]
+}

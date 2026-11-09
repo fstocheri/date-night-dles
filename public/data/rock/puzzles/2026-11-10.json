@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "difficulty": "Easy",
+  "answerHash": "65d8095b0ee14758",
+  "bonusHash": null,
+  "media": "4366097561",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2006"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Bring Me To Life”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "E••••••••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Evanescence"
+    }
+  ]
+}

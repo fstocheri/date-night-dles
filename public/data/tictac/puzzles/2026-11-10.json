@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl XLIV (2010)?",
+      "choices": [
+        "Green Bay Packers",
+        "Pittsburgh Steelers",
+        "Baltimore Ravens",
+        "New Orleans Saints"
+      ],
+      "answerHash": "307a2fc5e21a6c9b"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+      "choices": [
+        "Putney",
+        "Hammersmith",
+        "Vauxhall",
+        "Battersea"
+      ],
+      "answerHash": "9af217c496b1b83d"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2025 NCAA women's basketball championship?",
+      "choices": [
+        "Baylor Bears",
+        "UConn Huskies",
+        "LSU Tigers",
+        "UCLA Bruins"
+      ],
+      "answerHash": "f653ecceb051dce2"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "Mary Shelley is the author of what classic horror story?",
+      "choices": [
+        "The Legend of Sleepy Hollow",
+        "Frankenstein",
+        "Strange Case of Dr Jekyll and Mr Hyde",
+        "Dracula"
+      ],
+      "answerHash": "2bc7dcad48151881"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which of the following languages does NOT use the Latin alphabet?",
+      "choices": [
+        "Turkish",
+        "Georgian",
+        "Swahili",
+        "Vietnamese"
+      ],
+      "answerHash": "9f58e4d0f6ccb466"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+      "choices": [
+        "Hell's Kitchen",
+        "Ramsay's Kitchen Nightmares",
+        "Hotel Hell",
+        "Auction Hunters"
+      ],
+      "answerHash": "f342fe38b7aff3a1"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "In the words of his 1973 song, Bob Dylan is \"knock, knock, knockin\" on which door?",
+      "choices": [
+        "Eileen's",
+        "Opportunity's",
+        "Angie's",
+        "Heaven's"
+      ],
+      "answerHash": "45cc3d812fd193d6"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
+      "choices": [
+        "Bacon and Eggs",
+        "Eggo Waffles",
+        "Captain Crunch",
+        "Toast"
+      ],
+      "answerHash": "d89bb0057e9edeac"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which actor plays the character \"Tommy Jarvis\" in \"Friday the 13th: The Final Chapter\" (1984)?",
+      "choices": [
+        "Corey Feldman",
+        "Mel Gibson",
+        "Mark Hamill",
+        "Macaulay Culkin"
+      ],
+      "answerHash": "70c7606c01b915b9"
+    }
+  ]
+}

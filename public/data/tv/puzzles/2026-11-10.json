@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "difficulty": "Easy",
+  "answerHash": "95716fdd989287e2",
+  "bonusHash": "52d845b1b2050ccc",
+  "still": "/5MqBYIoVKgiSXAQy82AET8PDfoq.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Sci-Fi & Fantasy, Action & Adventure, Drama, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 12: “Adjustment Protocol”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2014 on The CW"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A special Naming Day changes everything in Sanctum. ▇▇▇ comes face to face with an old friend."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Bellamy Blake"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Eliza Taylor"
+    }
+  ]
+}

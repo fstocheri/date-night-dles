@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "number": 28,
+  "difficulty": "Easy",
+  "answerHash": "3b13aefb3565e01e",
+  "bonusHash": "ebea5660f1a803cb",
+  "still": "/wOFY2xA3D3VHi3G6DPtrXXhPrqQ.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Drama, Romance"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Nothing on earth could come between them.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1997 · Paramount Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "101-year-old ▇▇▇ tells the story of her life aboard the ▇▇▇, 84 years later. A young ▇▇▇ boards the ship with her mother and fiancé. Meanwhile, ▇▇▇ and ▇▇▇ De Rossi win third-class tickets aboard the ship. ▇▇▇ tells the whole story from ▇▇▇'s departure through to its death—on its first and last voyage—on April 15, 1912."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "James Cameron"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Leonardo DiCaprio"
+    }
+  ]
+}
