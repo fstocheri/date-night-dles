@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-11",
+  "number": 29,
+  "difficulty": "Medium",
+  "answerHash": "86117362788cbf0f",
+  "bonusHash": "c4cfa5f19d13b592",
+  "still": "/nWwwRVsnVpmlZMob6y19R96YldR.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Adventure, Animation, Family, Fantasy"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Change your fate.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2012 · Pixar"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "In the mystical Scottish Highlands, ▇▇▇ is the princess of a kingdom ruled by King ▇▇▇ and Queen ▇▇▇. An unruly daughter and an accomplished archer, ▇▇▇ one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, ▇▇▇ seeks out an eccentric old Wise Woman and is granted an ill-fated wish."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Mark Andrews, Brenda Chapman"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Kelly Macdonald"
+    }
+  ]
+}

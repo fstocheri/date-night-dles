@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-11",
+  "number": 29,
+  "difficulty": "Medium",
+  "answerHash": "1872c7863c192fca",
+  "bonusHash": "64899a3ee624bd4e",
+  "still": "/1Z5ERaoSHfve1lNLzSkW54Au2AT.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Family, Kids, Sci-Fi & Fantasy"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 8: “Broken Armed and Dangerous”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2014 on Nickelodeon"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "When ▇▇▇ publicly breaks his arm, ▇▇▇ and the gang have to find a way to keep his secret safe."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Ray Manchester / Captain Man"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Jace Norman"
+    }
+  ]
+}

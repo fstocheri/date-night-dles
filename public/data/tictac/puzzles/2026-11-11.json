@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-11",
+  "number": 29,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1992 NBA Finals?",
+      "choices": [
+        "San Antonio Spurs",
+        "Boston Celtics",
+        "Chicago Bulls",
+        "Los Angeles Lakers"
+      ],
+      "answerHash": "7e51e8a7ea23b823"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "Which player holds the NHL record of 2,857 points?",
+      "choices": [
+        "Gordie Howe",
+        "Wayne Gretzky",
+        "Sidney Crosby",
+        "Mario Lemieux"
+      ],
+      "answerHash": "bd0078fc9722a73b"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2023 NCAA men's basketball championship?",
+      "choices": [
+        "UConn Huskies",
+        "Virginia Cavaliers",
+        "Kansas Jayhawks",
+        "Louisville Cardinals"
+      ],
+      "answerHash": "2ae7eda6faf0073e"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What is the name of Sherlock Holmes's brother?",
+      "choices": [
+        "Mycroft Holmes",
+        "Herbie Hancock Holmes",
+        "Martin Holmes",
+        "Mederi Holmes"
+      ],
+      "answerHash": "27949c12cfe8c586"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "The country of Belize borders which country?",
+      "choices": [
+        "Kenya",
+        "Laos",
+        "Guatemala",
+        "Perú"
+      ],
+      "answerHash": "246dbe0cb7b2ff0d"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "How much weight did Chris Pratt lose for his role as Star-Lord in \"Guardians of the Galaxy\"?",
+      "choices": [
+        "50 lbs",
+        "30 lbs",
+        "60 lbs",
+        "70 lbs"
+      ],
+      "answerHash": "026e8a957adf4767"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What album did The Lumineers release in 2016?",
+      "choices": [
+        "Winter",
+        "The Lumineers",
+        "Tracks From The Attic",
+        "Cleopatra"
+      ],
+      "answerHash": "8872871d66d390e1"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "Who was the star of the TV series \"24\"?",
+      "choices": [
+        "Rob Lowe",
+        "Hugh Laurie",
+        "Kiefer Sutherland",
+        "Kevin Bacon"
+      ],
+      "answerHash": "2dbabdb45eba8f55"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "In the 2002 film \"Kung Pow! Enter the Fist\", Master Pain changes his name to what?",
+      "choices": [
+        "Amy",
+        "Betty",
+        "Kitty",
+        "Sally"
+      ],
+      "answerHash": "1012abfc5e310967"
+    }
+  ]
+}

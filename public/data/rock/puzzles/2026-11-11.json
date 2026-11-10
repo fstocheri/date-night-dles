@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-11",
+  "number": 29,
+  "difficulty": "Medium",
+  "answerHash": "abc52f207ad5036f",
+  "bonusHash": null,
+  "media": "1137208172",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Alternative"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2000"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Oh, Inverted World”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Simple Song”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• S••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Shins"
+    }
+  ]
+}
