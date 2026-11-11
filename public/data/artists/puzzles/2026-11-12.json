@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "difficulty": "Medium",
+  "answerHash": "d8058c247dc32caa",
+  "bonusHash": "9408d1313eda21cc",
+  "still": "https://cdn-images.dzcdn.net/images/artist/270070c6ac943c910418695f9b2bf3ff/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United Kingdom"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "2007"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“The Fork and Knife”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Currency”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "S•••••"
+    }
+  ]
+}

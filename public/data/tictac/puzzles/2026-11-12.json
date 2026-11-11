@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won Super Bowl XXIX (1995)?",
+      "choices": [
+        "New England Patriots",
+        "Washington Commanders",
+        "Green Bay Packers",
+        "San Francisco 49ers"
+      ],
+      "answerHash": "e6787e6541d42380"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
+      "choices": [
+        "1989",
+        "1990",
+        "1982",
+        "1986"
+      ],
+      "answerHash": "3dc60beedb5d408b"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Who won the Heisman Trophy in 2017?",
+      "choices": [
+        "DeVonta Smith",
+        "Kyler Murray",
+        "Baker Mayfield",
+        "Sam Bradford"
+      ],
+      "answerHash": "804826d154288b2f"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
+      "choices": [
+        "The Artful Dodger",
+        "Mr. Fang",
+        "Bull’s-eye",
+        "Fagin"
+      ],
+      "answerHash": "e9b7220b44425d0c"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "Which country is the home of the largest Japanese population outside of Japan?",
+      "choices": [
+        "China",
+        "The United States",
+        "Russia",
+        "Brazil"
+      ],
+      "answerHash": "63dfc56c348dfa03"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "How old was Muhammad Ali when he died?",
+      "choices": [
+        "He's still alive",
+        "74",
+        "61",
+        "56"
+      ],
+      "answerHash": "851d55a800ced584"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song \"Paper Planes\"?",
+      "choices": [
+        "M.I.A.",
+        "K.I.A.",
+        "C.I.A.",
+        "A.I.A."
+      ],
+      "answerHash": "e3f461eb9cdce47c"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "What is the name of the \"Flash\" and \"Arrow\" spinoff featuring a team of characters that have appeared on both shows?",
+      "choices": [
+        "The Justice Society",
+        "The Justice Society of America",
+        "Legends of Tomorrow",
+        "Heroes of Tomorrow"
+      ],
+      "answerHash": "b72f45ea93041c23"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Which stand-up comedian voiced the talking parrot \"Iago\" in Disney's 1992 adaptation of Aladdin?",
+      "choices": [
+        "Pauly Shore",
+        "Robin Williams",
+        "Jonathan Freeman",
+        "Gilbert Gottfried"
+      ],
+      "answerHash": "a3623f11bd94d3fc"
+    }
+  ]
+}

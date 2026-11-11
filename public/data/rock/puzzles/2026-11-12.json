@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "difficulty": "Medium",
+  "answerHash": "ec8a30767a914997",
+  "bonusHash": null,
+  "media": "15523772",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2001"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Toxicity”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Chop Suey!”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "S••••• o• A D•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "System of A Down"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "difficulty": "Medium",
+  "answerHash": "a5da7c9bb29e61e3",
+  "bonusHash": null,
+  "media": "144203048",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Electro"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2004"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "Released as a single"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Pjanoo”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "E••• P••••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "Eric Prydz"
+    }
+  ]
+}

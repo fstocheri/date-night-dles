@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "difficulty": "Medium",
+  "answerHash": "cae85821889fa99f",
+  "bonusHash": null,
+  "still": "/gT6H5SQtKvpM5YrnxUV7Db0DyNP.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Mystery, Drama"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 6: “Book VI: Acts of the Apostles”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2021 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "A fervent ▇▇▇ calls for faith on the night of Easter vigil. ▇▇▇ reveals the results of a troubling experiment — along with a sobering hypothesis."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Riley Flynn"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Hamish Linklater"
+    }
+  ]
+}

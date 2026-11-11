@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "number": 30,
+  "difficulty": "Medium",
+  "answerHash": "17964898216cb737",
+  "bonusHash": "f153fa38d3005f86",
+  "still": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Science Fiction, Adventure"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“Long live the fighters.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2024 · Legendary Pictures"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Follow the mythic journey of ▇▇▇ as he unites with ▇▇▇ and the ▇▇▇ while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, ▇▇▇ endeavors to prevent a terrible future only he can foresee."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Denis Villeneuve"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Timothée Chalamet"
+    }
+  ]
+}
