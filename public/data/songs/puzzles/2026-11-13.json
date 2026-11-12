@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "difficulty": "Hard",
+  "answerHash": "dfd4bdf315f9564d",
+  "bonusHash": null,
+  "media": "7375560",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rap/Hip Hop"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2005"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Monkey Business”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“Pump It”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "T•• B•••• E••• P•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "The Black Eyed Peas"
+    }
+  ]
+}

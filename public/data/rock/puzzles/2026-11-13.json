@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "difficulty": "Hard",
+  "answerHash": "83b4cb92e24dacd0",
+  "bonusHash": null,
+  "media": "2267825",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "Rock"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "1997"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“Dude Ranch”"
+    },
+    {
+      "type": "other",
+      "label": "Also by them",
+      "value": "“All The Small Things”"
+    },
+    {
+      "type": "pattern",
+      "label": "Initials",
+      "value": "b••••-•••"
+    },
+    {
+      "type": "artist",
+      "label": "Artist",
+      "value": "blink-182"
+    }
+  ]
+}

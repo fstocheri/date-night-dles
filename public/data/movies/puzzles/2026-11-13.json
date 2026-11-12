@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "difficulty": "Hard",
+  "answerHash": "4112e3ef1e08ba21",
+  "bonusHash": "87066b81f1aed48f",
+  "still": "/c0FsjEar0B9m5PadTV7T2PiB0MY.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Animation, Drama, Family, Adventure"
+    },
+    {
+      "type": "tagline",
+      "label": "Tagline",
+      "value": "“From this moment, everything will change.”"
+    },
+    {
+      "type": "released",
+      "label": "Released",
+      "value": "2017 · Pixar"
+    },
+    {
+      "type": "synopsis",
+      "label": "Plot",
+      "value": "Blindsided by a new generation of blazing-fast racers, the legendary ▇▇▇ finds himself pushed to the brink—and suddenly, the champion who once ruled the track is fighting just to stay in the race. With his career hanging in the balance, ▇▇▇ must turn to an ambitious young race technician with a plan of her own, draw strength from the legacy of the late Fabulous ▇▇▇ Hornet, and risk everything on one last shot at glory."
+    },
+    {
+      "type": "director",
+      "label": "Directed by",
+      "value": "Brian Fee"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Owen Wilson"
+    }
+  ]
+}

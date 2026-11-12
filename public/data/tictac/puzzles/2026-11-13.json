@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "squares": [
+    {
+      "category": "Sports (Pro)",
+      "emoji": "🏈",
+      "question": "Which team won the 1982 NBA Finals?",
+      "choices": [
+        "Boston Celtics",
+        "Los Angeles Lakers",
+        "Philadelphia 76ers",
+        "Washington Wizards"
+      ],
+      "answerHash": "617d7e63d93e3a0d"
+    },
+    {
+      "category": "Sports (Pro)",
+      "emoji": "⚾",
+      "question": "When was the FC Schalke 04 founded?",
+      "choices": [
+        "1909",
+        "1904",
+        "2008",
+        "1999"
+      ],
+      "answerHash": "73e4a991a6f0503c"
+    },
+    {
+      "category": "Sports (College)",
+      "emoji": "🎓",
+      "question": "Which school won the 2008 NCAA women's basketball championship?",
+      "choices": [
+        "Tennessee Lady Volunteers basketball",
+        "Purdue Boilermakers",
+        "South Carolina Gamecocks",
+        "Baylor Bears"
+      ],
+      "answerHash": "60920b4d966493e6"
+    },
+    {
+      "category": "Literature",
+      "emoji": "📚",
+      "question": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+      "choices": [
+        "A Dance with Dragons",
+        "A Storm of Swords",
+        "A Clash of Kings",
+        "A Feast for Crows"
+      ],
+      "answerHash": "947c41db89003ced"
+    },
+    {
+      "category": "Geography",
+      "emoji": "🌍",
+      "question": "What is Canada's smallest province?",
+      "choices": [
+        "New Brunswick",
+        "Yukon",
+        "Nova Scotia",
+        "Prince Edward Island"
+      ],
+      "answerHash": "2df5857230d27a69"
+    },
+    {
+      "category": "Pop Culture",
+      "emoji": "⭐",
+      "question": "What is Doug Walker's YouTube name?",
+      "choices": [
+        "The Nostalgia Critic",
+        "AngryJoeShow",
+        "The Cinema Snob",
+        "The Angry Video Game Nerd"
+      ],
+      "answerHash": "e5eeeec33167ffd6"
+    },
+    {
+      "category": "Music",
+      "emoji": "🎵",
+      "question": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+      "choices": [
+        "Here Comes Santa Claus",
+        "Frosty the Snowman",
+        "White Christmas",
+        "Rudolph the Red-Nosed Reindeer"
+      ],
+      "answerHash": "46964ea7148b51a9"
+    },
+    {
+      "category": "Television",
+      "emoji": "📺",
+      "question": "In \"Breaking Bad\", Walter White is a high school teacher diagnosed with which form of cancer?",
+      "choices": [
+        "Testicular Cancer",
+        "Brain Cancer",
+        "Prostate Cancer",
+        "Lung Cancer"
+      ],
+      "answerHash": "bfa9fd258456fafc"
+    },
+    {
+      "category": "Movies",
+      "emoji": "🎬",
+      "question": "Who plays the Nemesis in the Resident Evil movies?",
+      "choices": [
+        "Matthew Taylor",
+        "Jason Dip",
+        "Jimmy Matts",
+        "Eric Mabius"
+      ],
+      "answerHash": "571c09fd70bd530d"
+    }
+  ]
+}

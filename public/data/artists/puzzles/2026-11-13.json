@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "difficulty": "Hard",
+  "answerHash": "0b1fad7e95f30463",
+  "bonusHash": "6b310dc307fd1528",
+  "still": "https://cdn-images.dzcdn.net/images/artist/e5c5e694c8a6d6c59d55e4555979161a/1000x1000-000000-80-0-0.jpg",
+  "clues": [
+    {
+      "type": "genre",
+      "label": "Genre",
+      "value": "R&B"
+    },
+    {
+      "type": "origin",
+      "label": "Origin",
+      "value": "A solo male artist from United States"
+    },
+    {
+      "type": "debut",
+      "label": "Debut album",
+      "value": "1968"
+    },
+    {
+      "type": "album",
+      "label": "Album",
+      "value": "“At Wattstax”"
+    },
+    {
+      "type": "hit",
+      "label": "Biggest hit",
+      "value": "“Theme From Shaft”"
+    },
+    {
+      "type": "pattern",
+      "label": "Name",
+      "value": "I•••• H••••"
+    }
+  ]
+}

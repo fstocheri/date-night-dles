@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "number": 31,
+  "difficulty": "Hard",
+  "answerHash": "4b631b887c74a3e4",
+  "bonusHash": "6b310dc307fd1528",
+  "still": "/h1ODtjjc8GoC7jR5pudsiD7tBAk.jpg",
+  "clues": [
+    {
+      "type": "genres",
+      "label": "Genre",
+      "value": "Comedy, Mystery, Crime"
+    },
+    {
+      "type": "episode",
+      "label": "Episode",
+      "value": "Episode 5: “Man Eat Man”"
+    },
+    {
+      "type": "aired",
+      "label": "Premiered",
+      "value": "2017 on Netflix"
+    },
+    {
+      "type": "synopsis",
+      "label": "Episode synopsis",
+      "value": "▇▇▇ discovers that parents can't be trusted (especially hers). ▇▇▇ learns there might be a cure for ▇▇▇, and ▇▇▇ puts his cards on the table."
+    },
+    {
+      "type": "character",
+      "label": "Character",
+      "value": "Joel Hammond"
+    },
+    {
+      "type": "actor",
+      "label": "Starring",
+      "value": "Drew Barrymore"
+    }
+  ]
+}
